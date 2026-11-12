@@ -7,6 +7,7 @@ const { INDEX_ROOT, PONDER_CLI } = require('./config.cjs');
 const pk = require('./src/packages.cjs');
 const np = require('./src/numpy.cjs');           // adds the NumPy animations to pk.out and truth-checks them
 require('./src/rust/index.cjs').addRust(pk.out); // the Rust crates (truth-checked by truth/run.cjs, which compiles their examples)
+require('./src/rust_std/index.cjs').addRustStd(pk.out); // the Rust standard library, v1/std/rust/<module>.json (Ponder 0.3)
 const { writeIndex } = require('./src/write.cjs');
 
 for (const [file, doc] of Object.entries(pk.out)) pk.check(file, doc);   // stage bounds, overlaps, slide counts, aliases

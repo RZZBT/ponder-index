@@ -1,0 +1,10 @@
+# The truth check for the Rust standard-library animations (src/rust_std/*.cjs). No dependencies on purpose: with
+# itertools in scope, calls like .sorted() or .dedup() could resolve to a different method than the one animated.
+# truth/run.cjs copies this file and prelude.rs into .cache/rust-std-truth and adds main.rs.
+[package]
+name = "ponder-std-truth"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
