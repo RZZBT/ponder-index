@@ -1,0 +1,11 @@
+{
+  "name": "ponder-index-tools",
+  "private": true,
+  "description": "Generates docs/ (the published Ponder animation index) and checks it before it is published.",
+  "scripts": {
+    "build": "node build.cjs",
+    "verify": "node verify.cjs",
+    "truth": "node truth/run.cjs",
+    "all": "node build.cjs && node verify.cjs && node truth/run.cjs"
+  }
+}

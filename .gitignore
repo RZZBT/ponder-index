@@ -1,0 +1,15 @@
+# downloaded packages, builds and temp files used by tools/
+tools/.cache/
+tools/node_modules/
+tools/truth/rust/target/
+tools/truth/rust/Cargo.lock
+# IDE
+.idea/
+*.iml
+# Python bytecode and environments
+__pycache__/
+*.pyc
+.venv/
+# OS
+.DS_Store
+Thumbs.db
