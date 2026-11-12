@@ -1,12 +1,12 @@
 # Ponder Index
 
-The community index of [Ponder](https://github.com/JJPGdev/ponder) animations: short, step-by-step explanations of
+The community index of [Ponder](https://github.com/RZZBT/ponder) animations: short, step-by-step explanations of
 library functions that the Ponder plugin shows right in the editor (VS Code and JetBrains IDEs).
 
 When a library ships no animation of its own, Ponder can look here, after asking the user once. Only the package name
 is requested, for example `v1/pypi/numpy.json`; never any code.
 
-**Index address:** `https://jjpgdev.github.io/ponder-index/`
+**Index address:** `https://rzzbt.github.io/ponder-index/`
 
 ## What is in it
 
