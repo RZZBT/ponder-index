@@ -6,6 +6,7 @@
     "build": "node build.cjs",
     "verify": "node verify.cjs",
     "truth": "node truth/run.cjs",
-    "all": "node build.cjs && node verify.cjs && node truth/run.cjs"
+    "all": "node build.cjs && node verify.cjs && node truth/run.cjs",
+    "symbols": "node rust/symbols.cjs"
   }
 }

@@ -107,12 +107,43 @@ const PACKAGES = {
   'v1/npm/date-fns.json': () => npmInstalls([{ spec: 'date-fns@latest', dir: 'date-fns' }, { spec: 'date-fns-2@npm:date-fns@2.30.0', dir: 'date-fns-2' }]),
   'v1/pypi/numpy.json': async () => [...(await pipInstall('numpy', 'numpy')), ...(await numpy1())],
   'v1/pypi/more-itertools.json': () => pipInstall('more-itertools', 'more_itertools'),
-  'v1/crates/itertools.json': () => crateInstall('itertools'),
   'v1/go/github.com/samber/lo.json': () => goInstall('github.com/samber/lo'),
   'v1/packagist/illuminate/collections.json': () => composerInstall('illuminate/collections'),
   'v1/maven/com.google.guava/guava.json': () => mavenInstalls('com.google.guava', 'guava', ['20.0']),
   'v1/maven/org.apache.commons/commons-lang3.json': () => mavenInstalls('org.apache.commons', 'commons-lang3'),
 };
+
+// Rust crates: the newest version and the lowest version of each document's range (">=X").
+const RUST = require('./src/rust/index.cjs').CRATES;
+const rustCrates = require('./rust/crates.cjs');
+for (const c of RUST) {
+  const file = `v1/crates/${c.crate.toLowerCase().replace(/[_.]+/g, '-')}.json`;
+  const lows = [...new Set(c.docs.map((d) => (/>=\s*([\d.]+)/.exec(d.versions) || [])[1]).filter(Boolean))];
+  PACKAGES[file] = async () => {
+    const out = [];
+    for (const spec of ['latest', ...lows]) {
+      const k = await rustCrates.crate(c.crate, spec, true);
+      if (!out.some((o) => o.version === k.version)) out.push({ label: `${c.crate} ${k.version}`, version: k.version, kind: 'folder', path: k.path, rust: true });
+    }
+    return out;
+  };
+}
+
+// `ponder check` only confirms that some `fn name` exists in a crate. This rebuilds the exact symbols the IDEs produce
+// for every declaration (rust/locate.cjs). IDEs match the primary symbol and the aliases alike, so every install in the
+// range must produce at least one of them; the newest install must produce the primary symbol itself.
+const locate = require('./rust/locate.cjs');
+function rustStrict(install, ponder, newest) {
+  const have = new Set(locate.index(install.path).flatMap((f) => { const s = locate.symbolsFor(install.path, f); return [...s.vs, ...s.ij]; }));
+  const hard = [], soft = [];
+  for (const [id, a] of Object.entries(ponder.animations)) {
+    const all = [a.symbol, ...a.aliases];
+    if (!all.some((x) => have.has(x))) hard.push(`$.animations.${id}  none of its ${all.length} symbols is produced by the IDEs for ${install.label}`);
+    else if (newest && !have.has(a.symbol)) hard.push(`$.animations.${id}.symbol  ${a.symbol} is not produced for the newest version, ${install.label}`);
+    for (const x of all) if (!have.has(x)) soft.push(x);
+  }
+  return { hard, soft };
+}
 
 // ---- one `ponder check`
 const LINE = /^ {2}(error|warn |ok {3}|note )\s+(\$\S+)\s+(.*)$/;
@@ -165,6 +196,7 @@ function check(install, ponder) {
         if (!inRange(inst.version, d.versions)) return;
         covered.add(i);
         const r = check(inst, d.ponder);
+        if (inst.rust) { const x = rustStrict(inst, d.ponder, inst === installs[0]); r.hard.push(...x.hard); r.soft.push(...x.soft.map((al) => `alias ${al} (other layout)`)); }
         checked++;
         const names = Object.keys(d.ponder.animations).length;
         console.log(`  ${inst.label.padEnd(26)} doc ${i + 1}/${index.documents.length} [${d.versions || 'any'}] ${names} animations: ${r.ok} symbols found, ${r.soft.length} alias(es) for other layouts, ${r.hard.length} error(s)`);

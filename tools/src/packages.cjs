@@ -365,12 +365,7 @@ pkg('maven', 'org.apache.commons:commons-lang3', 'v1/maven/org.apache.commons/co
   'array-utils-reverse': A(cl('ArrayUtils', 'reverse', 'int[]'), 'How ArrayUtils.reverse() works', 'Reverses the order of an array, in place.', langReverse()),
 } }]);
 
-// --- itertools (crates) ---
-const itx = (m) => ({ symbol: `rust:itertools::Itertools::${m}`, aliases: [`sym:src/lib.rs:Itertools.${m}`] });
-pkg('crates', 'itertools', 'v1/crates/itertools.json', { name: 'itertools' }, [{ versions: '>=0.10', animations: {
-  interleave: A(itx('interleave'), 'How interleave() works', 'Takes turns between two iterators until both are empty.', itInterleave()),
-  dedup: A(itx('dedup'), 'How dedup() works', 'Removes repeated items that sit next to each other.', itDedup()),
-} }]);
+// --- itertools and the other Rust crates: src/rust/ (interleave and dedup below are used there) ---
 
 // --- samber/lo (go) ---
 const gl = (n) => ({ symbol: `go:github.com/samber/lo.${n}`, aliases: [`sym:slice.go:${n}`] });
@@ -426,10 +421,11 @@ function check(file, doc) {
         if (A1[1] < B1[3] - 1 && B1[1] < A1[3] - 1 && A1[2] < B1[4] - 1 && B1[2] < A1[4] - 1) probs.push(`${name} s${i} overlap ${A1[0]} ${B1[0]}`);
       }
     });
+    probs.push(...require('./collide.cjs').textCollisions(an).map((m) => `${name} ${m}`));
     JSON.stringify(an);
   }
   if (probs.length) { bad++; console.log(file, [...new Set(probs)].slice(0, 25)); }
 }
 const problems = () => bad;
 
-module.exports = { ROOT, out, A, check, problems };
+module.exports = { ROOT, out, A, check, problems, itInterleave, itDedup };

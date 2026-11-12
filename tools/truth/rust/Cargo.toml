@@ -1,3 +1,6 @@
+# The truth check for the Rust crate animations. truth/run.cjs copies this file and prelude.rs into
+# .cache/rust-truth and adds main.rs, built from the `rs` code of every animation (src/rust/*.cjs).
+# Versions: the newest of each crate (what the animations are written against).
 [package]
 name = "ponder-truth"
 version = "0.0.0"
@@ -5,4 +8,19 @@ edition = "2021"
 publish = false
 
 [dependencies]
-itertools = "*"
+itertools = "0.15"
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", default-features = false, features = ["std"] }
+indexmap = "2"
+strsim = "0.11"
+num-integer = "0.1"
+heck = "0.5"
+textwrap = "0.16"
+semver = "1"
+base64 = "0.23"
+hex = "0.4"
+url = "2"
+unicode-segmentation = "1"
+petgraph = "0.8"

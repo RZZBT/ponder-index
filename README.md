@@ -15,7 +15,7 @@ is requested, for example `v1/pypi/numpy.json`; never any code.
 | PyPI | numpy (NumPy 1.20+ and 2.x), more-itertools |
 | npm | lodash, date-fns |
 | Maven | Guava, Apache Commons Lang 3 |
-| crates | itertools |
+| crates | itertools, regex, serde_json, chrono, indexmap, strsim, num-integer, heck, textwrap, semver, base64, hex, url, unicode-segmentation, petgraph |
 | Go | github.com/samber/lo |
 | Packagist | illuminate/collections |
 
