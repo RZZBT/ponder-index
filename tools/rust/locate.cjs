@@ -74,7 +74,11 @@ function scanFile(root, rel) {
       const inMacro = stack.findIndex((s) => s.kind === 'macro');
       const named = stack.filter((s) => s.kind !== 'block');
       let vs, ij;
-      if (inMacro >= 0) { vs = [stack[inMacro].name]; ij = [stack[inMacro].name]; }
+      if (inMacro >= 0) {
+        // rust-analyzer's outline shows the containers down to the macro (`mod impls > ord_impl`), then Ponder adds the method
+        const upTo = stack.slice(0, inMacro + 1).filter((s) => s.kind !== 'block');
+        vs = upTo.flatMap((s) => s.vs); ij = upTo.flatMap((s) => s.ij);
+      }
       else {
         if (named.some((s) => s.kind === 'fn')) continue;          // nested helper fn
         vs = named.flatMap((s) => s.vs); ij = named.flatMap((s) => s.ij);
@@ -91,7 +95,13 @@ function scanFile(root, rel) {
     }
     if (kw === 'impl') {
       if (/\w/.test(code[m.index - 1] || '')) continue;
-      const brace = code.indexOf('{', m.index), semi = code.indexOf(';', m.index);
+      const brace = code.indexOf('{', m.index);
+      // a `;` inside brackets belongs to an array type (`From<[(K, V); N]>`), not to the end of the item
+      let semi = -1;
+      for (let k = m.index, depth = 0; k < (brace < 0 ? code.length : brace); k++) {
+        const ch = code[k];
+        if (ch === '[' || ch === '(') depth++; else if (ch === ']' || ch === ')') depth--; else if (ch === ';' && depth <= 0) { semi = k; break; }
+      }
       if (brace < 0 || (semi >= 0 && semi < brace)) continue;
       const header = code.slice(m.index, brace);
       if (/^impl\s*\(/.test(header) || /->\s*impl\b/.test(code.slice(Math.max(0, m.index - 4), m.index + 4))) continue; // `-> impl Trait`
@@ -110,6 +120,8 @@ function scanFile(root, rel) {
       }
       const ijm = IJ_IMPL.exec(itemText.slice(0, 200).trimStart());
       pending = { kind: 'impl', vs, ij: ijm ? [ijm[1]] : [] };
+      // skip the rest of the header: a `;` in `[(K, V); N]` or `fn` in a where clause must not end or confuse it
+      re.lastIndex = brace;
       void start;
     }
   }

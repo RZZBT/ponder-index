@@ -16,7 +16,7 @@ is requested, for example `v1/pypi/numpy.json`; never any code.
 | npm | lodash, date-fns |
 | Maven | Guava, Apache Commons Lang 3 |
 | crates | itertools, regex, serde_json, chrono, indexmap, strsim, num-integer, heck, textwrap, semver, base64, hex, url, unicode-segmentation, petgraph |
-| std (Ponder 0.3) | Rust standard library: Iterator, Vec, slices, str, String, Option, Result, HashMap/HashSet, BTreeMap, VecDeque, BinaryHeap, Rc, RefCell, Cell, Box, mem, char, f64 (253 functions in `v1/std/rust/`) |
+| std (Ponder 0.3) | Rust standard library, most used to most exotic: Iterator, Vec, slices, arrays, str, String, char, integers (i8 to u128), f64/f32, Option, Result, parse/to_string/From/TryFrom, Ord/Ordering, HashMap/HashSet, BTreeMap/BTreeSet, VecDeque, BinaryHeap, LinkedList, Rc/Arc/Weak/Box/Cow, Cell/RefCell/OnceCell/LazyCell, Mutex/RwLock/OnceLock/LazyLock, atomics, threads, channels, Duration/Instant/SystemTime, Path/PathBuf, io (Read/BufRead/Write, stdin), fs, env, process, fmt::Formatter (1000 functions in `v1/std/rust/`, 42 modules) |
 | Go | github.com/samber/lo |
 | Packagist | illuminate/collections |
 

@@ -3,7 +3,9 @@
 // the toolchain's own sources; the files are named after the module the IDE jumps into (alloc.vec, core.iter, ...).
 const FILES = [
   './iter.cjs', './iter2.cjs', './vec.cjs', './slice.cjs', './str.cjs', './string.cjs', './option.cjs', './result.cjs',
-  './collections.cjs', './misc.cjs', './extras.cjs',
+  './collections.cjs', './misc.cjs', './extras.cjs', './more1.cjs', './more2.cjs', './more3.cjs', './ints.cjs',
+  './p05.cjs', './p06.cjs', './p07.cjs', './p08.cjs', './p09.cjs', './p10.cjs', './p11.cjs', './p12.cjs',
+  './p13.cjs', './p14.cjs', './p15.cjs', './p16.cjs', './p17.cjs', './p18.cjs', './p19.cjs', './p20.cjs',
 ];
 
 function specs() {
