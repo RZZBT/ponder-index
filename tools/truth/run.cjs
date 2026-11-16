@@ -98,7 +98,8 @@ function rustStd() {
   const body = cases.map((c) => `    out.push((${JSON.stringify(c.key)}, (|| -> String { ${c.rs} })()));`).join('\n');
   // Output protocol without escaping: key US value RS, with the ASCII unit (0x1F) and record (0x1E) separators.
   const main = fs.readFileSync(path.join(__dirname, 'rust-std', 'prelude.rs'), 'utf8') +
-    `\nfn main() {\n    let mut out: Vec<(&str, String)> = Vec::new();\n${body}\n    for (k, v) in out { print!("{}\\u{1f}{}\\u{1e}", k, v); }\n}\n`;
+    // child_role(): a case can re-run this program as a child that only calls process::exit or abort (prelude.rs)
+    `\nfn main() {\n    child_role();\n    let mut out: Vec<(&str, String)> = Vec::new();\n${body}\n    for (k, v) in out { print!("{}\\u{1f}{}\\u{1e}", k, v); }\n}\n`;
   const mainPath = path.join(dir, 'src', 'main.rs');
   if (!fs.existsSync(mainPath) || fs.readFileSync(mainPath, 'utf8') !== main) fs.writeFileSync(mainPath, main);
   const r = cp.spawnSync('cargo', ['run', '--quiet', '--manifest-path', path.join(dir, 'Cargo.toml')], {

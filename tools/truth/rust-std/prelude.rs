@@ -16,3 +16,19 @@ fn jd<I: IntoIterator>(it: I) -> String where I::Item: Debug { it.into_iter().ma
 /// A HashMap or HashSet printed in sorted order, so the result does not depend on hashing.
 fn sorted_map<K: Ord + Debug, V: Debug>(m: &HashMap<K, V>) -> String { let b: BTreeMap<_, _> = m.iter().collect(); format!("{:?}", b) }
 fn sorted_set<T: Ord + Debug>(s: &HashSet<T>) -> String { let b: BTreeSet<_> = s.iter().collect(); format!("{:?}", b) }
+
+/// Lets a case start this same program as a child process that does one thing which would end the checker itself:
+/// PONDER_TRUTH_CHILD=exit3 calls std::process::exit(3), =abort calls std::process::abort().
+fn child_role() {
+    match std::env::var("PONDER_TRUTH_CHILD").as_deref() {
+        Ok("exit3") => std::process::exit(3),
+        Ok("abort") => std::process::abort(),
+        Ok("alloc_error") => std::alloc::handle_alloc_error(std::alloc::Layout::new::<u64>()),
+        _ => {}
+    }
+}
+/// Runs this program again as a child with the given role and returns its exit status.
+fn run_child(role: &str) -> std::process::ExitStatus {
+    std::process::Command::new(std::env::current_exe().unwrap()).env("PONDER_TRUTH_CHILD", role)
+        .stdout(std::process::Stdio::null()).stderr(std::process::Stdio::null()).status().unwrap()
+}

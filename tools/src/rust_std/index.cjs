@@ -6,6 +6,10 @@ const FILES = [
   './collections.cjs', './misc.cjs', './extras.cjs', './more1.cjs', './more2.cjs', './more3.cjs', './ints.cjs',
   './p05.cjs', './p06.cjs', './p07.cjs', './p08.cjs', './p09.cjs', './p10.cjs', './p11.cjs', './p12.cjs',
   './p13.cjs', './p14.cjs', './p15.cjs', './p16.cjs', './p17.cjs', './p18.cjs', './p19.cjs', './p20.cjs',
+  './q01.cjs', './q02.cjs', './q03.cjs', './q04.cjs', './q05.cjs', './q06.cjs', './q07.cjs', './q08.cjs', './q09.cjs', './q10.cjs',
+  './q11.cjs', './q12.cjs', './q13.cjs', './q14.cjs', './q15.cjs', './q16.cjs', './q17.cjs', './q18.cjs', './q19.cjs', './q20.cjs',
+  './q21.cjs', './q22.cjs', './q23.cjs',
+  './r01.cjs', './r02.cjs', './r03.cjs', './r04.cjs', './r05.cjs', './r06.cjs', './r07.cjs', './r08.cjs', './r09.cjs',
 ];
 
 function specs() {
