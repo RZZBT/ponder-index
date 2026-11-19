@@ -1,0 +1,6324 @@
+{
+ "serde_json/value-as-str": {
+  "symbol": "rust:serde_json::value::Value::as_str",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_str"
+  ]
+ },
+ "serde_json/value-as-u64": {
+  "symbol": "rust:serde_json::value::Value::as_u64",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_u64"
+  ]
+ },
+ "serde_json/value-as-f64": {
+  "symbol": "rust:serde_json::value::Value::as_f64",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_f64"
+  ]
+ },
+ "serde_json/value-as-bool": {
+  "symbol": "rust:serde_json::value::Value::as_bool",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_bool"
+  ]
+ },
+ "serde_json/value-as-array": {
+  "symbol": "rust:serde_json::value::Value::as_array",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_array"
+  ]
+ },
+ "serde_json/value-as-object": {
+  "symbol": "rust:serde_json::value::Value::as_object",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_object"
+  ]
+ },
+ "serde_json/value-as-array-mut": {
+  "symbol": "rust:serde_json::value::Value::as_array_mut",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_array_mut"
+  ]
+ },
+ "serde_json/value-as-object-mut": {
+  "symbol": "rust:serde_json::value::Value::as_object_mut",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_object_mut"
+  ]
+ },
+ "serde_json/value-is-null": {
+  "symbol": "rust:serde_json::value::Value::is_null",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_null"
+  ]
+ },
+ "serde_json/value-as-null": {
+  "symbol": "rust:serde_json::value::Value::as_null",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_null"
+  ]
+ },
+ "serde_json/value-is-string": {
+  "symbol": "rust:serde_json::value::Value::is_string",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_string"
+  ]
+ },
+ "serde_json/value-is-number": {
+  "symbol": "rust:serde_json::value::Value::is_number",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_number"
+  ]
+ },
+ "serde_json/value-is-array": {
+  "symbol": "rust:serde_json::value::Value::is_array",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_array"
+  ]
+ },
+ "serde_json/value-is-object": {
+  "symbol": "rust:serde_json::value::Value::is_object",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_object"
+  ]
+ },
+ "serde_json/value-is-boolean": {
+  "symbol": "rust:serde_json::value::Value::is_boolean",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_boolean"
+  ]
+ },
+ "serde_json/value-is-i64": {
+  "symbol": "rust:serde_json::value::Value::is_i64",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_i64"
+  ]
+ },
+ "serde_json/value-is-u64": {
+  "symbol": "rust:serde_json::value::Value::is_u64",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_u64"
+  ]
+ },
+ "serde_json/value-is-f64": {
+  "symbol": "rust:serde_json::value::Value::is_f64",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.is_f64"
+  ]
+ },
+ "serde_json/value-as-number": {
+  "symbol": "rust:serde_json::value::Value::as_number",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.as_number"
+  ]
+ },
+ "serde_json/value-get-mut": {
+  "symbol": "rust:serde_json::value::Value::get_mut",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.get_mut"
+  ]
+ },
+ "serde_json/value-pointer-mut": {
+  "symbol": "rust:serde_json::value::Value::pointer_mut",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.pointer_mut"
+  ]
+ },
+ "serde_json/value-take": {
+  "symbol": "rust:serde_json::value::Value::take",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.take"
+  ]
+ },
+ "serde_json/value-sort-all-objects": {
+  "symbol": "rust:serde_json::value::Value::sort_all_objects",
+  "aliases": [
+   "sym:src/value/mod.rs:Value.sort_all_objects"
+  ]
+ },
+ "serde_json/from-slice": {
+  "symbol": "rust:serde_json::de::from_slice",
+  "aliases": [
+   "sym:src/de.rs:from_slice"
+  ]
+ },
+ "serde_json/from-reader": {
+  "symbol": "rust:serde_json::de::from_reader",
+  "aliases": [
+   "sym:src/de.rs:from_reader"
+  ]
+ },
+ "serde_json/to-vec": {
+  "symbol": "rust:serde_json::ser::to_vec",
+  "aliases": [
+   "sym:src/ser.rs:to_vec"
+  ]
+ },
+ "serde_json/to-vec-pretty": {
+  "symbol": "rust:serde_json::ser::to_vec_pretty",
+  "aliases": [
+   "sym:src/ser.rs:to_vec_pretty"
+  ]
+ },
+ "serde_json/to-writer": {
+  "symbol": "rust:serde_json::ser::to_writer",
+  "aliases": [
+   "sym:src/ser.rs:to_writer"
+  ]
+ },
+ "serde_json/to-writer-pretty": {
+  "symbol": "rust:serde_json::ser::to_writer_pretty",
+  "aliases": [
+   "sym:src/ser.rs:to_writer_pretty"
+  ]
+ },
+ "serde_json/stream-into-iter": {
+  "symbol": "rust:serde_json::de::Deserializer::into_iter",
+  "aliases": [
+   "rust:serde_json::de::into_iter",
+   "sym:src/de.rs:Deserializer.into_iter",
+   "sym:src/de.rs:into_iter"
+  ]
+ },
+ "serde_json/deserializer-from-str": {
+  "symbol": "rust:serde_json::de::Deserializer::from_str",
+  "aliases": [
+   "sym:src/de.rs:Deserializer.from_str"
+  ]
+ },
+ "serde_json/map-new": {
+  "symbol": "rust:serde_json::map::Map::new",
+  "aliases": [
+   "sym:src/map.rs:Map.new"
+  ]
+ },
+ "serde_json/map-insert": {
+  "symbol": "rust:serde_json::map::Map::insert",
+  "aliases": [
+   "sym:src/map.rs:Map.insert"
+  ]
+ },
+ "serde_json/map-get": {
+  "symbol": "rust:serde_json::map::Map::get",
+  "aliases": [
+   "sym:src/map.rs:Map.get"
+  ]
+ },
+ "serde_json/map-contains-key": {
+  "symbol": "rust:serde_json::map::Map::contains_key",
+  "aliases": [
+   "sym:src/map.rs:Map.contains_key"
+  ]
+ },
+ "serde_json/map-remove": {
+  "symbol": "rust:serde_json::map::Map::remove",
+  "aliases": [
+   "sym:src/map.rs:Map.remove"
+  ]
+ },
+ "serde_json/map-keys": {
+  "symbol": "rust:serde_json::map::Map::keys",
+  "aliases": [
+   "sym:src/map.rs:Map.keys"
+  ]
+ },
+ "serde_json/map-values": {
+  "symbol": "rust:serde_json::map::Map::values",
+  "aliases": [
+   "sym:src/map.rs:Map.values"
+  ]
+ },
+ "serde_json/map-iter": {
+  "symbol": "rust:serde_json::map::Map::iter",
+  "aliases": [
+   "sym:src/map.rs:Map.iter"
+  ]
+ },
+ "serde_json/map-len": {
+  "symbol": "rust:serde_json::map::Map::len",
+  "aliases": [
+   "sym:src/map.rs:Map.len"
+  ]
+ },
+ "serde_json/map-is-empty": {
+  "symbol": "rust:serde_json::map::Map::is_empty",
+  "aliases": [
+   "sym:src/map.rs:Map.is_empty"
+  ]
+ },
+ "serde_json/map-entry": {
+  "symbol": "rust:serde_json::map::Map::entry",
+  "aliases": [
+   "sym:src/map.rs:Map.entry"
+  ]
+ },
+ "serde_json/entry-or-insert": {
+  "symbol": "rust:serde_json::map::Entry::or_insert",
+  "aliases": [
+   "sym:src/map.rs:Entry.or_insert"
+  ]
+ },
+ "serde_json/entry-or-insert-with": {
+  "symbol": "rust:serde_json::map::Entry::or_insert_with",
+  "aliases": [
+   "sym:src/map.rs:Entry.or_insert_with"
+  ]
+ },
+ "serde_json/entry-and-modify": {
+  "symbol": "rust:serde_json::map::Entry::and_modify",
+  "aliases": [
+   "sym:src/map.rs:Entry.and_modify"
+  ]
+ },
+ "serde_json/map-retain": {
+  "symbol": "rust:serde_json::map::Map::retain",
+  "aliases": [
+   "sym:src/map.rs:Map.retain"
+  ]
+ },
+ "serde_json/map-get-mut": {
+  "symbol": "rust:serde_json::map::Map::get_mut",
+  "aliases": [
+   "sym:src/map.rs:Map.get_mut"
+  ]
+ },
+ "serde_json/map-clear": {
+  "symbol": "rust:serde_json::map::Map::clear",
+  "aliases": [
+   "sym:src/map.rs:Map.clear"
+  ]
+ },
+ "serde_json/map-append": {
+  "symbol": "rust:serde_json::map::Map::append",
+  "aliases": [
+   "sym:src/map.rs:Map.append"
+  ]
+ },
+ "serde_json/number-from-f64": {
+  "symbol": "rust:serde_json::number::Number::from_f64",
+  "aliases": [
+   "sym:src/number.rs:Number.from_f64"
+  ]
+ },
+ "serde_json/number-as-i64": {
+  "symbol": "rust:serde_json::number::Number::as_i64",
+  "aliases": [
+   "sym:src/number.rs:Number.as_i64"
+  ]
+ },
+ "serde_json/number-as-f64": {
+  "symbol": "rust:serde_json::number::Number::as_f64",
+  "aliases": [
+   "sym:src/number.rs:Number.as_f64"
+  ]
+ },
+ "serde_json/number-is-i64": {
+  "symbol": "rust:serde_json::number::Number::is_i64",
+  "aliases": [
+   "sym:src/number.rs:Number.is_i64"
+  ]
+ },
+ "anyhow/context": {
+  "symbol": "rust:anyhow::context::Result::context",
+  "aliases": [
+   "sym:src/context.rs:Result.context"
+  ]
+ },
+ "anyhow/with-context": {
+  "symbol": "rust:anyhow::context::Result::with_context",
+  "aliases": [
+   "sym:src/context.rs:Result.with_context"
+  ]
+ },
+ "anyhow/option-context": {
+  "symbol": "rust:anyhow::context::Option::context",
+  "aliases": [
+   "rust:anyhow::context::context",
+   "sym:src/context.rs:Option.context",
+   "sym:src/context.rs:context"
+  ]
+ },
+ "anyhow/error-msg": {
+  "symbol": "rust:anyhow::error::Error::msg",
+  "aliases": [
+   "sym:src/error.rs:Error.msg"
+  ]
+ },
+ "anyhow/error-new": {
+  "symbol": "rust:anyhow::error::Error::new",
+  "aliases": [
+   "sym:src/error.rs:Error.new"
+  ]
+ },
+ "anyhow/error-context": {
+  "symbol": "rust:anyhow::error::Error::context",
+  "aliases": [
+   "sym:src/error.rs:Error.context"
+  ]
+ },
+ "anyhow/error-chain": {
+  "symbol": "rust:anyhow::error::Error::chain",
+  "aliases": [
+   "sym:src/error.rs:Error.chain"
+  ]
+ },
+ "anyhow/error-root-cause": {
+  "symbol": "rust:anyhow::error::Error::root_cause",
+  "aliases": [
+   "sym:src/error.rs:Error.root_cause"
+  ]
+ },
+ "anyhow/error-downcast-ref": {
+  "symbol": "rust:anyhow::error::Error::downcast_ref",
+  "aliases": [
+   "sym:src/error.rs:Error.downcast_ref"
+  ]
+ },
+ "anyhow/error-downcast": {
+  "symbol": "rust:anyhow::error::Error::downcast",
+  "aliases": [
+   "sym:src/error.rs:Error.downcast"
+  ]
+ },
+ "anyhow/error-is": {
+  "symbol": "rust:anyhow::error::Error::is",
+  "aliases": [
+   "sym:src/error.rs:Error.is"
+  ]
+ },
+ "regex/as-str": {
+  "symbol": "rust:regex::regex::string::Regex::as_str",
+  "aliases": [
+   "rust:regex::regex::string::as_str",
+   "sym:src/regex/string.rs:Regex.as_str",
+   "sym:src/regex/string.rs:as_str"
+  ]
+ },
+ "regex/captures-len": {
+  "symbol": "rust:regex::regex::string::Regex::captures_len",
+  "aliases": [
+   "rust:regex::regex::string::captures_len",
+   "sym:src/regex/string.rs:Regex.captures_len",
+   "sym:src/regex/string.rs:captures_len"
+  ]
+ },
+ "regex/capture-names": {
+  "symbol": "rust:regex::regex::string::Regex::capture_names",
+  "aliases": [
+   "rust:regex::regex::string::capture_names",
+   "sym:src/regex/string.rs:Regex.capture_names",
+   "sym:src/regex/string.rs:capture_names"
+  ]
+ },
+ "regex/static-captures-len": {
+  "symbol": "rust:regex::regex::string::Regex::static_captures_len",
+  "aliases": [
+   "rust:regex::regex::string::static_captures_len",
+   "sym:src/regex/string.rs:Regex.static_captures_len",
+   "sym:src/regex/string.rs:static_captures_len"
+  ]
+ },
+ "regex/shortest-match": {
+  "symbol": "rust:regex::regex::string::Regex::shortest_match",
+  "aliases": [
+   "rust:regex::regex::string::shortest_match",
+   "sym:src/regex/string.rs:Regex.shortest_match",
+   "sym:src/regex/string.rs:shortest_match"
+  ]
+ },
+ "regex/find-at": {
+  "symbol": "rust:regex::regex::string::Regex::find_at",
+  "aliases": [
+   "rust:regex::regex::string::find_at",
+   "sym:src/regex/string.rs:Regex.find_at",
+   "sym:src/regex/string.rs:find_at"
+  ]
+ },
+ "regex/is-match-at": {
+  "symbol": "rust:regex::regex::string::Regex::is_match_at",
+  "aliases": [
+   "rust:regex::regex::string::is_match_at",
+   "sym:src/regex/string.rs:Regex.is_match_at",
+   "sym:src/regex/string.rs:is_match_at"
+  ]
+ },
+ "regex/captures-at": {
+  "symbol": "rust:regex::regex::string::Regex::captures_at",
+  "aliases": [
+   "rust:regex::regex::string::captures_at",
+   "sym:src/regex/string.rs:Regex.captures_at",
+   "sym:src/regex/string.rs:captures_at"
+  ]
+ },
+ "regex/replacen": {
+  "symbol": "rust:regex::regex::string::Regex::replacen",
+  "aliases": [
+   "rust:regex::regex::string::replacen",
+   "sym:src/regex/string.rs:Regex.replacen",
+   "sym:src/regex/string.rs:replacen"
+  ]
+ },
+ "regex/match-as-str": {
+  "symbol": "rust:regex::regex::string::Match::as_str",
+  "aliases": [
+   "sym:src/regex/string.rs:Match.as_str"
+  ]
+ },
+ "regex/match-start": {
+  "symbol": "rust:regex::regex::string::Match::start",
+  "aliases": [
+   "sym:src/regex/string.rs:Match.start"
+  ]
+ },
+ "regex/match-end": {
+  "symbol": "rust:regex::regex::string::Match::end",
+  "aliases": [
+   "sym:src/regex/string.rs:Match.end"
+  ]
+ },
+ "regex/match-range": {
+  "symbol": "rust:regex::regex::string::Match::range",
+  "aliases": [
+   "sym:src/regex/string.rs:Match.range"
+  ]
+ },
+ "regex/match-len": {
+  "symbol": "rust:regex::regex::string::Match::len",
+  "aliases": [
+   "sym:src/regex/string.rs:Match.len"
+  ]
+ },
+ "regex/match-is-empty": {
+  "symbol": "rust:regex::regex::string::Match::is_empty",
+  "aliases": [
+   "sym:src/regex/string.rs:Match.is_empty"
+  ]
+ },
+ "regex/captures-get": {
+  "symbol": "rust:regex::regex::string::Captures::get",
+  "aliases": [
+   "sym:src/regex/string.rs:Captures.get"
+  ]
+ },
+ "regex/caps-iter": {
+  "symbol": "rust:regex::regex::string::Captures::iter",
+  "aliases": [
+   "sym:src/regex/string.rs:Captures.iter"
+  ]
+ },
+ "regex/captures-len-caps": {
+  "symbol": "rust:regex::regex::string::Captures::len",
+  "aliases": [
+   "sym:src/regex/string.rs:Captures.len"
+  ]
+ },
+ "regex/captures-extract": {
+  "symbol": "rust:regex::regex::string::Captures::extract",
+  "aliases": [
+   "sym:src/regex/string.rs:Captures.extract"
+  ]
+ },
+ "regex/captures-expand": {
+  "symbol": "rust:regex::regex::string::Captures::expand",
+  "aliases": [
+   "sym:src/regex/string.rs:Captures.expand"
+  ]
+ },
+ "regex/captures-get-match": {
+  "symbol": "rust:regex::regex::string::Captures::get_match",
+  "aliases": [
+   "sym:src/regex/string.rs:Captures.get_match"
+  ]
+ },
+ "regex/builder-new": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::new",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.new"
+  ]
+ },
+ "regex/builder-case-insensitive": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::case_insensitive",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.case_insensitive"
+  ]
+ },
+ "regex/builder-multi-line": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::multi_line",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.multi_line"
+  ]
+ },
+ "regex/builder-dot-matches-new-line": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::dot_matches_new_line",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.dot_matches_new_line"
+  ]
+ },
+ "regex/builder-ignore-whitespace": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::ignore_whitespace",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.ignore_whitespace"
+  ]
+ },
+ "regex/builder-swap-greed": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::swap_greed",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.swap_greed"
+  ]
+ },
+ "regex/builder-unicode": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::unicode",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.unicode"
+  ]
+ },
+ "regex/builder-size-limit": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::size_limit",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.size_limit"
+  ]
+ },
+ "regex/builder-build": {
+  "symbol": "rust:regex::builders::string::RegexBuilder::build",
+  "aliases": [
+   "sym:src/builders.rs:string.RegexBuilder.build"
+  ]
+ },
+ "regex/set-new": {
+  "symbol": "rust:regex::regexset::string::RegexSet::new",
+  "aliases": [
+   "sym:src/regexset/string.rs:RegexSet.new"
+  ]
+ },
+ "regex/set-is-match": {
+  "symbol": "rust:regex::regexset::string::RegexSet::is_match",
+  "aliases": [
+   "sym:src/regexset/string.rs:RegexSet.is_match"
+  ]
+ },
+ "regex/set-len": {
+  "symbol": "rust:regex::regexset::string::RegexSet::len",
+  "aliases": [
+   "sym:src/regexset/string.rs:RegexSet.len"
+  ]
+ },
+ "regex/set-patterns": {
+  "symbol": "rust:regex::regexset::string::RegexSet::patterns",
+  "aliases": [
+   "sym:src/regexset/string.rs:RegexSet.patterns"
+  ]
+ },
+ "regex/set-empty": {
+  "symbol": "rust:regex::regexset::string::RegexSet::empty",
+  "aliases": [
+   "sym:src/regexset/string.rs:RegexSet.empty"
+  ]
+ },
+ "regex/set-matches-matched": {
+  "symbol": "rust:regex::regexset::string::SetMatches::matched",
+  "aliases": [
+   "sym:src/regexset/string.rs:SetMatches.matched"
+  ]
+ },
+ "regex/set-matches-matched-any": {
+  "symbol": "rust:regex::regexset::string::SetMatches::matched_any",
+  "aliases": [
+   "sym:src/regexset/string.rs:SetMatches.matched_any"
+  ]
+ },
+ "regex/set-matches-iter": {
+  "symbol": "rust:regex::regexset::string::SetMatches::iter",
+  "aliases": [
+   "sym:src/regexset/string.rs:SetMatches.iter"
+  ]
+ },
+ "regex/set-matches-len": {
+  "symbol": "rust:regex::regexset::string::SetMatches::len",
+  "aliases": [
+   "sym:src/regexset/string.rs:SetMatches.len"
+  ]
+ },
+ "regex/bytes-is-match": {
+  "symbol": "rust:regex::regex::bytes::Regex::is_match",
+  "aliases": [
+   "rust:regex::regex::bytes::is_match",
+   "sym:src/regex/bytes.rs:Regex.is_match",
+   "sym:src/regex/bytes.rs:is_match"
+  ]
+ },
+ "regex/bytes-find": {
+  "symbol": "rust:regex::regex::bytes::Regex::find",
+  "aliases": [
+   "rust:regex::regex::bytes::find",
+   "sym:src/regex/bytes.rs:Regex.find",
+   "sym:src/regex/bytes.rs:find"
+  ]
+ },
+ "itertools/sorted-by": {
+  "symbol": "rust:itertools::Itertools::sorted_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.sorted_by"
+  ]
+ },
+ "itertools/sorted-unstable": {
+  "symbol": "rust:itertools::Itertools::sorted_unstable",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.sorted_unstable"
+  ]
+ },
+ "itertools/sorted-unstable-by-key": {
+  "symbol": "rust:itertools::Itertools::sorted_unstable_by_key",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.sorted_unstable_by_key"
+  ]
+ },
+ "itertools/sorted-by-cached-key": {
+  "symbol": "rust:itertools::Itertools::sorted_by_cached_key",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.sorted_by_cached_key"
+  ]
+ },
+ "itertools/collect-vec": {
+  "symbol": "rust:itertools::Itertools::collect_vec",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.collect_vec"
+  ]
+ },
+ "itertools/try-collect": {
+  "symbol": "rust:itertools::Itertools::try_collect",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.try_collect"
+  ]
+ },
+ "itertools/collect-tuple": {
+  "symbol": "rust:itertools::Itertools::collect_tuple",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.collect_tuple"
+  ]
+ },
+ "itertools/next-tuple": {
+  "symbol": "rust:itertools::Itertools::next_tuple",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.next_tuple"
+  ]
+ },
+ "itertools/concat": {
+  "symbol": "rust:itertools::Itertools::concat",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.concat"
+  ]
+ },
+ "itertools/set-from": {
+  "symbol": "rust:itertools::Itertools::set_from",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.set_from"
+  ]
+ },
+ "itertools/format": {
+  "symbol": "rust:itertools::Itertools::format",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.format"
+  ]
+ },
+ "itertools/format-with": {
+  "symbol": "rust:itertools::Itertools::format_with",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.format_with"
+  ]
+ },
+ "itertools/find-position": {
+  "symbol": "rust:itertools::Itertools::find_position",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.find_position"
+  ]
+ },
+ "itertools/find-or-last": {
+  "symbol": "rust:itertools::Itertools::find_or_last",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.find_or_last"
+  ]
+ },
+ "itertools/find-or-first": {
+  "symbol": "rust:itertools::Itertools::find_or_first",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.find_or_first"
+  ]
+ },
+ "itertools/contains": {
+  "symbol": "rust:itertools::Itertools::contains",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.contains"
+  ]
+ },
+ "itertools/get": {
+  "symbol": "rust:itertools::Itertools::get",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.get"
+  ]
+ },
+ "itertools/dropping": {
+  "symbol": "rust:itertools::Itertools::dropping",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.dropping"
+  ]
+ },
+ "itertools/dropping-back": {
+  "symbol": "rust:itertools::Itertools::dropping_back",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.dropping_back"
+  ]
+ },
+ "itertools/tail": {
+  "symbol": "rust:itertools::Itertools::tail",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.tail"
+  ]
+ },
+ "itertools/all-unique": {
+  "symbol": "rust:itertools::Itertools::all_unique",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.all_unique"
+  ]
+ },
+ "itertools/all-equal-value": {
+  "symbol": "rust:itertools::Itertools::all_equal_value",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.all_equal_value"
+  ]
+ },
+ "itertools/at-most-one": {
+  "symbol": "rust:itertools::Itertools::at_most_one",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.at_most_one"
+  ]
+ },
+ "itertools/dedup-by": {
+  "symbol": "rust:itertools::Itertools::dedup_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.dedup_by"
+  ]
+ },
+ "itertools/dedup-by-with-count": {
+  "symbol": "rust:itertools::Itertools::dedup_by_with_count",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.dedup_by_with_count"
+  ]
+ },
+ "itertools/duplicates": {
+  "symbol": "rust:itertools::Itertools::duplicates",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.duplicates"
+  ]
+ },
+ "itertools/duplicates-by": {
+  "symbol": "rust:itertools::Itertools::duplicates_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.duplicates_by"
+  ]
+ },
+ "itertools/counts-by": {
+  "symbol": "rust:itertools::Itertools::counts_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.counts_by"
+  ]
+ },
+ "itertools/into-group-map-by": {
+  "symbol": "rust:itertools::Itertools::into_group_map_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.into_group_map_by"
+  ]
+ },
+ "itertools/into-grouping-map": {
+  "symbol": "rust:itertools::Itertools::into_grouping_map",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.into_grouping_map"
+  ]
+ },
+ "itertools/into-grouping-map-by": {
+  "symbol": "rust:itertools::Itertools::into_grouping_map_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.into_grouping_map_by"
+  ]
+ },
+ "itertools/grouping-map-fold": {
+  "symbol": "rust:itertools::grouping_map::GroupingMap::fold",
+  "aliases": [
+   "sym:src/grouping_map.rs:GroupingMap.fold"
+  ]
+ },
+ "itertools/grouping-map-collect": {
+  "symbol": "rust:itertools::grouping_map::GroupingMap::collect",
+  "aliases": [
+   "sym:src/grouping_map.rs:GroupingMap.collect"
+  ]
+ },
+ "itertools/grouping-map-max": {
+  "symbol": "rust:itertools::grouping_map::GroupingMap::max",
+  "aliases": [
+   "sym:src/grouping_map.rs:GroupingMap.max"
+  ]
+ },
+ "itertools/grouping-map-reduce": {
+  "symbol": "rust:itertools::grouping_map::GroupingMap::reduce",
+  "aliases": [
+   "sym:src/grouping_map.rs:GroupingMap.reduce"
+  ]
+ },
+ "itertools/min-set": {
+  "symbol": "rust:itertools::Itertools::min_set",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.min_set"
+  ]
+ },
+ "itertools/max-set": {
+  "symbol": "rust:itertools::Itertools::max_set",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.max_set"
+  ]
+ },
+ "itertools/max-set-by-key": {
+  "symbol": "rust:itertools::Itertools::max_set_by_key",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.max_set_by_key"
+  ]
+ },
+ "itertools/min-set-by-key": {
+  "symbol": "rust:itertools::Itertools::min_set_by_key",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.min_set_by_key"
+  ]
+ },
+ "itertools/minmax-by-key": {
+  "symbol": "rust:itertools::Itertools::minmax_by_key",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.minmax_by_key"
+  ]
+ },
+ "itertools/k-largest": {
+  "symbol": "rust:itertools::Itertools::k_largest",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.k_largest"
+  ]
+ },
+ "itertools/k-smallest-by-key": {
+  "symbol": "rust:itertools::Itertools::k_smallest_by_key",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.k_smallest_by_key"
+  ]
+ },
+ "itertools/position-min": {
+  "symbol": "rust:itertools::Itertools::position_min",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.position_min"
+  ]
+ },
+ "itertools/position-max-by-key": {
+  "symbol": "rust:itertools::Itertools::position_max_by_key",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.position_max_by_key"
+  ]
+ },
+ "itertools/position-minmax": {
+  "symbol": "rust:itertools::Itertools::position_minmax",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.position_minmax"
+  ]
+ },
+ "itertools/tuple-combinations": {
+  "symbol": "rust:itertools::Itertools::tuple_combinations",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.tuple_combinations"
+  ]
+ },
+ "itertools/with-position": {
+  "symbol": "rust:itertools::Itertools::with_position",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.with_position"
+  ]
+ },
+ "itertools/pad-using": {
+  "symbol": "rust:itertools::Itertools::pad_using",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.pad_using"
+  ]
+ },
+ "itertools/update": {
+  "symbol": "rust:itertools::Itertools::update",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.update"
+  ]
+ },
+ "itertools/intersperse-with": {
+  "symbol": "rust:itertools::free::intersperse_with",
+  "aliases": [
+   "sym:src/free.rs:intersperse_with"
+  ]
+ },
+ "itertools/zip-eq": {
+  "symbol": "rust:itertools::Itertools::zip_eq",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.zip_eq"
+  ]
+ },
+ "itertools/batching": {
+  "symbol": "rust:itertools::Itertools::batching",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.batching"
+  ]
+ },
+ "itertools/tee": {
+  "symbol": "rust:itertools::Itertools::tee",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.tee"
+  ]
+ },
+ "itertools/map-into": {
+  "symbol": "rust:itertools::Itertools::map_into",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.map_into"
+  ]
+ },
+ "itertools/multiunzip": {
+  "symbol": "rust:itertools::Itertools::multiunzip",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.multiunzip"
+  ]
+ },
+ "itertools/map-ok": {
+  "symbol": "rust:itertools::Itertools::map_ok",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.map_ok"
+  ]
+ },
+ "itertools/filter-ok": {
+  "symbol": "rust:itertools::Itertools::filter_ok",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.filter_ok"
+  ]
+ },
+ "itertools/filter-map-ok": {
+  "symbol": "rust:itertools::Itertools::filter_map_ok",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.filter_map_ok"
+  ]
+ },
+ "itertools/flatten-ok": {
+  "symbol": "rust:itertools::Itertools::flatten_ok",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.flatten_ok"
+  ]
+ },
+ "itertools/process-results": {
+  "symbol": "rust:itertools::Itertools::process_results",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.process_results"
+  ]
+ },
+ "itertools/partition-result": {
+  "symbol": "rust:itertools::Itertools::partition_result",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.partition_result"
+  ]
+ },
+ "itertools/fold-ok": {
+  "symbol": "rust:itertools::Itertools::fold_ok",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.fold_ok"
+  ]
+ },
+ "itertools/fold-options": {
+  "symbol": "rust:itertools::Itertools::fold_options",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.fold_options"
+  ]
+ },
+ "itertools/while-some": {
+  "symbol": "rust:itertools::Itertools::while_some",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.while_some"
+  ]
+ },
+ "itertools/merge-by": {
+  "symbol": "rust:itertools::Itertools::merge_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.merge_by"
+  ]
+ },
+ "itertools/merge-join-by": {
+  "symbol": "rust:itertools::Itertools::merge_join_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.merge_join_by"
+  ]
+ },
+ "itertools/kmerge-by": {
+  "symbol": "rust:itertools::Itertools::kmerge_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.kmerge_by"
+  ]
+ },
+ "itertools/peeking-take-while": {
+  "symbol": "rust:itertools::Itertools::peeking_take_while",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.peeking_take_while"
+  ]
+ },
+ "itertools/take-while-ref": {
+  "symbol": "rust:itertools::Itertools::take_while_ref",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.take_while_ref"
+  ]
+ },
+ "itertools/take-while-inclusive": {
+  "symbol": "rust:itertools::Itertools::take_while_inclusive",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.take_while_inclusive"
+  ]
+ },
+ "itertools/multipeek": {
+  "symbol": "rust:itertools::multipeek_impl::multipeek",
+  "aliases": [
+   "sym:src/multipeek_impl.rs:multipeek"
+  ]
+ },
+ "itertools/sum1": {
+  "symbol": "rust:itertools::Itertools::sum1",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.sum1"
+  ]
+ },
+ "itertools/product1": {
+  "symbol": "rust:itertools::Itertools::product1",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.product1"
+  ]
+ },
+ "itertools/iterate": {
+  "symbol": "rust:itertools::sources::iterate",
+  "aliases": [
+   "sym:src/sources.rs:iterate"
+  ]
+ },
+ "itertools/repeat-n": {
+  "symbol": "rust:itertools::repeatn::repeat_n",
+  "aliases": [
+   "sym:src/repeatn.rs:repeat_n"
+  ]
+ },
+ "itertools/equal": {
+  "symbol": "rust:itertools::equal",
+  "aliases": [
+   "sym:src/lib.rs:equal"
+  ]
+ },
+ "itertools/partition-fn": {
+  "symbol": "rust:itertools::partition",
+  "aliases": [
+   "sym:src/lib.rs:partition"
+  ]
+ },
+ "itertools/chain-fn": {
+  "symbol": "rust:itertools::free::chain",
+  "aliases": [
+   "sym:src/free.rs:chain"
+  ]
+ },
+ "itertools/interleave-fn": {
+  "symbol": "rust:itertools::adaptors::interleave",
+  "aliases": [
+   "sym:src/adaptors/mod.rs:interleave"
+  ]
+ },
+ "itertools/sorted-fn": {
+  "symbol": "rust:itertools::free::sorted",
+  "aliases": [
+   "sym:src/free.rs:sorted"
+  ]
+ },
+ "itertools/array-windows": {
+  "symbol": "rust:itertools::Itertools::array_windows",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.array_windows"
+  ]
+ },
+ "itertools/array-combinations": {
+  "symbol": "rust:itertools::Itertools::array_combinations",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.array_combinations"
+  ]
+ },
+ "itertools/next-array": {
+  "symbol": "rust:itertools::Itertools::next_array",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.next_array"
+  ]
+ },
+ "itertools/collect-array": {
+  "symbol": "rust:itertools::Itertools::collect_array",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.collect_array"
+  ]
+ },
+ "chrono/date-year": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::year",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.year"
+  ]
+ },
+ "chrono/date-month": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::month",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.month"
+  ]
+ },
+ "chrono/date-day": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::day",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.day"
+  ]
+ },
+ "chrono/date-month0": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::month0",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.month0"
+  ]
+ },
+ "chrono/date-with-day": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::with_day",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.with_day"
+  ]
+ },
+ "chrono/date-with-month": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::with_month",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.with_month"
+  ]
+ },
+ "chrono/date-with-year": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::with_year",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.with_year"
+  ]
+ },
+ "chrono/date-num-days-from-ce": {
+  "symbol": "rust:chrono::traits::Datelike::num_days_from_ce",
+  "aliases": [
+   "sym:src/traits.rs:Datelike.num_days_from_ce"
+  ]
+ },
+ "chrono/date-from-yo-opt": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::from_yo_opt",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.from_yo_opt"
+  ]
+ },
+ "chrono/date-from-isoywd-opt": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::from_isoywd_opt",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.from_isoywd_opt"
+  ]
+ },
+ "chrono/date-from-weekday-of-month-opt": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::from_weekday_of_month_opt",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.from_weekday_of_month_opt"
+  ]
+ },
+ "chrono/date-pred-opt": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::pred_opt",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.pred_opt"
+  ]
+ },
+ "chrono/date-checked-sub-months": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::checked_sub_months",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.checked_sub_months"
+  ]
+ },
+ "chrono/date-and-time": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::and_time",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.and_time"
+  ]
+ },
+ "chrono/date-and-hms-milli-opt": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::and_hms_milli_opt",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.and_hms_milli_opt"
+  ]
+ },
+ "chrono/date-leap-year": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::leap_year",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.leap_year"
+  ]
+ },
+ "chrono/date-years-since": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::years_since",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.years_since"
+  ]
+ },
+ "chrono/date-iter-weeks": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::iter_weeks",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.iter_weeks"
+  ]
+ },
+ "chrono/date-week": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::week",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.week"
+  ]
+ },
+ "chrono/date-quarter": {
+  "symbol": "rust:chrono::traits::Datelike::quarter",
+  "aliases": [
+   "sym:src/traits.rs:Datelike.quarter"
+  ]
+ },
+ "chrono/date-num-days-in-month": {
+  "symbol": "rust:chrono::traits::Datelike::num_days_in_month",
+  "aliases": [
+   "sym:src/traits.rs:Datelike.num_days_in_month"
+  ]
+ },
+ "chrono/datetime-parse-from-str": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::parse_from_str",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.parse_from_str"
+  ]
+ },
+ "chrono/datetime-format": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::format",
+  "aliases": [
+   "rust:chrono::naive::datetime::format",
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.format",
+   "sym:src/naive/datetime/mod.rs:format"
+  ]
+ },
+ "chrono/datetime-date": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::date",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.date"
+  ]
+ },
+ "chrono/datetime-time": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::time",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.time"
+  ]
+ },
+ "chrono/datetime-and-utc": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::and_utc",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.and_utc"
+  ]
+ },
+ "chrono/datetime-and-local-timezone": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::and_local_timezone",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.and_local_timezone"
+  ]
+ },
+ "chrono/datetime-checked-add-signed": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::checked_add_signed",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.checked_add_signed"
+  ]
+ },
+ "chrono/datetime-signed-duration-since": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::signed_duration_since",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.signed_duration_since"
+  ]
+ },
+ "chrono/datetime-hour": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::hour",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.hour"
+  ]
+ },
+ "chrono/datetime-minute": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::minute",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.minute"
+  ]
+ },
+ "chrono/time-parse-from-str": {
+  "symbol": "rust:chrono::naive::time::NaiveTime::parse_from_str",
+  "aliases": [
+   "sym:src/naive/time/mod.rs:NaiveTime.parse_from_str"
+  ]
+ },
+ "chrono/time-num-seconds-from-midnight": {
+  "symbol": "rust:chrono::naive::time::NaiveTime::num_seconds_from_midnight",
+  "aliases": [
+   "sym:src/naive/time/mod.rs:NaiveTime.num_seconds_from_midnight"
+  ]
+ },
+ "chrono/time-overflowing-add-signed": {
+  "symbol": "rust:chrono::naive::time::NaiveTime::overflowing_add_signed",
+  "aliases": [
+   "sym:src/naive/time/mod.rs:NaiveTime.overflowing_add_signed"
+  ]
+ },
+ "chrono/utc-now": {
+  "symbol": "rust:chrono::offset::utc::Utc::now",
+  "aliases": [
+   "rust:chrono::offset::utc::now",
+   "sym:src/offset/utc.rs:Utc.now",
+   "sym:src/offset/utc.rs:now"
+  ]
+ },
+ "chrono/with-ymd-and-hms": {
+  "symbol": "rust:chrono::offset::TimeZone::with_ymd_and_hms",
+  "aliases": [
+   "sym:src/offset/mod.rs:TimeZone.with_ymd_and_hms"
+  ]
+ },
+ "chrono/dt-timestamp": {
+  "symbol": "rust:chrono::datetime::DateTime::timestamp",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.timestamp"
+  ]
+ },
+ "chrono/dt-timestamp-millis": {
+  "symbol": "rust:chrono::datetime::DateTime::timestamp_millis",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.timestamp_millis"
+  ]
+ },
+ "chrono/dt-from-timestamp": {
+  "symbol": "rust:chrono::datetime::DateTime::from_timestamp",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.from_timestamp"
+  ]
+ },
+ "chrono/dt-to-rfc3339": {
+  "symbol": "rust:chrono::datetime::DateTime::to_rfc3339",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.to_rfc3339"
+  ]
+ },
+ "chrono/dt-to-rfc2822": {
+  "symbol": "rust:chrono::datetime::DateTime::to_rfc2822",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.to_rfc2822"
+  ]
+ },
+ "chrono/dt-parse-from-rfc3339": {
+  "symbol": "rust:chrono::datetime::DateTime::parse_from_rfc3339",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.parse_from_rfc3339"
+  ]
+ },
+ "chrono/dt-parse-from-rfc2822": {
+  "symbol": "rust:chrono::datetime::DateTime::parse_from_rfc2822",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.parse_from_rfc2822"
+  ]
+ },
+ "chrono/dt-with-timezone": {
+  "symbol": "rust:chrono::datetime::DateTime::with_timezone",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.with_timezone"
+  ]
+ },
+ "chrono/dt-naive-utc": {
+  "symbol": "rust:chrono::datetime::DateTime::naive_utc",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.naive_utc"
+  ]
+ },
+ "chrono/dt-naive-local": {
+  "symbol": "rust:chrono::datetime::DateTime::naive_local",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.naive_local"
+  ]
+ },
+ "chrono/dt-date-naive": {
+  "symbol": "rust:chrono::datetime::DateTime::date_naive",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.date_naive"
+  ]
+ },
+ "chrono/dt-offset": {
+  "symbol": "rust:chrono::datetime::DateTime::offset",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.offset"
+  ]
+ },
+ "chrono/dt-format": {
+  "symbol": "rust:chrono::datetime::DateTime::format",
+  "aliases": [
+   "rust:chrono::datetime::format",
+   "sym:src/datetime/mod.rs:DateTime.format",
+   "sym:src/datetime/mod.rs:format"
+  ]
+ },
+ "chrono/dt-signed-duration-since": {
+  "symbol": "rust:chrono::datetime::DateTime::signed_duration_since",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.signed_duration_since"
+  ]
+ },
+ "chrono/dt-years-since": {
+  "symbol": "rust:chrono::datetime::DateTime::years_since",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.years_since"
+  ]
+ },
+ "chrono/dt-checked-add-days": {
+  "symbol": "rust:chrono::datetime::DateTime::checked_add_days",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.checked_add_days"
+  ]
+ },
+ "chrono/fixed-east-opt": {
+  "symbol": "rust:chrono::offset::fixed::FixedOffset::east_opt",
+  "aliases": [
+   "sym:src/offset/fixed.rs:FixedOffset.east_opt"
+  ]
+ },
+ "chrono/fixed-west-opt": {
+  "symbol": "rust:chrono::offset::fixed::FixedOffset::west_opt",
+  "aliases": [
+   "sym:src/offset/fixed.rs:FixedOffset.west_opt"
+  ]
+ },
+ "chrono/fixed-local-minus-utc": {
+  "symbol": "rust:chrono::offset::fixed::FixedOffset::local_minus_utc",
+  "aliases": [
+   "sym:src/offset/fixed.rs:FixedOffset.local_minus_utc"
+  ]
+ },
+ "chrono/delta-hours": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::hours",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.hours"
+  ]
+ },
+ "chrono/delta-days": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::days",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.days"
+  ]
+ },
+ "chrono/delta-minutes": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::minutes",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.minutes"
+  ]
+ },
+ "chrono/delta-seconds": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::seconds",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.seconds"
+  ]
+ },
+ "chrono/delta-num-days": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::num_days",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.num_days"
+  ]
+ },
+ "chrono/delta-num-milliseconds": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::num_milliseconds",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.num_milliseconds"
+  ]
+ },
+ "chrono/delta-to-std": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::to_std",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.to_std"
+  ]
+ },
+ "chrono/delta-from-std": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::from_std",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.from_std"
+  ]
+ },
+ "chrono/delta-zero": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::zero",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.zero"
+  ]
+ },
+ "chrono/weekday-succ": {
+  "symbol": "rust:chrono::weekday::Weekday::succ",
+  "aliases": [
+   "sym:src/weekday.rs:Weekday.succ"
+  ]
+ },
+ "chrono/weekday-pred": {
+  "symbol": "rust:chrono::weekday::Weekday::pred",
+  "aliases": [
+   "sym:src/weekday.rs:Weekday.pred"
+  ]
+ },
+ "chrono/weekday-number-from-monday": {
+  "symbol": "rust:chrono::weekday::Weekday::number_from_monday",
+  "aliases": [
+   "sym:src/weekday.rs:Weekday.number_from_monday"
+  ]
+ },
+ "chrono/weekday-num-days-from-monday": {
+  "symbol": "rust:chrono::weekday::Weekday::num_days_from_monday",
+  "aliases": [
+   "sym:src/weekday.rs:Weekday.num_days_from_monday"
+  ]
+ },
+ "chrono/month-name": {
+  "symbol": "rust:chrono::month::Month::name",
+  "aliases": [
+   "sym:src/month.rs:Month.name"
+  ]
+ },
+ "chrono/month-succ": {
+  "symbol": "rust:chrono::month::Month::succ",
+  "aliases": [
+   "sym:src/month.rs:Month.succ"
+  ]
+ },
+ "chrono/month-number-from-month": {
+  "symbol": "rust:chrono::month::Month::number_from_month",
+  "aliases": [
+   "sym:src/month.rs:Month.number_from_month"
+  ]
+ },
+ "rand/rng": {
+  "symbol": "rust:rand::rngs::thread::rng",
+  "aliases": [
+   "sym:src/rngs/thread.rs:rng"
+  ]
+ },
+ "rand/random": {
+  "symbol": "rust:rand::random",
+  "aliases": [
+   "sym:src/lib.rs:random"
+  ]
+ },
+ "rand/random-range-fn": {
+  "symbol": "rust:rand::random_range",
+  "aliases": [
+   "sym:src/lib.rs:random_range"
+  ]
+ },
+ "rand/random-bool-fn": {
+  "symbol": "rust:rand::random_bool",
+  "aliases": [
+   "sym:src/lib.rs:random_bool"
+  ]
+ },
+ "rand/random-ratio-fn": {
+  "symbol": "rust:rand::random_ratio",
+  "aliases": [
+   "sym:src/lib.rs:random_ratio"
+  ]
+ },
+ "rand/fill-fn": {
+  "symbol": "rust:rand::fill",
+  "aliases": [
+   "sym:src/lib.rs:fill"
+  ]
+ },
+ "rand/rng-random": {
+  "symbol": "rust:rand::rng::RngExt::random",
+  "aliases": [
+   "sym:src/rng.rs:RngExt.random"
+  ]
+ },
+ "rand/rng-random-range": {
+  "symbol": "rust:rand::rng::RngExt::random_range",
+  "aliases": [
+   "sym:src/rng.rs:RngExt.random_range"
+  ]
+ },
+ "rand/rng-random-bool": {
+  "symbol": "rust:rand::rng::RngExt::random_bool",
+  "aliases": [
+   "sym:src/rng.rs:RngExt.random_bool"
+  ]
+ },
+ "rand/rng-random-ratio": {
+  "symbol": "rust:rand::rng::RngExt::random_ratio",
+  "aliases": [
+   "sym:src/rng.rs:RngExt.random_ratio"
+  ]
+ },
+ "rand/rng-random-iter": {
+  "symbol": "rust:rand::rng::RngExt::random_iter",
+  "aliases": [
+   "sym:src/rng.rs:RngExt.random_iter"
+  ]
+ },
+ "rand/rng-sample": {
+  "symbol": "rust:rand::rng::RngExt::sample",
+  "aliases": [
+   "sym:src/rng.rs:RngExt.sample"
+  ]
+ },
+ "rand/rng-sample-iter": {
+  "symbol": "rust:rand::rng::RngExt::sample_iter",
+  "aliases": [
+   "sym:src/rng.rs:RngExt.sample_iter"
+  ]
+ },
+ "rand/rng-fill": {
+  "symbol": "rust:rand::rng::RngExt::fill",
+  "aliases": [
+   "sym:src/rng.rs:RngExt.fill"
+  ]
+ },
+ "rand/choose": {
+  "symbol": "rust:rand::seq::slice::IndexedRandom::choose",
+  "aliases": [
+   "sym:src/seq/slice.rs:IndexedRandom.choose"
+  ]
+ },
+ "rand/sample-slice": {
+  "symbol": "rust:rand::seq::slice::IndexedRandom::sample",
+  "aliases": [
+   "sym:src/seq/slice.rs:IndexedRandom.sample"
+  ]
+ },
+ "rand/choose-weighted": {
+  "symbol": "rust:rand::seq::slice::IndexedRandom::choose_weighted",
+  "aliases": [
+   "sym:src/seq/slice.rs:IndexedRandom.choose_weighted"
+  ]
+ },
+ "rand/choose-mut": {
+  "symbol": "rust:rand::seq::slice::IndexedMutRandom::choose_mut",
+  "aliases": [
+   "sym:src/seq/slice.rs:IndexedMutRandom.choose_mut"
+  ]
+ },
+ "rand/shuffle": {
+  "symbol": "rust:rand::seq::slice::SliceRandom::shuffle",
+  "aliases": [
+   "sym:src/seq/slice.rs:SliceRandom.shuffle"
+  ]
+ },
+ "rand/partial-shuffle": {
+  "symbol": "rust:rand::seq::slice::SliceRandom::partial_shuffle",
+  "aliases": [
+   "sym:src/seq/slice.rs:SliceRandom.partial_shuffle"
+  ]
+ },
+ "rand/iter-choose": {
+  "symbol": "rust:rand::seq::iterator::IteratorRandom::choose",
+  "aliases": [
+   "sym:src/seq/iterator.rs:IteratorRandom.choose"
+  ]
+ },
+ "rand/iter-sample": {
+  "symbol": "rust:rand::seq::iterator::IteratorRandom::sample",
+  "aliases": [
+   "sym:src/seq/iterator.rs:IteratorRandom.sample"
+  ]
+ },
+ "rand/uniform-new": {
+  "symbol": "rust:rand::distr::uniform::Uniform::new",
+  "aliases": [
+   "sym:src/distr/uniform.rs:Uniform.new"
+  ]
+ },
+ "rand/distribution-sample-iter": {
+  "symbol": "rust:rand::distr::distribution::Distribution::sample_iter",
+  "aliases": [
+   "sym:src/distr/distribution.rs:Distribution.sample_iter"
+  ]
+ },
+ "rand/sample-string": {
+  "symbol": "rust:rand::distr::distribution::SampleString::sample_string",
+  "aliases": [
+   "sym:src/distr/distribution.rs:SampleString.sample_string"
+  ]
+ },
+ "rand/weighted-index-new": {
+  "symbol": "rust:rand::distr::weighted::weighted_index::WeightedIndex::new",
+  "aliases": [
+   "sym:src/distr/weighted/weighted_index.rs:WeightedIndex.new"
+  ]
+ },
+ "rand/bernoulli-new": {
+  "symbol": "rust:rand::distr::bernoulli::Bernoulli::new",
+  "aliases": [
+   "sym:src/distr/bernoulli.rs:Bernoulli.new"
+  ]
+ },
+ "rand/index-sample": {
+  "symbol": "rust:rand::seq::index::sample",
+  "aliases": [
+   "sym:src/seq/index.rs:sample"
+  ]
+ },
+ "rand_core/seed-from-u64": {
+  "symbol": "rust:rand_core::seedable_rng::SeedableRng::seed_from_u64",
+  "aliases": [
+   "sym:src/seedable_rng.rs:SeedableRng.seed_from_u64"
+  ]
+ },
+ "rand/from-seed": {
+  "symbol": "rust:rand::rngs::std::StdRng::from_seed",
+  "aliases": [
+   "sym:src/rngs/std.rs:StdRng.from_seed"
+  ]
+ },
+ "fastrand/bool": {
+  "symbol": "rust:fastrand::global_rng::bool",
+  "aliases": [
+   "sym:src/global_rng.rs:bool"
+  ]
+ },
+ "fastrand/alphanumeric": {
+  "symbol": "rust:fastrand::global_rng::alphanumeric",
+  "aliases": [
+   "sym:src/global_rng.rs:alphanumeric"
+  ]
+ },
+ "fastrand/choice": {
+  "symbol": "rust:fastrand::global_rng::choice",
+  "aliases": [
+   "sym:src/global_rng.rs:choice"
+  ]
+ },
+ "fastrand/shuffle": {
+  "symbol": "rust:fastrand::global_rng::shuffle",
+  "aliases": [
+   "sym:src/global_rng.rs:shuffle"
+  ]
+ },
+ "fastrand/f64": {
+  "symbol": "rust:fastrand::global_rng::f64",
+  "aliases": [
+   "sym:src/global_rng.rs:f64"
+  ]
+ },
+ "fastrand/seed": {
+  "symbol": "rust:fastrand::global_rng::seed",
+  "aliases": [
+   "sym:src/global_rng.rs:seed"
+  ]
+ },
+ "fastrand/rng-with-seed": {
+  "symbol": "rust:fastrand::Rng::with_seed",
+  "aliases": [
+   "sym:src/lib.rs:Rng.with_seed"
+  ]
+ },
+ "fastrand/choose-multiple": {
+  "symbol": "rust:fastrand::global_rng::choose_multiple",
+  "aliases": [
+   "sym:src/global_rng.rs:choose_multiple"
+  ]
+ },
+ "uuid/new-v4": {
+  "symbol": "rust:uuid::v4::Uuid::new_v4",
+  "aliases": [
+   "sym:src/v4.rs:Uuid.new_v4"
+  ]
+ },
+ "uuid/now-v7": {
+  "symbol": "rust:uuid::v7::Uuid::now_v7",
+  "aliases": [
+   "sym:src/v7.rs:Uuid.now_v7"
+  ]
+ },
+ "uuid/new-v5": {
+  "symbol": "rust:uuid::v5::Uuid::new_v5",
+  "aliases": [
+   "sym:src/v5.rs:Uuid.new_v5"
+  ]
+ },
+ "uuid/parse-str": {
+  "symbol": "rust:uuid::parser::Uuid::parse_str",
+  "aliases": [
+   "sym:src/parser.rs:Uuid.parse_str"
+  ]
+ },
+ "uuid/nil": {
+  "symbol": "rust:uuid::builder::Uuid::nil",
+  "aliases": [
+   "sym:src/builder.rs:Uuid.nil"
+  ]
+ },
+ "uuid/from-u128": {
+  "symbol": "rust:uuid::builder::Uuid::from_u128",
+  "aliases": [
+   "sym:src/builder.rs:Uuid.from_u128"
+  ]
+ },
+ "uuid/from-bytes": {
+  "symbol": "rust:uuid::builder::Uuid::from_bytes",
+  "aliases": [
+   "sym:src/builder.rs:Uuid.from_bytes"
+  ]
+ },
+ "uuid/as-bytes": {
+  "symbol": "rust:uuid::Uuid::as_bytes",
+  "aliases": [
+   "sym:src/lib.rs:Uuid.as_bytes"
+  ]
+ },
+ "uuid/as-u128": {
+  "symbol": "rust:uuid::Uuid::as_u128",
+  "aliases": [
+   "sym:src/lib.rs:Uuid.as_u128"
+  ]
+ },
+ "uuid/get-version-num": {
+  "symbol": "rust:uuid::Uuid::get_version_num",
+  "aliases": [
+   "sym:src/lib.rs:Uuid.get_version_num"
+  ]
+ },
+ "uuid/is-nil": {
+  "symbol": "rust:uuid::Uuid::is_nil",
+  "aliases": [
+   "sym:src/lib.rs:Uuid.is_nil"
+  ]
+ },
+ "uuid/simple": {
+  "symbol": "rust:uuid::fmt::Uuid::simple",
+  "aliases": [
+   "sym:src/fmt.rs:Uuid.simple"
+  ]
+ },
+ "uuid/urn": {
+  "symbol": "rust:uuid::fmt::Uuid::urn",
+  "aliases": [
+   "sym:src/fmt.rs:Uuid.urn"
+  ]
+ },
+ "tokio/spawn": {
+  "symbol": "rust:tokio::task::spawn::spawn",
+  "aliases": [
+   "sym:src/task/spawn.rs:spawn"
+  ]
+ },
+ "tokio/spawn-blocking": {
+  "symbol": "rust:tokio::task::blocking::spawn_blocking",
+  "aliases": [
+   "sym:src/task/blocking.rs:spawn_blocking"
+  ]
+ },
+ "tokio/yield-now": {
+  "symbol": "rust:tokio::task::yield_now::yield_now",
+  "aliases": [
+   "sym:src/task/yield_now.rs:yield_now"
+  ]
+ },
+ "tokio/join-handle-abort": {
+  "symbol": "rust:tokio::runtime::task::join::JoinHandle::abort",
+  "aliases": [
+   "sym:src/runtime/task/join.rs:JoinHandle.abort"
+  ]
+ },
+ "tokio/join-handle-is-finished": {
+  "symbol": "rust:tokio::runtime::task::join::JoinHandle::is_finished",
+  "aliases": [
+   "sym:src/runtime/task/join.rs:JoinHandle.is_finished"
+  ]
+ },
+ "tokio/joinset-spawn": {
+  "symbol": "rust:tokio::task::join_set::JoinSet::spawn",
+  "aliases": [
+   "sym:src/task/join_set.rs:JoinSet.spawn"
+  ]
+ },
+ "tokio/joinset-join-next": {
+  "symbol": "rust:tokio::task::join_set::JoinSet::join_next",
+  "aliases": [
+   "sym:src/task/join_set.rs:JoinSet.join_next"
+  ]
+ },
+ "tokio/joinset-join-all": {
+  "symbol": "rust:tokio::task::join_set::JoinSet::join_all",
+  "aliases": [
+   "sym:src/task/join_set.rs:JoinSet.join_all"
+  ]
+ },
+ "tokio/joinset-abort-all": {
+  "symbol": "rust:tokio::task::join_set::JoinSet::abort_all",
+  "aliases": [
+   "sym:src/task/join_set.rs:JoinSet.abort_all"
+  ]
+ },
+ "tokio/sleep": {
+  "symbol": "rust:tokio::time::sleep::sleep",
+  "aliases": [
+   "sym:src/time/sleep.rs:sleep"
+  ]
+ },
+ "tokio/timeout": {
+  "symbol": "rust:tokio::time::timeout::timeout",
+  "aliases": [
+   "sym:src/time/timeout.rs:timeout"
+  ]
+ },
+ "tokio/interval": {
+  "symbol": "rust:tokio::time::interval::interval",
+  "aliases": [
+   "sym:src/time/interval.rs:interval"
+  ]
+ },
+ "tokio/interval-tick": {
+  "symbol": "rust:tokio::time::interval::Interval::tick",
+  "aliases": [
+   "sym:src/time/interval.rs:Interval.tick"
+  ]
+ },
+ "tokio/sleep-until": {
+  "symbol": "rust:tokio::time::sleep::sleep_until",
+  "aliases": [
+   "sym:src/time/sleep.rs:sleep_until"
+  ]
+ },
+ "tokio/mpsc-channel": {
+  "symbol": "rust:tokio::sync::mpsc::bounded::channel",
+  "aliases": [
+   "sym:src/sync/mpsc/bounded.rs:channel"
+  ]
+ },
+ "tokio/mpsc-send": {
+  "symbol": "rust:tokio::sync::mpsc::bounded::Sender::send",
+  "aliases": [
+   "sym:src/sync/mpsc/bounded.rs:Sender.send"
+  ]
+ },
+ "tokio/mpsc-try-send": {
+  "symbol": "rust:tokio::sync::mpsc::bounded::Sender::try_send",
+  "aliases": [
+   "sym:src/sync/mpsc/bounded.rs:Sender.try_send"
+  ]
+ },
+ "tokio/mpsc-recv": {
+  "symbol": "rust:tokio::sync::mpsc::bounded::Receiver::recv",
+  "aliases": [
+   "sym:src/sync/mpsc/bounded.rs:Receiver.recv"
+  ]
+ },
+ "tokio/mpsc-try-recv": {
+  "symbol": "rust:tokio::sync::mpsc::bounded::Receiver::try_recv",
+  "aliases": [
+   "sym:src/sync/mpsc/bounded.rs:Receiver.try_recv"
+  ]
+ },
+ "tokio/mpsc-recv-many": {
+  "symbol": "rust:tokio::sync::mpsc::bounded::Receiver::recv_many",
+  "aliases": [
+   "sym:src/sync/mpsc/bounded.rs:Receiver.recv_many"
+  ]
+ },
+ "tokio/unbounded-channel": {
+  "symbol": "rust:tokio::sync::mpsc::unbounded::unbounded_channel",
+  "aliases": [
+   "sym:src/sync/mpsc/unbounded.rs:unbounded_channel"
+  ]
+ },
+ "tokio/oneshot-channel": {
+  "symbol": "rust:tokio::sync::oneshot::channel",
+  "aliases": [
+   "sym:src/sync/oneshot.rs:channel"
+  ]
+ },
+ "tokio/oneshot-send": {
+  "symbol": "rust:tokio::sync::oneshot::Sender::send",
+  "aliases": [
+   "sym:src/sync/oneshot.rs:Sender.send"
+  ]
+ },
+ "tokio/broadcast-channel": {
+  "symbol": "rust:tokio::sync::broadcast::channel",
+  "aliases": [
+   "sym:src/sync/broadcast.rs:channel"
+  ]
+ },
+ "tokio/broadcast-subscribe": {
+  "symbol": "rust:tokio::sync::broadcast::Sender::subscribe",
+  "aliases": [
+   "sym:src/sync/broadcast.rs:Sender.subscribe"
+  ]
+ },
+ "tokio/watch-channel": {
+  "symbol": "rust:tokio::sync::watch::channel",
+  "aliases": [
+   "sym:src/sync/watch.rs:channel"
+  ]
+ },
+ "tokio/watch-changed": {
+  "symbol": "rust:tokio::sync::watch::Receiver::changed",
+  "aliases": [
+   "sym:src/sync/watch.rs:Receiver.changed"
+  ]
+ },
+ "tokio/watch-send-modify": {
+  "symbol": "rust:tokio::sync::watch::Sender::send_modify",
+  "aliases": [
+   "sym:src/sync/watch.rs:Sender.send_modify"
+  ]
+ },
+ "tokio/mutex-lock": {
+  "symbol": "rust:tokio::sync::mutex::Mutex::lock",
+  "aliases": [
+   "sym:src/sync/mutex.rs:Mutex.lock"
+  ]
+ },
+ "tokio/mutex-try-lock": {
+  "symbol": "rust:tokio::sync::mutex::Mutex::try_lock",
+  "aliases": [
+   "sym:src/sync/mutex.rs:Mutex.try_lock"
+  ]
+ },
+ "tokio/rwlock-read": {
+  "symbol": "rust:tokio::sync::rwlock::RwLock::read",
+  "aliases": [
+   "sym:src/sync/rwlock.rs:RwLock.read"
+  ]
+ },
+ "tokio/rwlock-write": {
+  "symbol": "rust:tokio::sync::rwlock::RwLock::write",
+  "aliases": [
+   "sym:src/sync/rwlock.rs:RwLock.write"
+  ]
+ },
+ "tokio/semaphore-acquire": {
+  "symbol": "rust:tokio::sync::semaphore::Semaphore::acquire",
+  "aliases": [
+   "sym:src/sync/semaphore.rs:Semaphore.acquire"
+  ]
+ },
+ "tokio/semaphore-available-permits": {
+  "symbol": "rust:tokio::sync::semaphore::Semaphore::available_permits",
+  "aliases": [
+   "sym:src/sync/semaphore.rs:Semaphore.available_permits"
+  ]
+ },
+ "tokio/semaphore-try-acquire": {
+  "symbol": "rust:tokio::sync::semaphore::Semaphore::try_acquire",
+  "aliases": [
+   "sym:src/sync/semaphore.rs:Semaphore.try_acquire"
+  ]
+ },
+ "tokio/notify-notify-one": {
+  "symbol": "rust:tokio::sync::notify::Notify::notify_one",
+  "aliases": [
+   "sym:src/sync/notify.rs:Notify.notify_one"
+  ]
+ },
+ "tokio/barrier-wait": {
+  "symbol": "rust:tokio::sync::barrier::Barrier::wait",
+  "aliases": [
+   "sym:src/sync/barrier.rs:Barrier.wait"
+  ]
+ },
+ "tokio/oncecell-get-or-init": {
+  "symbol": "rust:tokio::sync::once_cell::OnceCell::get_or_init",
+  "aliases": [
+   "sym:src/sync/once_cell.rs:OnceCell.get_or_init"
+  ]
+ },
+ "tokio/fs-read-to-string": {
+  "symbol": "rust:tokio::fs::read_to_string::read_to_string",
+  "aliases": [
+   "sym:src/fs/read_to_string.rs:read_to_string"
+  ]
+ },
+ "tokio/fs-write": {
+  "symbol": "rust:tokio::fs::write::write",
+  "aliases": [
+   "sym:src/fs/write.rs:write"
+  ]
+ },
+ "tokio/fs-create-dir-all": {
+  "symbol": "rust:tokio::fs::create_dir_all::create_dir_all",
+  "aliases": [
+   "sym:src/fs/create_dir_all.rs:create_dir_all"
+  ]
+ },
+ "tokio/fs-read-dir": {
+  "symbol": "rust:tokio::fs::read_dir::read_dir",
+  "aliases": [
+   "sym:src/fs/read_dir.rs:read_dir"
+  ]
+ },
+ "tokio/fs-remove-file": {
+  "symbol": "rust:tokio::fs::remove_file::remove_file",
+  "aliases": [
+   "sym:src/fs/remove_file.rs:remove_file"
+  ]
+ },
+ "tokio/fs-metadata": {
+  "symbol": "rust:tokio::fs::metadata::metadata",
+  "aliases": [
+   "sym:src/fs/metadata.rs:metadata"
+  ]
+ },
+ "tokio/fs-copy": {
+  "symbol": "rust:tokio::fs::copy::copy",
+  "aliases": [
+   "sym:src/fs/copy.rs:copy"
+  ]
+ },
+ "tokio/fs-try-exists": {
+  "symbol": "rust:tokio::fs::try_exists::try_exists",
+  "aliases": [
+   "sym:src/fs/try_exists.rs:try_exists"
+  ]
+ },
+ "tokio/read-to-string": {
+  "symbol": "rust:tokio::io::util::async_read_ext::read_to_string",
+  "aliases": [
+   "rust:tokio::io::util::async_read_ext::AsyncReadExt::read_to_string",
+   "sym:src/io/util/async_read_ext.rs:read_to_string",
+   "sym:src/io/util/async_read_ext.rs:AsyncReadExt.read_to_string"
+  ]
+ },
+ "tokio/read-exact": {
+  "symbol": "rust:tokio::io::util::async_read_ext::read_exact",
+  "aliases": [
+   "rust:tokio::io::util::async_read_ext::AsyncReadExt::read_exact",
+   "sym:src/io/util/async_read_ext.rs:read_exact",
+   "sym:src/io/util/async_read_ext.rs:AsyncReadExt.read_exact"
+  ]
+ },
+ "tokio/read-u32": {
+  "symbol": "rust:tokio::io::util::async_read_ext::read_u32",
+  "aliases": [
+   "rust:tokio::io::util::async_read_ext::AsyncReadExt::read_u32",
+   "sym:src/io/util/async_read_ext.rs:read_u32",
+   "sym:src/io/util/async_read_ext.rs:AsyncReadExt.read_u32"
+  ]
+ },
+ "tokio/write-all": {
+  "symbol": "rust:tokio::io::util::async_write_ext::write_all",
+  "aliases": [
+   "rust:tokio::io::util::async_write_ext::AsyncWriteExt::write_all",
+   "sym:src/io/util/async_write_ext.rs:write_all",
+   "sym:src/io/util/async_write_ext.rs:AsyncWriteExt.write_all"
+  ]
+ },
+ "tokio/flush": {
+  "symbol": "rust:tokio::io::util::async_write_ext::flush",
+  "aliases": [
+   "rust:tokio::io::util::async_write_ext::AsyncWriteExt::flush",
+   "sym:src/io/util/async_write_ext.rs:flush",
+   "sym:src/io/util/async_write_ext.rs:AsyncWriteExt.flush"
+  ]
+ },
+ "tokio/lines": {
+  "symbol": "rust:tokio::io::util::async_buf_read_ext::lines",
+  "aliases": [
+   "rust:tokio::io::util::async_buf_read_ext::AsyncBufReadExt::lines",
+   "sym:src/io/util/async_buf_read_ext.rs:lines",
+   "sym:src/io/util/async_buf_read_ext.rs:AsyncBufReadExt.lines"
+  ]
+ },
+ "tokio/read-line": {
+  "symbol": "rust:tokio::io::util::async_buf_read_ext::read_line",
+  "aliases": [
+   "rust:tokio::io::util::async_buf_read_ext::AsyncBufReadExt::read_line",
+   "sym:src/io/util/async_buf_read_ext.rs:read_line",
+   "sym:src/io/util/async_buf_read_ext.rs:AsyncBufReadExt.read_line"
+  ]
+ },
+ "tokio/runtime-new": {
+  "symbol": "rust:tokio::runtime::runtime::Runtime::new",
+  "aliases": [
+   "sym:src/runtime/runtime.rs:Runtime.new"
+  ]
+ },
+ "tokio/runtime-block-on": {
+  "symbol": "rust:tokio::runtime::runtime::Runtime::block_on",
+  "aliases": [
+   "sym:src/runtime/runtime.rs:Runtime.block_on"
+  ]
+ },
+ "tokio/builder-new-current-thread": {
+  "symbol": "rust:tokio::runtime::builder::Builder::new_current_thread",
+  "aliases": [
+   "sym:src/runtime/builder.rs:Builder.new_current_thread"
+  ]
+ },
+ "tokio/builder-worker-threads": {
+  "symbol": "rust:tokio::runtime::builder::Builder::worker_threads",
+  "aliases": [
+   "sym:src/runtime/builder.rs:Builder.worker_threads"
+  ]
+ },
+ "tokio/handle-current": {
+  "symbol": "rust:tokio::runtime::handle::Handle::current",
+  "aliases": [
+   "sym:src/runtime/handle.rs:Handle.current"
+  ]
+ },
+ "futures-util/join-all": {
+  "symbol": "rust:futures_util::future::join_all::join_all",
+  "aliases": [
+   "sym:src/future/join_all.rs:join_all"
+  ]
+ },
+ "futures-util/try-join-all": {
+  "symbol": "rust:futures_util::future::try_join_all::try_join_all",
+  "aliases": [
+   "sym:src/future/try_join_all.rs:try_join_all"
+  ]
+ },
+ "futures-util/join": {
+  "symbol": "rust:futures_util::future::join::join",
+  "aliases": [
+   "sym:src/future/join.rs:join"
+  ]
+ },
+ "futures-util/try-join": {
+  "symbol": "rust:futures_util::future::try_join::try_join",
+  "aliases": [
+   "sym:src/future/try_join.rs:try_join"
+  ]
+ },
+ "futures-util/select": {
+  "symbol": "rust:futures_util::future::select::select",
+  "aliases": [
+   "sym:src/future/select.rs:select"
+  ]
+ },
+ "futures-util/select-all": {
+  "symbol": "rust:futures_util::future::select_all::select_all",
+  "aliases": [
+   "sym:src/future/select_all.rs:select_all"
+  ]
+ },
+ "futures-util/ready": {
+  "symbol": "rust:futures_util::future::ready::ready",
+  "aliases": [
+   "sym:src/future/ready.rs:ready"
+  ]
+ },
+ "futures-util/pending": {
+  "symbol": "rust:futures_util::future::pending::pending",
+  "aliases": [
+   "sym:src/future/pending.rs:pending"
+  ]
+ },
+ "futures-util/lazy": {
+  "symbol": "rust:futures_util::future::lazy::lazy",
+  "aliases": [
+   "sym:src/future/lazy.rs:lazy"
+  ]
+ },
+ "futures-util/poll-fn": {
+  "symbol": "rust:futures_util::future::poll_fn::poll_fn",
+  "aliases": [
+   "sym:src/future/poll_fn.rs:poll_fn"
+  ]
+ },
+ "futures-util/future-map": {
+  "symbol": "rust:futures_util::future::future::FutureExt::map",
+  "aliases": [
+   "sym:src/future/future/mod.rs:FutureExt.map"
+  ]
+ },
+ "futures-util/future-then": {
+  "symbol": "rust:futures_util::future::future::FutureExt::then",
+  "aliases": [
+   "sym:src/future/future/mod.rs:FutureExt.then"
+  ]
+ },
+ "futures-util/future-boxed": {
+  "symbol": "rust:futures_util::future::future::FutureExt::boxed",
+  "aliases": [
+   "sym:src/future/future/mod.rs:FutureExt.boxed"
+  ]
+ },
+ "futures-util/now-or-never": {
+  "symbol": "rust:futures_util::future::future::FutureExt::now_or_never",
+  "aliases": [
+   "sym:src/future/future/mod.rs:FutureExt.now_or_never"
+  ]
+ },
+ "futures-util/future-fuse": {
+  "symbol": "rust:futures_util::future::future::FutureExt::fuse",
+  "aliases": [
+   "sym:src/future/future/mod.rs:FutureExt.fuse"
+  ]
+ },
+ "futures-util/future-shared": {
+  "symbol": "rust:futures_util::future::future::FutureExt::shared",
+  "aliases": [
+   "sym:src/future/future/mod.rs:FutureExt.shared"
+  ]
+ },
+ "futures-util/map-ok": {
+  "symbol": "rust:futures_util::future::try_future::TryFutureExt::map_ok",
+  "aliases": [
+   "sym:src/future/try_future/mod.rs:TryFutureExt.map_ok"
+  ]
+ },
+ "futures-util/and-then": {
+  "symbol": "rust:futures_util::future::try_future::TryFutureExt::and_then",
+  "aliases": [
+   "sym:src/future/try_future/mod.rs:TryFutureExt.and_then"
+  ]
+ },
+ "futures-util/map-err-fut": {
+  "symbol": "rust:futures_util::future::try_future::TryFutureExt::map_err",
+  "aliases": [
+   "sym:src/future/try_future/mod.rs:TryFutureExt.map_err"
+  ]
+ },
+ "futures-util/stream-iter": {
+  "symbol": "rust:futures_util::stream::iter::iter",
+  "aliases": [
+   "sym:src/stream/iter.rs:iter"
+  ]
+ },
+ "futures-util/stream-once": {
+  "symbol": "rust:futures_util::stream::once::once",
+  "aliases": [
+   "sym:src/stream/once.rs:once"
+  ]
+ },
+ "futures-util/stream-repeat": {
+  "symbol": "rust:futures_util::stream::repeat::repeat",
+  "aliases": [
+   "sym:src/stream/repeat.rs:repeat"
+  ]
+ },
+ "futures-util/stream-unfold": {
+  "symbol": "rust:futures_util::stream::unfold::unfold",
+  "aliases": [
+   "sym:src/stream/unfold.rs:unfold"
+  ]
+ },
+ "futures-util/stream-empty": {
+  "symbol": "rust:futures_util::stream::empty::empty",
+  "aliases": [
+   "sym:src/stream/empty.rs:empty"
+  ]
+ },
+ "futures-util/stream-select": {
+  "symbol": "rust:futures_util::stream::select::select",
+  "aliases": [
+   "sym:src/stream/select.rs:select"
+  ]
+ },
+ "futures-util/stream-next": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::next",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.next"
+  ]
+ },
+ "futures-util/stream-map": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::map",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.map"
+  ]
+ },
+ "futures-util/stream-filter": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::filter",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.filter"
+  ]
+ },
+ "futures-util/stream-filter-map": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::filter_map",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.filter_map"
+  ]
+ },
+ "futures-util/stream-then": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::then",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.then"
+  ]
+ },
+ "futures-util/stream-collect": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::collect",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.collect"
+  ]
+ },
+ "futures-util/stream-fold": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::fold",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.fold"
+  ]
+ },
+ "futures-util/stream-for-each": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::for_each",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.for_each"
+  ]
+ },
+ "futures-util/stream-for-each-concurrent": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::for_each_concurrent",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.for_each_concurrent"
+  ]
+ },
+ "futures-util/stream-take": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::take",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.take"
+  ]
+ },
+ "futures-util/stream-skip": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::skip",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.skip"
+  ]
+ },
+ "futures-util/stream-take-while": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::take_while",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.take_while"
+  ]
+ },
+ "futures-util/stream-chain": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::chain",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.chain"
+  ]
+ },
+ "futures-util/stream-zip": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::zip",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.zip"
+  ]
+ },
+ "futures-util/stream-enumerate": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::enumerate",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.enumerate"
+  ]
+ },
+ "futures-util/stream-flat-map": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::flat_map",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.flat_map"
+  ]
+ },
+ "futures-util/stream-buffered": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::buffered",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.buffered"
+  ]
+ },
+ "futures-util/stream-buffer-unordered": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::buffer_unordered",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.buffer_unordered"
+  ]
+ },
+ "futures-util/stream-chunks": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::chunks",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.chunks"
+  ]
+ },
+ "futures-util/stream-count": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::count",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.count"
+  ]
+ },
+ "futures-util/stream-any": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::any",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.any"
+  ]
+ },
+ "futures-util/stream-peekable": {
+  "symbol": "rust:futures_util::stream::stream::StreamExt::peekable",
+  "aliases": [
+   "sym:src/stream/stream/mod.rs:StreamExt.peekable"
+  ]
+ },
+ "futures-util/try-collect": {
+  "symbol": "rust:futures_util::stream::try_stream::TryStreamExt::try_collect",
+  "aliases": [
+   "sym:src/stream/try_stream/mod.rs:TryStreamExt.try_collect"
+  ]
+ },
+ "futures-util/try-next": {
+  "symbol": "rust:futures_util::stream::try_stream::TryStreamExt::try_next",
+  "aliases": [
+   "sym:src/stream/try_stream/mod.rs:TryStreamExt.try_next"
+  ]
+ },
+ "futures-util/try-stream-map-ok": {
+  "symbol": "rust:futures_util::stream::try_stream::TryStreamExt::map_ok",
+  "aliases": [
+   "sym:src/stream/try_stream/mod.rs:TryStreamExt.map_ok"
+  ]
+ },
+ "futures-util/try-filter": {
+  "symbol": "rust:futures_util::stream::try_stream::TryStreamExt::try_filter",
+  "aliases": [
+   "sym:src/stream/try_stream/mod.rs:TryStreamExt.try_filter"
+  ]
+ },
+ "futures-util/try-for-each": {
+  "symbol": "rust:futures_util::stream::try_stream::TryStreamExt::try_for_each",
+  "aliases": [
+   "sym:src/stream/try_stream/mod.rs:TryStreamExt.try_for_each"
+  ]
+ },
+ "futures-executor/block-on": {
+  "symbol": "rust:futures_executor::local_pool::block_on",
+  "aliases": [
+   "sym:src/local_pool.rs:block_on"
+  ]
+ },
+ "futures-executor/block-on-stream": {
+  "symbol": "rust:futures_executor::local_pool::block_on_stream",
+  "aliases": [
+   "sym:src/local_pool.rs:block_on_stream"
+  ]
+ },
+ "futures-channel/mpsc-unbounded": {
+  "symbol": "rust:futures_channel::mpsc::unbounded",
+  "aliases": [
+   "sym:src/mpsc/mod.rs:unbounded"
+  ]
+ },
+ "futures-channel/mpsc-channel": {
+  "symbol": "rust:futures_channel::mpsc::channel",
+  "aliases": [
+   "sym:src/mpsc/mod.rs:channel"
+  ]
+ },
+ "futures-channel/oneshot-channel": {
+  "symbol": "rust:futures_channel::oneshot::channel",
+  "aliases": [
+   "sym:src/oneshot.rs:channel"
+  ]
+ },
+ "rayon/par-iter": {
+  "symbol": "rust:rayon::iter::I::par_iter",
+  "aliases": [
+   "sym:src/iter/mod.rs:I.par_iter"
+  ]
+ },
+ "rayon/par-iter-mut": {
+  "symbol": "rust:rayon::iter::I::par_iter_mut",
+  "aliases": [
+   "sym:src/iter/mod.rs:I.par_iter_mut"
+  ]
+ },
+ "rayon/into-par-iter": {
+  "symbol": "rust:rayon::vec::Vec::into_par_iter",
+  "aliases": [
+   "sym:src/vec.rs:Vec.into_par_iter"
+  ]
+ },
+ "rayon/par-bridge": {
+  "symbol": "rust:rayon::iter::par_bridge::T::par_bridge",
+  "aliases": [
+   "sym:src/iter/par_bridge.rs:T.par_bridge"
+  ]
+ },
+ "rayon/map": {
+  "symbol": "rust:rayon::iter::ParallelIterator::map",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.map"
+  ]
+ },
+ "rayon/filter": {
+  "symbol": "rust:rayon::iter::ParallelIterator::filter",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.filter"
+  ]
+ },
+ "rayon/filter-map": {
+  "symbol": "rust:rayon::iter::ParallelIterator::filter_map",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.filter_map"
+  ]
+ },
+ "rayon/flat-map": {
+  "symbol": "rust:rayon::iter::ParallelIterator::flat_map",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.flat_map"
+  ]
+ },
+ "rayon/for-each": {
+  "symbol": "rust:rayon::iter::ParallelIterator::for_each",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.for_each"
+  ]
+ },
+ "rayon/sum": {
+  "symbol": "rust:rayon::iter::ParallelIterator::sum",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.sum"
+  ]
+ },
+ "rayon/reduce": {
+  "symbol": "rust:rayon::iter::ParallelIterator::reduce",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.reduce"
+  ]
+ },
+ "rayon/reduce-with": {
+  "symbol": "rust:rayon::iter::ParallelIterator::reduce_with",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.reduce_with"
+  ]
+ },
+ "rayon/fold": {
+  "symbol": "rust:rayon::iter::ParallelIterator::fold",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.fold"
+  ]
+ },
+ "rayon/count": {
+  "symbol": "rust:rayon::iter::ParallelIterator::count",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.count"
+  ]
+ },
+ "rayon/min": {
+  "symbol": "rust:rayon::iter::ParallelIterator::min",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.min"
+  ]
+ },
+ "rayon/max-by-key": {
+  "symbol": "rust:rayon::iter::ParallelIterator::max_by_key",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.max_by_key"
+  ]
+ },
+ "rayon/any": {
+  "symbol": "rust:rayon::iter::ParallelIterator::any",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.any"
+  ]
+ },
+ "rayon/all": {
+  "symbol": "rust:rayon::iter::ParallelIterator::all",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.all"
+  ]
+ },
+ "rayon/find-any": {
+  "symbol": "rust:rayon::iter::ParallelIterator::find_any",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.find_any"
+  ]
+ },
+ "rayon/find-first": {
+  "symbol": "rust:rayon::iter::ParallelIterator::find_first",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.find_first"
+  ]
+ },
+ "rayon/collect": {
+  "symbol": "rust:rayon::iter::ParallelIterator::collect",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.collect"
+  ]
+ },
+ "rayon/partition": {
+  "symbol": "rust:rayon::iter::ParallelIterator::partition",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.partition"
+  ]
+ },
+ "rayon/copied": {
+  "symbol": "rust:rayon::iter::ParallelIterator::copied",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.copied"
+  ]
+ },
+ "rayon/try-for-each": {
+  "symbol": "rust:rayon::iter::ParallelIterator::try_for_each",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.try_for_each"
+  ]
+ },
+ "rayon/map-init": {
+  "symbol": "rust:rayon::iter::ParallelIterator::map_init",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.map_init"
+  ]
+ },
+ "rayon/enumerate": {
+  "symbol": "rust:rayon::iter::IndexedParallelIterator::enumerate",
+  "aliases": [
+   "sym:src/iter/mod.rs:IndexedParallelIterator.enumerate"
+  ]
+ },
+ "rayon/zip": {
+  "symbol": "rust:rayon::iter::IndexedParallelIterator::zip",
+  "aliases": [
+   "sym:src/iter/mod.rs:IndexedParallelIterator.zip"
+  ]
+ },
+ "rayon/chunks": {
+  "symbol": "rust:rayon::iter::IndexedParallelIterator::chunks",
+  "aliases": [
+   "sym:src/iter/mod.rs:IndexedParallelIterator.chunks"
+  ]
+ },
+ "rayon/position-first": {
+  "symbol": "rust:rayon::iter::IndexedParallelIterator::position_first",
+  "aliases": [
+   "sym:src/iter/mod.rs:IndexedParallelIterator.position_first"
+  ]
+ },
+ "rayon/with-min-len": {
+  "symbol": "rust:rayon::iter::IndexedParallelIterator::with_min_len",
+  "aliases": [
+   "sym:src/iter/mod.rs:IndexedParallelIterator.with_min_len"
+  ]
+ },
+ "rayon/collect-into-vec": {
+  "symbol": "rust:rayon::iter::IndexedParallelIterator::collect_into_vec",
+  "aliases": [
+   "sym:src/iter/mod.rs:IndexedParallelIterator.collect_into_vec"
+  ]
+ },
+ "rayon/rev": {
+  "symbol": "rust:rayon::iter::IndexedParallelIterator::rev",
+  "aliases": [
+   "sym:src/iter/mod.rs:IndexedParallelIterator.rev"
+  ]
+ },
+ "rayon/par-sort": {
+  "symbol": "rust:rayon::slice::ParallelSliceMut::par_sort",
+  "aliases": [
+   "sym:src/slice/mod.rs:ParallelSliceMut.par_sort"
+  ]
+ },
+ "rayon/par-sort-unstable": {
+  "symbol": "rust:rayon::slice::ParallelSliceMut::par_sort_unstable",
+  "aliases": [
+   "sym:src/slice/mod.rs:ParallelSliceMut.par_sort_unstable"
+  ]
+ },
+ "rayon/par-sort-by-key": {
+  "symbol": "rust:rayon::slice::ParallelSliceMut::par_sort_by_key",
+  "aliases": [
+   "sym:src/slice/mod.rs:ParallelSliceMut.par_sort_by_key"
+  ]
+ },
+ "rayon/par-chunks": {
+  "symbol": "rust:rayon::slice::ParallelSlice::par_chunks",
+  "aliases": [
+   "sym:src/slice/mod.rs:ParallelSlice.par_chunks"
+  ]
+ },
+ "rayon/par-chunks-mut": {
+  "symbol": "rust:rayon::slice::ParallelSliceMut::par_chunks_mut",
+  "aliases": [
+   "sym:src/slice/mod.rs:ParallelSliceMut.par_chunks_mut"
+  ]
+ },
+ "rayon/par-windows": {
+  "symbol": "rust:rayon::slice::ParallelSlice::par_windows",
+  "aliases": [
+   "sym:src/slice/mod.rs:ParallelSlice.par_windows"
+  ]
+ },
+ "rayon/par-lines": {
+  "symbol": "rust:rayon::str::ParallelString::par_lines",
+  "aliases": [
+   "sym:src/str.rs:ParallelString.par_lines"
+  ]
+ },
+ "rayon/par-split-whitespace": {
+  "symbol": "rust:rayon::str::ParallelString::par_split_whitespace",
+  "aliases": [
+   "sym:src/str.rs:ParallelString.par_split_whitespace"
+  ]
+ },
+ "rayon/par-extend": {
+  "symbol": "rust:rayon::iter::extend::Vec::par_extend",
+  "aliases": [
+   "rust:rayon::iter::extend::par_extend",
+   "sym:src/iter/extend.rs:Vec.par_extend",
+   "sym:src/iter/extend.rs:par_extend"
+  ]
+ },
+ "rayon-core/join": {
+  "symbol": "rust:rayon_core::join::join",
+  "aliases": [
+   "sym:src/join/mod.rs:join"
+  ]
+ },
+ "rayon-core/scope": {
+  "symbol": "rust:rayon_core::scope::scope",
+  "aliases": [
+   "sym:src/scope/mod.rs:scope"
+  ]
+ },
+ "rayon-core/current-num-threads": {
+  "symbol": "rust:rayon_core::current_num_threads",
+  "aliases": [
+   "sym:src/lib.rs:current_num_threads"
+  ]
+ },
+ "rayon-core/pool-builder-num-threads": {
+  "symbol": "rust:rayon_core::ThreadPoolBuilder::num_threads",
+  "aliases": [
+   "sym:src/lib.rs:ThreadPoolBuilder.num_threads"
+  ]
+ },
+ "rayon-core/pool-install": {
+  "symbol": "rust:rayon_core::thread_pool::ThreadPool::install",
+  "aliases": [
+   "sym:src/thread_pool/mod.rs:ThreadPool.install"
+  ]
+ },
+ "rayon-core/spawn": {
+  "symbol": "rust:rayon_core::spawn::spawn",
+  "aliases": [
+   "sym:src/spawn/mod.rs:spawn"
+  ]
+ },
+ "clap_builder/parser-parse": {
+  "symbol": "rust:clap_builder::derive::Parser::parse",
+  "aliases": [
+   "sym:src/derive.rs:Parser.parse"
+  ]
+ },
+ "clap_builder/parser-parse-from": {
+  "symbol": "rust:clap_builder::derive::Parser::parse_from",
+  "aliases": [
+   "sym:src/derive.rs:Parser.parse_from"
+  ]
+ },
+ "clap_builder/parser-try-parse-from": {
+  "symbol": "rust:clap_builder::derive::Parser::try_parse_from",
+  "aliases": [
+   "sym:src/derive.rs:Parser.try_parse_from"
+  ]
+ },
+ "clap_builder/parser-try-parse": {
+  "symbol": "rust:clap_builder::derive::Parser::try_parse",
+  "aliases": [
+   "sym:src/derive.rs:Parser.try_parse"
+  ]
+ },
+ "clap_builder/command-new": {
+  "symbol": "rust:clap_builder::builder::command::Command::new",
+  "aliases": [
+   "rust:clap_builder::builder::command::new",
+   "sym:src/builder/command.rs:Command.new",
+   "sym:src/builder/command.rs:new"
+  ]
+ },
+ "clap_builder/command-arg": {
+  "symbol": "rust:clap_builder::builder::command::Command::arg",
+  "aliases": [
+   "rust:clap_builder::builder::command::arg",
+   "sym:src/builder/command.rs:Command.arg",
+   "sym:src/builder/command.rs:arg"
+  ]
+ },
+ "clap_builder/command-args": {
+  "symbol": "rust:clap_builder::builder::command::Command::args",
+  "aliases": [
+   "rust:clap_builder::builder::command::args",
+   "sym:src/builder/command.rs:Command.args",
+   "sym:src/builder/command.rs:args"
+  ]
+ },
+ "clap_builder/command-about": {
+  "symbol": "rust:clap_builder::builder::command::Command::about",
+  "aliases": [
+   "rust:clap_builder::builder::command::about",
+   "sym:src/builder/command.rs:Command.about",
+   "sym:src/builder/command.rs:about"
+  ]
+ },
+ "clap_builder/command-version": {
+  "symbol": "rust:clap_builder::builder::command::Command::version",
+  "aliases": [
+   "rust:clap_builder::builder::command::version",
+   "sym:src/builder/command.rs:Command.version",
+   "sym:src/builder/command.rs:version"
+  ]
+ },
+ "clap_builder/command-subcommand": {
+  "symbol": "rust:clap_builder::builder::command::Command::subcommand",
+  "aliases": [
+   "rust:clap_builder::builder::command::subcommand",
+   "sym:src/builder/command.rs:Command.subcommand",
+   "sym:src/builder/command.rs:subcommand"
+  ]
+ },
+ "clap_builder/command-get-matches-from": {
+  "symbol": "rust:clap_builder::builder::command::Command::get_matches_from",
+  "aliases": [
+   "rust:clap_builder::builder::command::get_matches_from",
+   "sym:src/builder/command.rs:Command.get_matches_from",
+   "sym:src/builder/command.rs:get_matches_from"
+  ]
+ },
+ "clap_builder/command-try-get-matches-from": {
+  "symbol": "rust:clap_builder::builder::command::Command::try_get_matches_from",
+  "aliases": [
+   "rust:clap_builder::builder::command::try_get_matches_from",
+   "sym:src/builder/command.rs:Command.try_get_matches_from",
+   "sym:src/builder/command.rs:try_get_matches_from"
+  ]
+ },
+ "clap_builder/command-arg-required-else-help": {
+  "symbol": "rust:clap_builder::builder::command::Command::arg_required_else_help",
+  "aliases": [
+   "rust:clap_builder::builder::command::arg_required_else_help",
+   "sym:src/builder/command.rs:Command.arg_required_else_help",
+   "sym:src/builder/command.rs:arg_required_else_help"
+  ]
+ },
+ "clap_builder/command-subcommand-required": {
+  "symbol": "rust:clap_builder::builder::command::Command::subcommand_required",
+  "aliases": [
+   "rust:clap_builder::builder::command::subcommand_required",
+   "sym:src/builder/command.rs:Command.subcommand_required",
+   "sym:src/builder/command.rs:subcommand_required"
+  ]
+ },
+ "clap_builder/command-render-help": {
+  "symbol": "rust:clap_builder::builder::command::Command::render_help",
+  "aliases": [
+   "rust:clap_builder::builder::command::render_help",
+   "sym:src/builder/command.rs:Command.render_help",
+   "sym:src/builder/command.rs:render_help"
+  ]
+ },
+ "clap_builder/command-get-name": {
+  "symbol": "rust:clap_builder::builder::command::Command::get_name",
+  "aliases": [
+   "rust:clap_builder::builder::command::get_name",
+   "sym:src/builder/command.rs:Command.get_name",
+   "sym:src/builder/command.rs:get_name"
+  ]
+ },
+ "clap_builder/arg-new": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::new",
+  "aliases": [
+   "rust:clap_builder::builder::arg::new",
+   "sym:src/builder/arg.rs:Arg.new",
+   "sym:src/builder/arg.rs:new"
+  ]
+ },
+ "clap_builder/arg-short": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::short",
+  "aliases": [
+   "rust:clap_builder::builder::arg::short",
+   "sym:src/builder/arg.rs:Arg.short",
+   "sym:src/builder/arg.rs:short"
+  ]
+ },
+ "clap_builder/arg-long": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::long",
+  "aliases": [
+   "rust:clap_builder::builder::arg::long",
+   "sym:src/builder/arg.rs:Arg.long",
+   "sym:src/builder/arg.rs:long"
+  ]
+ },
+ "clap_builder/arg-help": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::help",
+  "aliases": [
+   "rust:clap_builder::builder::arg::help",
+   "sym:src/builder/arg.rs:Arg.help",
+   "sym:src/builder/arg.rs:help"
+  ]
+ },
+ "clap_builder/arg-required": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::required",
+  "aliases": [
+   "rust:clap_builder::builder::arg::required",
+   "sym:src/builder/arg.rs:Arg.required",
+   "sym:src/builder/arg.rs:required"
+  ]
+ },
+ "clap_builder/arg-default-value": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::default_value",
+  "aliases": [
+   "rust:clap_builder::builder::arg::default_value",
+   "sym:src/builder/arg.rs:Arg.default_value",
+   "sym:src/builder/arg.rs:default_value"
+  ]
+ },
+ "clap_builder/arg-action": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::action",
+  "aliases": [
+   "rust:clap_builder::builder::arg::action",
+   "sym:src/builder/arg.rs:Arg.action",
+   "sym:src/builder/arg.rs:action"
+  ]
+ },
+ "clap_builder/arg-value-parser": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::value_parser",
+  "aliases": [
+   "rust:clap_builder::builder::arg::value_parser",
+   "sym:src/builder/arg.rs:Arg.value_parser",
+   "sym:src/builder/arg.rs:value_parser"
+  ]
+ },
+ "clap_builder/arg-num-args": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::num_args",
+  "aliases": [
+   "rust:clap_builder::builder::arg::num_args",
+   "sym:src/builder/arg.rs:Arg.num_args",
+   "sym:src/builder/arg.rs:num_args"
+  ]
+ },
+ "clap_builder/arg-value-name": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::value_name",
+  "aliases": [
+   "rust:clap_builder::builder::arg::value_name",
+   "sym:src/builder/arg.rs:Arg.value_name",
+   "sym:src/builder/arg.rs:value_name"
+  ]
+ },
+ "clap_builder/arg-conflicts-with": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::conflicts_with",
+  "aliases": [
+   "rust:clap_builder::builder::arg::conflicts_with",
+   "sym:src/builder/arg.rs:Arg.conflicts_with",
+   "sym:src/builder/arg.rs:conflicts_with"
+  ]
+ },
+ "clap_builder/arg-requires": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::requires",
+  "aliases": [
+   "rust:clap_builder::builder::arg::requires",
+   "sym:src/builder/arg.rs:Arg.requires",
+   "sym:src/builder/arg.rs:requires"
+  ]
+ },
+ "clap_builder/arg-env": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::env",
+  "aliases": [
+   "rust:clap_builder::builder::arg::env",
+   "sym:src/builder/arg.rs:Arg.env",
+   "sym:src/builder/arg.rs:env"
+  ]
+ },
+ "clap_builder/arg-alias": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::alias",
+  "aliases": [
+   "rust:clap_builder::builder::arg::alias",
+   "sym:src/builder/arg.rs:Arg.alias",
+   "sym:src/builder/arg.rs:alias"
+  ]
+ },
+ "clap_builder/arg-global": {
+  "symbol": "rust:clap_builder::builder::arg::Arg::global",
+  "aliases": [
+   "rust:clap_builder::builder::arg::global",
+   "sym:src/builder/arg.rs:Arg.global",
+   "sym:src/builder/arg.rs:global"
+  ]
+ },
+ "clap_builder/arggroup-new": {
+  "symbol": "rust:clap_builder::builder::arg_group::ArgGroup::new",
+  "aliases": [
+   "rust:clap_builder::builder::arg_group::new",
+   "sym:src/builder/arg_group.rs:ArgGroup.new",
+   "sym:src/builder/arg_group.rs:new"
+  ]
+ },
+ "clap_builder/matches-get-one": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::get_one",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::get_one",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.get_one",
+   "sym:src/parser/matches/arg_matches.rs:get_one"
+  ]
+ },
+ "clap_builder/matches-get-flag": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::get_flag",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::get_flag",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.get_flag",
+   "sym:src/parser/matches/arg_matches.rs:get_flag"
+  ]
+ },
+ "clap_builder/matches-get-many": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::get_many",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::get_many",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.get_many",
+   "sym:src/parser/matches/arg_matches.rs:get_many"
+  ]
+ },
+ "clap_builder/matches-get-count": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::get_count",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::get_count",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.get_count",
+   "sym:src/parser/matches/arg_matches.rs:get_count"
+  ]
+ },
+ "clap_builder/matches-contains-id": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::contains_id",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::contains_id",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.contains_id",
+   "sym:src/parser/matches/arg_matches.rs:contains_id"
+  ]
+ },
+ "clap_builder/matches-subcommand": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::subcommand",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::subcommand",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.subcommand",
+   "sym:src/parser/matches/arg_matches.rs:subcommand"
+  ]
+ },
+ "clap_builder/matches-subcommand-name": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::subcommand_name",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::subcommand_name",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.subcommand_name",
+   "sym:src/parser/matches/arg_matches.rs:subcommand_name"
+  ]
+ },
+ "clap_builder/matches-subcommand-matches": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::subcommand_matches",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::subcommand_matches",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.subcommand_matches",
+   "sym:src/parser/matches/arg_matches.rs:subcommand_matches"
+  ]
+ },
+ "clap_builder/matches-value-source": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::value_source",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::value_source",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.value_source",
+   "sym:src/parser/matches/arg_matches.rs:value_source"
+  ]
+ },
+ "clap_builder/matches-remove-one": {
+  "symbol": "rust:clap_builder::parser::matches::arg_matches::ArgMatches::remove_one",
+  "aliases": [
+   "rust:clap_builder::parser::matches::arg_matches::remove_one",
+   "sym:src/parser/matches/arg_matches.rs:ArgMatches.remove_one",
+   "sym:src/parser/matches/arg_matches.rs:remove_one"
+  ]
+ },
+ "clap_builder/error-kind": {
+  "symbol": "rust:clap_builder::error::Error::kind",
+  "aliases": [
+   "sym:src/error/mod.rs:Error.kind"
+  ]
+ },
+ "clap_builder/error-render": {
+  "symbol": "rust:clap_builder::error::Error::render",
+  "aliases": [
+   "sym:src/error/mod.rs:Error.render"
+  ]
+ },
+ "clap_builder/error-exit-code": {
+  "symbol": "rust:clap_builder::error::Error::exit_code",
+  "aliases": [
+   "sym:src/error/mod.rs:Error.exit_code"
+  ]
+ },
+ "bytes/bytes-from-static": {
+  "symbol": "rust:bytes::bytes::Bytes::from_static",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.from_static"
+  ]
+ },
+ "bytes/bytes-new": {
+  "symbol": "rust:bytes::bytes::Bytes::new",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.new"
+  ]
+ },
+ "bytes/bytes-copy-from-slice": {
+  "symbol": "rust:bytes::bytes::Bytes::copy_from_slice",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.copy_from_slice"
+  ]
+ },
+ "bytes/bytes-slice": {
+  "symbol": "rust:bytes::bytes::Bytes::slice",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.slice"
+  ]
+ },
+ "bytes/bytes-split-to": {
+  "symbol": "rust:bytes::bytes::Bytes::split_to",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.split_to"
+  ]
+ },
+ "bytes/bytes-split-off": {
+  "symbol": "rust:bytes::bytes::Bytes::split_off",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.split_off"
+  ]
+ },
+ "bytes/bytes-truncate": {
+  "symbol": "rust:bytes::bytes::Bytes::truncate",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.truncate"
+  ]
+ },
+ "bytes/bytes-len": {
+  "symbol": "rust:bytes::bytes::Bytes::len",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.len"
+  ]
+ },
+ "bytes/bytes-slice-ref": {
+  "symbol": "rust:bytes::bytes::Bytes::slice_ref",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.slice_ref"
+  ]
+ },
+ "bytes/bytes-try-into-mut": {
+  "symbol": "rust:bytes::bytes::Bytes::try_into_mut",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.try_into_mut"
+  ]
+ },
+ "bytes/bytesmut-with-capacity": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::with_capacity",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.with_capacity"
+  ]
+ },
+ "bytes/bytesmut-extend-from-slice": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::extend_from_slice",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.extend_from_slice"
+  ]
+ },
+ "bytes/bytesmut-freeze": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::freeze",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.freeze"
+  ]
+ },
+ "bytes/bytesmut-split-to": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::split_to",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.split_to"
+  ]
+ },
+ "bytes/bytesmut-split": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::split",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.split"
+  ]
+ },
+ "bytes/bytesmut-reserve": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::reserve",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.reserve"
+  ]
+ },
+ "bytes/bytesmut-resize": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::resize",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.resize"
+  ]
+ },
+ "bytes/bytesmut-unsplit": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::unsplit",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.unsplit"
+  ]
+ },
+ "bytes/bytesmut-truncate": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::truncate",
+  "aliases": [
+   "sym:src/bytes_mut.rs:BytesMut.truncate"
+  ]
+ },
+ "bytes/buf-get-u8": {
+  "symbol": "rust:bytes::buf::buf_impl::Buf::get_u8",
+  "aliases": [
+   "sym:src/buf/buf_impl.rs:Buf.get_u8"
+  ]
+ },
+ "bytes/buf-get-u16": {
+  "symbol": "rust:bytes::buf::buf_impl::Buf::get_u16",
+  "aliases": [
+   "sym:src/buf/buf_impl.rs:Buf.get_u16"
+  ]
+ },
+ "bytes/buf-get-u32-le": {
+  "symbol": "rust:bytes::buf::buf_impl::Buf::get_u32_le",
+  "aliases": [
+   "sym:src/buf/buf_impl.rs:Buf.get_u32_le"
+  ]
+ },
+ "bytes/buf-remaining": {
+  "symbol": "rust:bytes::bytes::Bytes::remaining",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.remaining"
+  ]
+ },
+ "bytes/buf-advance": {
+  "symbol": "rust:bytes::bytes::Bytes::advance",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.advance"
+  ]
+ },
+ "bytes/buf-copy-to-bytes": {
+  "symbol": "rust:bytes::bytes::Bytes::copy_to_bytes",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.copy_to_bytes"
+  ]
+ },
+ "bytes/buf-chunk": {
+  "symbol": "rust:bytes::bytes::Bytes::chunk",
+  "aliases": [
+   "sym:src/bytes.rs:Bytes.chunk"
+  ]
+ },
+ "bytes/buf-try-get-u16": {
+  "symbol": "rust:bytes::buf::buf_impl::Buf::try_get_u16",
+  "aliases": [
+   "sym:src/buf/buf_impl.rs:Buf.try_get_u16"
+  ]
+ },
+ "bytes/buf-take": {
+  "symbol": "rust:bytes::buf::buf_impl::Buf::take",
+  "aliases": [
+   "sym:src/buf/buf_impl.rs:Buf.take"
+  ]
+ },
+ "bytes/bufmut-put-u8": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::put_u8",
+  "aliases": [
+   "rust:bytes::bytes_mut::put_u8",
+   "rust:bytes::buf::buf_mut::BufMut::put_u8",
+   "sym:src/bytes_mut.rs:BytesMut.put_u8",
+   "sym:src/bytes_mut.rs:put_u8",
+   "sym:src/buf/buf_mut.rs:BufMut.put_u8"
+  ]
+ },
+ "bytes/bufmut-put-u16": {
+  "symbol": "rust:bytes::buf::buf_mut::BufMut::put_u16",
+  "aliases": [
+   "sym:src/buf/buf_mut.rs:BufMut.put_u16"
+  ]
+ },
+ "bytes/bufmut-put-slice": {
+  "symbol": "rust:bytes::bytes_mut::BytesMut::put_slice",
+  "aliases": [
+   "rust:bytes::bytes_mut::put_slice",
+   "sym:src/bytes_mut.rs:BytesMut.put_slice",
+   "sym:src/bytes_mut.rs:put_slice"
+  ]
+ },
+ "bytes/bufmut-put-f64-le": {
+  "symbol": "rust:bytes::buf::buf_mut::BufMut::put_f64_le",
+  "aliases": [
+   "sym:src/buf/buf_mut.rs:BufMut.put_f64_le"
+  ]
+ },
+ "bytes/bufmut-put-bytes": {
+  "symbol": "rust:bytes::buf::buf_mut::Vec::put_bytes",
+  "aliases": [
+   "rust:bytes::buf::buf_mut::put_bytes",
+   "sym:src/buf/buf_mut.rs:Vec.put_bytes",
+   "sym:src/buf/buf_mut.rs:put_bytes"
+  ]
+ },
+ "bytes/bufmut-remaining-mut": {
+  "symbol": "rust:bytes::buf::buf_mut::BufMut::remaining_mut",
+  "aliases": [
+   "rust:bytes::buf::buf_mut::remaining_mut",
+   "sym:src/buf/buf_mut.rs:BufMut.remaining_mut",
+   "sym:src/buf/buf_mut.rs:remaining_mut"
+  ]
+ },
+ "byteorder/read-u16-be": {
+  "symbol": "rust:byteorder::BigEndian::read_u16",
+  "aliases": [
+   "sym:src/lib.rs:BigEndian.read_u16"
+  ]
+ },
+ "byteorder/read-u32-le": {
+  "symbol": "rust:byteorder::LittleEndian::read_u32",
+  "aliases": [
+   "sym:src/lib.rs:LittleEndian.read_u32"
+  ]
+ },
+ "byteorder/write-u16-be": {
+  "symbol": "rust:byteorder::BigEndian::write_u16",
+  "aliases": [
+   "sym:src/lib.rs:BigEndian.write_u16"
+  ]
+ },
+ "byteorder/read-i32-be": {
+  "symbol": "rust:byteorder::ByteOrder::read_i32",
+  "aliases": [
+   "sym:src/lib.rs:ByteOrder.read_i32"
+  ]
+ },
+ "byteorder/read-u16-ext": {
+  "symbol": "rust:byteorder::io::ReadBytesExt::read_u16",
+  "aliases": [
+   "sym:src/io.rs:ReadBytesExt.read_u16"
+  ]
+ },
+ "byteorder/read-u8-ext": {
+  "symbol": "rust:byteorder::io::ReadBytesExt::read_u8",
+  "aliases": [
+   "sym:src/io.rs:ReadBytesExt.read_u8"
+  ]
+ },
+ "byteorder/read-f32-ext": {
+  "symbol": "rust:byteorder::io::ReadBytesExt::read_f32",
+  "aliases": [
+   "sym:src/io.rs:ReadBytesExt.read_f32"
+  ]
+ },
+ "byteorder/write-u32-ext": {
+  "symbol": "rust:byteorder::io::WriteBytesExt::write_u32",
+  "aliases": [
+   "sym:src/io.rs:WriteBytesExt.write_u32"
+  ]
+ },
+ "byteorder/write-u8-ext": {
+  "symbol": "rust:byteorder::io::WriteBytesExt::write_u8",
+  "aliases": [
+   "sym:src/io.rs:WriteBytesExt.write_u8"
+  ]
+ },
+ "byteorder/write-i16-ext": {
+  "symbol": "rust:byteorder::io::WriteBytesExt::write_i16",
+  "aliases": [
+   "sym:src/io.rs:WriteBytesExt.write_i16"
+  ]
+ },
+ "indexmap/map-new": {
+  "symbol": "rust:indexmap::map::IndexMap::new",
+  "aliases": [
+   "rust:indexmap::map::new",
+   "sym:src/map.rs:IndexMap.new",
+   "sym:src/map.rs:new"
+  ]
+ },
+ "indexmap/map-get": {
+  "symbol": "rust:indexmap::map::IndexMap::get",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.get"
+  ]
+ },
+ "indexmap/map-get-mut": {
+  "symbol": "rust:indexmap::map::IndexMap::get_mut",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.get_mut"
+  ]
+ },
+ "indexmap/map-contains-key": {
+  "symbol": "rust:indexmap::map::IndexMap::contains_key",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.contains_key"
+  ]
+ },
+ "indexmap/map-entry": {
+  "symbol": "rust:indexmap::map::IndexMap::entry",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.entry"
+  ]
+ },
+ "indexmap/map-iter": {
+  "symbol": "rust:indexmap::map::IndexMap::iter",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.iter"
+  ]
+ },
+ "indexmap/map-keys": {
+  "symbol": "rust:indexmap::map::IndexMap::keys",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.keys"
+  ]
+ },
+ "indexmap/map-values": {
+  "symbol": "rust:indexmap::map::IndexMap::values",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.values"
+  ]
+ },
+ "indexmap/map-len": {
+  "symbol": "rust:indexmap::map::IndexMap::len",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.len"
+  ]
+ },
+ "indexmap/map-first": {
+  "symbol": "rust:indexmap::map::IndexMap::first",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.first"
+  ]
+ },
+ "indexmap/map-last": {
+  "symbol": "rust:indexmap::map::IndexMap::last",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.last"
+  ]
+ },
+ "indexmap/map-pop": {
+  "symbol": "rust:indexmap::map::IndexMap::pop",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.pop"
+  ]
+ },
+ "indexmap/map-retain": {
+  "symbol": "rust:indexmap::map::IndexMap::retain",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.retain"
+  ]
+ },
+ "indexmap/map-sort-by": {
+  "symbol": "rust:indexmap::map::IndexMap::sort_by",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.sort_by"
+  ]
+ },
+ "indexmap/map-sort-unstable-keys": {
+  "symbol": "rust:indexmap::map::IndexMap::sort_unstable_keys",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.sort_unstable_keys"
+  ]
+ },
+ "indexmap/map-sorted-by": {
+  "symbol": "rust:indexmap::map::IndexMap::sorted_by",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.sorted_by"
+  ]
+ },
+ "indexmap/map-reverse": {
+  "symbol": "rust:indexmap::map::IndexMap::reverse",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.reverse"
+  ]
+ },
+ "indexmap/map-get-full": {
+  "symbol": "rust:indexmap::map::IndexMap::get_full",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.get_full"
+  ]
+ },
+ "indexmap/map-insert-full": {
+  "symbol": "rust:indexmap::map::IndexMap::insert_full",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.insert_full"
+  ]
+ },
+ "indexmap/map-shift-insert": {
+  "symbol": "rust:indexmap::map::IndexMap::shift_insert",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.shift_insert"
+  ]
+ },
+ "indexmap/map-move-index": {
+  "symbol": "rust:indexmap::map::IndexMap::move_index",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.move_index"
+  ]
+ },
+ "indexmap/map-swap-indices": {
+  "symbol": "rust:indexmap::map::IndexMap::swap_indices",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.swap_indices"
+  ]
+ },
+ "indexmap/map-shift-remove-index": {
+  "symbol": "rust:indexmap::map::IndexMap::shift_remove_index",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.shift_remove_index"
+  ]
+ },
+ "indexmap/map-swap-remove-index": {
+  "symbol": "rust:indexmap::map::IndexMap::swap_remove_index",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.swap_remove_index"
+  ]
+ },
+ "indexmap/map-truncate": {
+  "symbol": "rust:indexmap::map::IndexMap::truncate",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.truncate"
+  ]
+ },
+ "indexmap/map-split-off": {
+  "symbol": "rust:indexmap::map::IndexMap::split_off",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.split_off"
+  ]
+ },
+ "indexmap/map-drain": {
+  "symbol": "rust:indexmap::map::IndexMap::drain",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.drain"
+  ]
+ },
+ "indexmap/map-get-index-mut": {
+  "symbol": "rust:indexmap::map::IndexMap::get_index_mut",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.get_index_mut"
+  ]
+ },
+ "indexmap/map-binary-search-keys": {
+  "symbol": "rust:indexmap::map::IndexMap::binary_search_keys",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.binary_search_keys"
+  ]
+ },
+ "indexmap/map-append": {
+  "symbol": "rust:indexmap::map::IndexMap::append",
+  "aliases": [
+   "sym:src/map.rs:IndexMap.append"
+  ]
+ },
+ "indexmap/set-contains": {
+  "symbol": "rust:indexmap::set::IndexSet::contains",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.contains"
+  ]
+ },
+ "indexmap/set-get-index-of": {
+  "symbol": "rust:indexmap::set::IndexSet::get_index_of",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.get_index_of"
+  ]
+ },
+ "indexmap/set-get-index": {
+  "symbol": "rust:indexmap::set::IndexSet::get_index",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.get_index"
+  ]
+ },
+ "indexmap/set-shift-remove": {
+  "symbol": "rust:indexmap::set::IndexSet::shift_remove",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.shift_remove"
+  ]
+ },
+ "indexmap/set-sort": {
+  "symbol": "rust:indexmap::set::IndexSet::sort",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.sort"
+  ]
+ },
+ "indexmap/set-union": {
+  "symbol": "rust:indexmap::set::IndexSet::union",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.union"
+  ]
+ },
+ "indexmap/set-intersection": {
+  "symbol": "rust:indexmap::set::IndexSet::intersection",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.intersection"
+  ]
+ },
+ "indexmap/set-insert-full": {
+  "symbol": "rust:indexmap::set::IndexSet::insert_full",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.insert_full"
+  ]
+ },
+ "indexmap/set-first": {
+  "symbol": "rust:indexmap::set::IndexSet::first",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.first"
+  ]
+ },
+ "indexmap/set-pop": {
+  "symbol": "rust:indexmap::set::IndexSet::pop",
+  "aliases": [
+   "sym:src/set.rs:IndexSet.pop"
+  ]
+ },
+ "smallvec/new": {
+  "symbol": "rust:smallvec::SmallVec::new",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.new"
+  ]
+ },
+ "smallvec/push": {
+  "symbol": "rust:smallvec::SmallVec::push",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.push"
+  ]
+ },
+ "smallvec/spilled": {
+  "symbol": "rust:smallvec::SmallVec::spilled",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.spilled"
+  ]
+ },
+ "smallvec/inline-size": {
+  "symbol": "rust:smallvec::SmallVec::inline_size",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.inline_size"
+  ]
+ },
+ "smallvec/from-vec": {
+  "symbol": "rust:smallvec::SmallVec::from_vec",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.from_vec"
+  ]
+ },
+ "smallvec/from-slice": {
+  "symbol": "rust:smallvec::SmallVec::from_slice",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.from_slice"
+  ]
+ },
+ "smallvec/into-vec": {
+  "symbol": "rust:smallvec::SmallVec::into_vec",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.into_vec"
+  ]
+ },
+ "smallvec/insert": {
+  "symbol": "rust:smallvec::SmallVec::insert",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.insert"
+  ]
+ },
+ "smallvec/extend-from-slice": {
+  "symbol": "rust:smallvec::SmallVec::extend_from_slice",
+  "aliases": [
+   "rust:smallvec::extend_from_slice",
+   "sym:src/lib.rs:SmallVec.extend_from_slice",
+   "sym:src/lib.rs:extend_from_slice"
+  ]
+ },
+ "smallvec/retain": {
+  "symbol": "rust:smallvec::SmallVec::retain",
+  "aliases": [
+   "sym:src/lib.rs:SmallVec.retain"
+  ]
+ },
+ "smallvec/to-smallvec": {
+  "symbol": "rust:smallvec::ToSmallVec::to_smallvec",
+  "aliases": [
+   "sym:src/lib.rs:ToSmallVec.to_smallvec"
+  ]
+ },
+ "once_cell/sync-lazy-new": {
+  "symbol": "rust:once_cell::sync::Lazy::new",
+  "aliases": [
+   "sym:src/lib.rs:sync.Lazy.new"
+  ]
+ },
+ "once_cell/sync-lazy-force": {
+  "symbol": "rust:once_cell::sync::Lazy::force",
+  "aliases": [
+   "rust:once_cell::sync::T::force",
+   "sym:src/lib.rs:sync.Lazy.force",
+   "sym:src/lib.rs:sync.T.force"
+  ]
+ },
+ "once_cell/sync-lazy-get": {
+  "symbol": "rust:once_cell::sync::Lazy::get",
+  "aliases": [
+   "rust:once_cell::sync::T::get",
+   "sym:src/lib.rs:sync.Lazy.get",
+   "sym:src/lib.rs:sync.T.get"
+  ]
+ },
+ "once_cell/sync-oncecell-get-or-init": {
+  "symbol": "rust:once_cell::sync::OnceCell::get_or_init",
+  "aliases": [
+   "sym:src/lib.rs:sync.OnceCell.get_or_init"
+  ]
+ },
+ "once_cell/sync-oncecell-set": {
+  "symbol": "rust:once_cell::sync::OnceCell::set",
+  "aliases": [
+   "sym:src/lib.rs:sync.OnceCell.set"
+  ]
+ },
+ "once_cell/sync-oncecell-get": {
+  "symbol": "rust:once_cell::sync::OnceCell::get",
+  "aliases": [
+   "sym:src/lib.rs:sync.OnceCell.get"
+  ]
+ },
+ "once_cell/sync-oncecell-get-or-try-init": {
+  "symbol": "rust:once_cell::sync::OnceCell::get_or_try_init",
+  "aliases": [
+   "sym:src/lib.rs:sync.OnceCell.get_or_try_init"
+  ]
+ },
+ "once_cell/sync-oncecell-take": {
+  "symbol": "rust:once_cell::sync::OnceCell::take",
+  "aliases": [
+   "sym:src/lib.rs:sync.OnceCell.take"
+  ]
+ },
+ "once_cell/unsync-oncecell-get-or-init": {
+  "symbol": "rust:once_cell::unsync::OnceCell::get_or_init",
+  "aliases": [
+   "sym:src/lib.rs:unsync.OnceCell.get_or_init"
+  ]
+ },
+ "once_cell/unsync-lazy-new": {
+  "symbol": "rust:once_cell::unsync::Lazy::new",
+  "aliases": [
+   "sym:src/lib.rs:unsync.Lazy.new"
+  ]
+ },
+ "lock_api/mutex-new": {
+  "symbol": "rust:lock_api::mutex::Mutex::new",
+  "aliases": [
+   "sym:src/mutex.rs:Mutex.new"
+  ]
+ },
+ "lock_api/mutex-lock": {
+  "symbol": "rust:lock_api::mutex::Mutex::lock",
+  "aliases": [
+   "sym:src/mutex.rs:Mutex.lock"
+  ]
+ },
+ "lock_api/mutex-try-lock": {
+  "symbol": "rust:lock_api::mutex::Mutex::try_lock",
+  "aliases": [
+   "sym:src/mutex.rs:Mutex.try_lock"
+  ]
+ },
+ "lock_api/mutex-try-lock-for": {
+  "symbol": "rust:lock_api::mutex::Mutex::try_lock_for",
+  "aliases": [
+   "sym:src/mutex.rs:Mutex.try_lock_for"
+  ]
+ },
+ "lock_api/mutex-into-inner": {
+  "symbol": "rust:lock_api::mutex::Mutex::into_inner",
+  "aliases": [
+   "sym:src/mutex.rs:Mutex.into_inner"
+  ]
+ },
+ "lock_api/mutex-get-mut": {
+  "symbol": "rust:lock_api::mutex::Mutex::get_mut",
+  "aliases": [
+   "sym:src/mutex.rs:Mutex.get_mut"
+  ]
+ },
+ "lock_api/mutex-guard-map": {
+  "symbol": "rust:lock_api::mutex::MutexGuard::map",
+  "aliases": [
+   "sym:src/mutex.rs:MutexGuard.map"
+  ]
+ },
+ "lock_api/rwlock-read": {
+  "symbol": "rust:lock_api::rwlock::RwLock::read",
+  "aliases": [
+   "sym:src/rwlock.rs:RwLock.read"
+  ]
+ },
+ "lock_api/rwlock-write": {
+  "symbol": "rust:lock_api::rwlock::RwLock::write",
+  "aliases": [
+   "sym:src/rwlock.rs:RwLock.write"
+  ]
+ },
+ "lock_api/rwlock-upgradable-read": {
+  "symbol": "rust:lock_api::rwlock::RwLock::upgradable_read",
+  "aliases": [
+   "sym:src/rwlock.rs:RwLock.upgradable_read"
+  ]
+ },
+ "lock_api/rwlock-try-write": {
+  "symbol": "rust:lock_api::rwlock::RwLock::try_write",
+  "aliases": [
+   "sym:src/rwlock.rs:RwLock.try_write"
+  ]
+ },
+ "lock_api/rwlock-write-guard-downgrade": {
+  "symbol": "rust:lock_api::rwlock::RwLockWriteGuard::downgrade",
+  "aliases": [
+   "sym:src/rwlock.rs:RwLockWriteGuard.downgrade"
+  ]
+ },
+ "parking_lot/once-call-once": {
+  "symbol": "rust:parking_lot::once::Once::call_once",
+  "aliases": [
+   "sym:src/once.rs:Once.call_once"
+  ]
+ },
+ "crossbeam-channel/unbounded": {
+  "symbol": "rust:crossbeam_channel::channel::unbounded",
+  "aliases": [
+   "sym:src/channel.rs:unbounded"
+  ]
+ },
+ "crossbeam-channel/bounded": {
+  "symbol": "rust:crossbeam_channel::channel::bounded",
+  "aliases": [
+   "sym:src/channel.rs:bounded"
+  ]
+ },
+ "crossbeam-channel/send": {
+  "symbol": "rust:crossbeam_channel::channel::Sender::send",
+  "aliases": [
+   "sym:src/channel.rs:Sender.send"
+  ]
+ },
+ "crossbeam-channel/recv": {
+  "symbol": "rust:crossbeam_channel::channel::Receiver::recv",
+  "aliases": [
+   "sym:src/channel.rs:Receiver.recv"
+  ]
+ },
+ "crossbeam-channel/try-recv": {
+  "symbol": "rust:crossbeam_channel::channel::Receiver::try_recv",
+  "aliases": [
+   "sym:src/channel.rs:Receiver.try_recv"
+  ]
+ },
+ "crossbeam-channel/recv-timeout": {
+  "symbol": "rust:crossbeam_channel::channel::Receiver::recv_timeout",
+  "aliases": [
+   "sym:src/channel.rs:Receiver.recv_timeout"
+  ]
+ },
+ "crossbeam-channel/iter": {
+  "symbol": "rust:crossbeam_channel::channel::Receiver::iter",
+  "aliases": [
+   "sym:src/channel.rs:Receiver.iter"
+  ]
+ },
+ "crossbeam-channel/len": {
+  "symbol": "rust:crossbeam_channel::channel::Receiver::len",
+  "aliases": [
+   "sym:src/channel.rs:Receiver.len"
+  ]
+ },
+ "crossbeam-channel/after": {
+  "symbol": "rust:crossbeam_channel::channel::after",
+  "aliases": [
+   "sym:src/channel.rs:after"
+  ]
+ },
+ "crossbeam-channel/tick": {
+  "symbol": "rust:crossbeam_channel::channel::tick",
+  "aliases": [
+   "sym:src/channel.rs:tick"
+  ]
+ },
+ "crossbeam-utils/scope": {
+  "symbol": "rust:crossbeam_utils::thread::scope",
+  "aliases": [
+   "sym:src/thread.rs:scope"
+  ]
+ },
+ "crossbeam-utils/atomic-cell-new": {
+  "symbol": "rust:crossbeam_utils::atomic::atomic_cell::AtomicCell::new",
+  "aliases": [
+   "sym:src/atomic/atomic_cell.rs:AtomicCell.new"
+  ]
+ },
+ "crossbeam-utils/atomic-cell-store": {
+  "symbol": "rust:crossbeam_utils::atomic::atomic_cell::AtomicCell::store",
+  "aliases": [
+   "sym:src/atomic/atomic_cell.rs:AtomicCell.store"
+  ]
+ },
+ "crossbeam-utils/atomic-cell-fetch-add": {
+  "symbol": "rust:crossbeam_utils::atomic::atomic_cell::impl_arithmetic::fetch_add",
+  "aliases": [
+   "sym:src/atomic/atomic_cell.rs:impl_arithmetic.fetch_add"
+  ]
+ },
+ "crossbeam-utils/backoff-snooze": {
+  "symbol": "rust:crossbeam_utils::backoff::Backoff::snooze",
+  "aliases": [
+   "sym:src/backoff.rs:Backoff.snooze"
+  ]
+ },
+ "crossbeam-utils/wait-group": {
+  "symbol": "rust:crossbeam_utils::sync::wait_group::WaitGroup::wait",
+  "aliases": [
+   "sym:src/sync/wait_group.rs:WaitGroup.wait"
+  ]
+ },
+ "dashmap/new": {
+  "symbol": "rust:dashmap::DashMap::new",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.new"
+  ]
+ },
+ "dashmap/insert": {
+  "symbol": "rust:dashmap::DashMap::insert",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.insert"
+  ]
+ },
+ "dashmap/get": {
+  "symbol": "rust:dashmap::DashMap::get",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.get"
+  ]
+ },
+ "dashmap/get-mut": {
+  "symbol": "rust:dashmap::DashMap::get_mut",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.get_mut"
+  ]
+ },
+ "dashmap/entry": {
+  "symbol": "rust:dashmap::DashMap::entry",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.entry"
+  ]
+ },
+ "dashmap/remove": {
+  "symbol": "rust:dashmap::DashMap::remove",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.remove"
+  ]
+ },
+ "dashmap/contains-key": {
+  "symbol": "rust:dashmap::DashMap::contains_key",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.contains_key"
+  ]
+ },
+ "dashmap/iter": {
+  "symbol": "rust:dashmap::DashMap::iter",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.iter"
+  ]
+ },
+ "dashmap/retain": {
+  "symbol": "rust:dashmap::DashMap::retain",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.retain"
+  ]
+ },
+ "dashmap/alter": {
+  "symbol": "rust:dashmap::DashMap::alter",
+  "aliases": [
+   "sym:src/lib.rs:DashMap.alter"
+  ]
+ },
+ "dashmap/set-insert": {
+  "symbol": "rust:dashmap::set::DashSet::insert",
+  "aliases": [
+   "sym:src/set.rs:DashSet.insert"
+  ]
+ },
+ "num-traits/zero": {
+  "symbol": "rust:num_traits::identities::Zero::zero",
+  "aliases": [
+   "sym:src/identities.rs:Zero.zero"
+  ]
+ },
+ "num-traits/is-zero": {
+  "symbol": "rust:num_traits::identities::Zero::is_zero",
+  "aliases": [
+   "sym:src/identities.rs:Zero.is_zero"
+  ]
+ },
+ "num-traits/one": {
+  "symbol": "rust:num_traits::identities::One::one",
+  "aliases": [
+   "sym:src/identities.rs:One.one"
+  ]
+ },
+ "num-traits/from-str-radix": {
+  "symbol": "rust:num_traits::Num::from_str_radix",
+  "aliases": [
+   "sym:src/lib.rs:Num.from_str_radix"
+  ]
+ },
+ "num-traits/numcast-from": {
+  "symbol": "rust:num_traits::cast::NumCast::from",
+  "aliases": [
+   "sym:src/cast.rs:NumCast.from"
+  ]
+ },
+ "num-traits/cast": {
+  "symbol": "rust:num_traits::cast::cast",
+  "aliases": [
+   "sym:src/cast.rs:cast"
+  ]
+ },
+ "num-traits/to-u8": {
+  "symbol": "rust:num_traits::cast::ToPrimitive::to_u8",
+  "aliases": [
+   "sym:src/cast.rs:ToPrimitive.to_u8"
+  ]
+ },
+ "num-traits/to-f64": {
+  "symbol": "rust:num_traits::cast::ToPrimitive::to_f64",
+  "aliases": [
+   "sym:src/cast.rs:ToPrimitive.to_f64"
+  ]
+ },
+ "num-traits/from-f64": {
+  "symbol": "rust:num_traits::cast::FromPrimitive::from_f64",
+  "aliases": [
+   "sym:src/cast.rs:FromPrimitive.from_f64"
+  ]
+ },
+ "num-traits/as-primitive": {
+  "symbol": "rust:num_traits::cast::AsPrimitive::as_",
+  "aliases": [
+   "sym:src/cast.rs:AsPrimitive.as_"
+  ]
+ },
+ "num-traits/max-value": {
+  "symbol": "rust:num_traits::bounds::Bounded::max_value",
+  "aliases": [
+   "sym:src/bounds.rs:Bounded.max_value"
+  ]
+ },
+ "num-traits/pow-fn": {
+  "symbol": "rust:num_traits::pow::pow",
+  "aliases": [
+   "sym:src/pow.rs:pow"
+  ]
+ },
+ "num-traits/checked-pow": {
+  "symbol": "rust:num_traits::pow::checked_pow",
+  "aliases": [
+   "sym:src/pow.rs:checked_pow"
+  ]
+ },
+ "num-traits/signed-abs": {
+  "symbol": "rust:num_traits::sign::Signed::abs",
+  "aliases": [
+   "sym:src/sign.rs:Signed.abs"
+  ]
+ },
+ "num-traits/signed-signum": {
+  "symbol": "rust:num_traits::sign::Signed::signum",
+  "aliases": [
+   "sym:src/sign.rs:Signed.signum"
+  ]
+ },
+ "num-traits/clamp": {
+  "symbol": "rust:num_traits::clamp",
+  "aliases": [
+   "sym:src/lib.rs:clamp"
+  ]
+ },
+ "num-traits/checked-add": {
+  "symbol": "rust:num_traits::ops::checked::CheckedAdd::checked_add",
+  "aliases": [
+   "sym:src/ops/checked.rs:CheckedAdd.checked_add"
+  ]
+ },
+ "num-traits/saturating-add": {
+  "symbol": "rust:num_traits::ops::saturating::SaturatingAdd::saturating_add",
+  "aliases": [
+   "sym:src/ops/saturating.rs:SaturatingAdd.saturating_add"
+  ]
+ },
+ "num-traits/wrapping-add": {
+  "symbol": "rust:num_traits::ops::wrapping::WrappingAdd::wrapping_add",
+  "aliases": [
+   "sym:src/ops/wrapping.rs:WrappingAdd.wrapping_add"
+  ]
+ },
+ "num-traits/float-sqrt": {
+  "symbol": "rust:num_traits::float::Float::sqrt",
+  "aliases": [
+   "sym:src/float.rs:Float.sqrt"
+  ]
+ },
+ "num-traits/float-is-nan": {
+  "symbol": "rust:num_traits::float::Float::is_nan",
+  "aliases": [
+   "sym:src/float.rs:Float.is_nan"
+  ]
+ },
+ "num-bigint/biguint-parse": {
+  "symbol": "rust:num_bigint::biguint::BigUint::parse_bytes",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.parse_bytes"
+  ]
+ },
+ "num-bigint/biguint-pow": {
+  "symbol": "rust:num_bigint::biguint::BigUint::pow",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.pow"
+  ]
+ },
+ "num-bigint/biguint-modpow": {
+  "symbol": "rust:num_bigint::biguint::BigUint::modpow",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.modpow"
+  ]
+ },
+ "num-bigint/biguint-to-str-radix": {
+  "symbol": "rust:num_bigint::biguint::BigUint::to_str_radix",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.to_str_radix"
+  ]
+ },
+ "num-bigint/biguint-bits": {
+  "symbol": "rust:num_bigint::biguint::BigUint::bits",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.bits"
+  ]
+ },
+ "num-bigint/biguint-to-bytes-be": {
+  "symbol": "rust:num_bigint::biguint::BigUint::to_bytes_be",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.to_bytes_be"
+  ]
+ },
+ "num-bigint/biguint-from-bytes-be": {
+  "symbol": "rust:num_bigint::biguint::BigUint::from_bytes_be",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.from_bytes_be"
+  ]
+ },
+ "num-bigint/biguint-sqrt": {
+  "symbol": "rust:num_bigint::biguint::BigUint::sqrt",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.sqrt"
+  ]
+ },
+ "num-bigint/biguint-count-ones": {
+  "symbol": "rust:num_bigint::biguint::BigUint::count_ones",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.count_ones"
+  ]
+ },
+ "num-bigint/biguint-to-u64": {
+  "symbol": "rust:num_bigint::biguint::convert::BigUint::to_u64",
+  "aliases": [
+   "sym:src/biguint/convert.rs:BigUint.to_u64"
+  ]
+ },
+ "num-bigint/biguint-from-str-radix": {
+  "symbol": "rust:num_bigint::biguint::convert::BigUint::from_str_radix",
+  "aliases": [
+   "sym:src/biguint/convert.rs:BigUint.from_str_radix"
+  ]
+ },
+ "num-bigint/biguint-is-even": {
+  "symbol": "rust:num_bigint::biguint::BigUint::is_even",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.is_even"
+  ]
+ },
+ "num-bigint/biguint-gcd": {
+  "symbol": "rust:num_bigint::biguint::BigUint::gcd",
+  "aliases": [
+   "sym:src/biguint.rs:BigUint.gcd"
+  ]
+ },
+ "num-bigint/bigint-from-biguint": {
+  "symbol": "rust:num_bigint::bigint::BigInt::from_biguint",
+  "aliases": [
+   "sym:src/bigint.rs:BigInt.from_biguint"
+  ]
+ },
+ "num-bigint/bigint-sign": {
+  "symbol": "rust:num_bigint::bigint::BigInt::sign",
+  "aliases": [
+   "sym:src/bigint.rs:BigInt.sign"
+  ]
+ },
+ "num-bigint/bigint-magnitude": {
+  "symbol": "rust:num_bigint::bigint::BigInt::magnitude",
+  "aliases": [
+   "sym:src/bigint.rs:BigInt.magnitude"
+  ]
+ },
+ "num-bigint/bigint-pow": {
+  "symbol": "rust:num_bigint::bigint::BigInt::pow",
+  "aliases": [
+   "sym:src/bigint.rs:BigInt.pow"
+  ]
+ },
+ "num-bigint/bigint-to-signed-bytes-be": {
+  "symbol": "rust:num_bigint::bigint::BigInt::to_signed_bytes_be",
+  "aliases": [
+   "sym:src/bigint.rs:BigInt.to_signed_bytes_be"
+  ]
+ },
+ "url/scheme": {
+  "symbol": "rust:url::Url::scheme",
+  "aliases": [
+   "sym:src/lib.rs:Url.scheme"
+  ]
+ },
+ "url/host-str": {
+  "symbol": "rust:url::Url::host_str",
+  "aliases": [
+   "sym:src/lib.rs:Url.host_str"
+  ]
+ },
+ "url/port": {
+  "symbol": "rust:url::Url::port",
+  "aliases": [
+   "sym:src/lib.rs:Url.port"
+  ]
+ },
+ "url/port-or-known-default": {
+  "symbol": "rust:url::Url::port_or_known_default",
+  "aliases": [
+   "sym:src/lib.rs:Url.port_or_known_default"
+  ]
+ },
+ "url/path": {
+  "symbol": "rust:url::Url::path",
+  "aliases": [
+   "sym:src/lib.rs:Url.path"
+  ]
+ },
+ "url/query": {
+  "symbol": "rust:url::Url::query",
+  "aliases": [
+   "sym:src/lib.rs:Url.query"
+  ]
+ },
+ "url/fragment": {
+  "symbol": "rust:url::Url::fragment",
+  "aliases": [
+   "sym:src/lib.rs:Url.fragment"
+  ]
+ },
+ "url/username": {
+  "symbol": "rust:url::Url::username",
+  "aliases": [
+   "sym:src/lib.rs:Url.username"
+  ]
+ },
+ "url/as-str": {
+  "symbol": "rust:url::Url::as_str",
+  "aliases": [
+   "sym:src/lib.rs:Url.as_str"
+  ]
+ },
+ "url/domain": {
+  "symbol": "rust:url::Url::domain",
+  "aliases": [
+   "sym:src/lib.rs:Url.domain"
+  ]
+ },
+ "url/origin": {
+  "symbol": "rust:url::Url::origin",
+  "aliases": [
+   "sym:src/lib.rs:Url.origin"
+  ]
+ },
+ "url/make-relative": {
+  "symbol": "rust:url::Url::make_relative",
+  "aliases": [
+   "sym:src/lib.rs:Url.make_relative"
+  ]
+ },
+ "url/set-path": {
+  "symbol": "rust:url::Url::set_path",
+  "aliases": [
+   "sym:src/lib.rs:Url.set_path"
+  ]
+ },
+ "url/set-query": {
+  "symbol": "rust:url::Url::set_query",
+  "aliases": [
+   "sym:src/lib.rs:Url.set_query"
+  ]
+ },
+ "url/query-pairs-mut": {
+  "symbol": "rust:url::Url::query_pairs_mut",
+  "aliases": [
+   "sym:src/lib.rs:Url.query_pairs_mut"
+  ]
+ },
+ "url/set-fragment": {
+  "symbol": "rust:url::Url::set_fragment",
+  "aliases": [
+   "sym:src/lib.rs:Url.set_fragment"
+  ]
+ },
+ "url/set-host": {
+  "symbol": "rust:url::Url::set_host",
+  "aliases": [
+   "sym:src/lib.rs:Url.set_host"
+  ]
+ },
+ "url/set-port": {
+  "symbol": "rust:url::Url::set_port",
+  "aliases": [
+   "sym:src/lib.rs:Url.set_port"
+  ]
+ },
+ "url/set-scheme": {
+  "symbol": "rust:url::Url::set_scheme",
+  "aliases": [
+   "sym:src/lib.rs:Url.set_scheme"
+  ]
+ },
+ "url/path-segments-mut": {
+  "symbol": "rust:url::Url::path_segments_mut",
+  "aliases": [
+   "sym:src/lib.rs:Url.path_segments_mut"
+  ]
+ },
+ "url/from-file-path": {
+  "symbol": "rust:url::Url::from_file_path",
+  "aliases": [
+   "sym:src/lib.rs:Url.from_file_path"
+  ]
+ },
+ "http/request-builder": {
+  "symbol": "rust:http::request::Request::builder",
+  "aliases": [
+   "sym:src/request.rs:Request.builder"
+  ]
+ },
+ "http/builder-header": {
+  "symbol": "rust:http::request::Builder::header",
+  "aliases": [
+   "sym:src/request.rs:Builder.header"
+  ]
+ },
+ "http/request-method": {
+  "symbol": "rust:http::request::Request::method",
+  "aliases": [
+   "sym:src/request.rs:Request.method"
+  ]
+ },
+ "http/request-uri": {
+  "symbol": "rust:http::request::Request::uri",
+  "aliases": [
+   "sym:src/request.rs:Request.uri"
+  ]
+ },
+ "http/request-into-parts": {
+  "symbol": "rust:http::request::Request::into_parts",
+  "aliases": [
+   "sym:src/request.rs:Request.into_parts"
+  ]
+ },
+ "http/request-map": {
+  "symbol": "rust:http::request::Request::map",
+  "aliases": [
+   "sym:src/request.rs:Request.map"
+  ]
+ },
+ "http/response-builder": {
+  "symbol": "rust:http::response::Response::builder",
+  "aliases": [
+   "sym:src/response.rs:Response.builder"
+  ]
+ },
+ "http/response-status": {
+  "symbol": "rust:http::response::Response::status",
+  "aliases": [
+   "sym:src/response.rs:Response.status"
+  ]
+ },
+ "http/statuscode-from-u16": {
+  "symbol": "rust:http::status::StatusCode::from_u16",
+  "aliases": [
+   "sym:src/status.rs:StatusCode.from_u16"
+  ]
+ },
+ "http/statuscode-is-success": {
+  "symbol": "rust:http::status::StatusCode::is_success",
+  "aliases": [
+   "sym:src/status.rs:StatusCode.is_success"
+  ]
+ },
+ "http/statuscode-canonical-reason": {
+  "symbol": "rust:http::status::StatusCode::canonical_reason",
+  "aliases": [
+   "sym:src/status.rs:StatusCode.canonical_reason"
+  ]
+ },
+ "http/statuscode-as-u16": {
+  "symbol": "rust:http::status::StatusCode::as_u16",
+  "aliases": [
+   "sym:src/status.rs:StatusCode.as_u16"
+  ]
+ },
+ "http/method-from-bytes": {
+  "symbol": "rust:http::method::Method::from_bytes",
+  "aliases": [
+   "sym:src/method.rs:Method.from_bytes"
+  ]
+ },
+ "http/uri-host": {
+  "symbol": "rust:http::uri::Uri::host",
+  "aliases": [
+   "sym:src/uri/mod.rs:Uri.host"
+  ]
+ },
+ "http/uri-path-and-query": {
+  "symbol": "rust:http::uri::Uri::path_and_query",
+  "aliases": [
+   "sym:src/uri/mod.rs:Uri.path_and_query"
+  ]
+ },
+ "http/headermap-insert": {
+  "symbol": "rust:http::header::map::HeaderMap::insert",
+  "aliases": [
+   "sym:src/header/map.rs:HeaderMap.insert"
+  ]
+ },
+ "http/headermap-append": {
+  "symbol": "rust:http::header::map::HeaderMap::append",
+  "aliases": [
+   "sym:src/header/map.rs:HeaderMap.append"
+  ]
+ },
+ "http/headermap-get": {
+  "symbol": "rust:http::header::map::HeaderMap::get",
+  "aliases": [
+   "sym:src/header/map.rs:HeaderMap.get"
+  ]
+ },
+ "http/headervalue-from-static": {
+  "symbol": "rust:http::header::value::HeaderValue::from_static",
+  "aliases": [
+   "sym:src/header/value.rs:HeaderValue.from_static"
+  ]
+ },
+ "http/headervalue-to-str": {
+  "symbol": "rust:http::header::value::HeaderValue::to_str",
+  "aliases": [
+   "sym:src/header/value.rs:HeaderValue.to_str"
+  ]
+ },
+ "toml/from-str": {
+  "symbol": "rust:toml::de::from_str",
+  "aliases": [
+   "sym:src/de/mod.rs:from_str"
+  ]
+ },
+ "toml/to-string": {
+  "symbol": "rust:toml::ser::to_string",
+  "aliases": [
+   "sym:src/ser/mod.rs:to_string"
+  ]
+ },
+ "toml/to-string-pretty": {
+  "symbol": "rust:toml::ser::to_string_pretty",
+  "aliases": [
+   "sym:src/ser/mod.rs:to_string_pretty"
+  ]
+ },
+ "toml/value-get": {
+  "symbol": "rust:toml::value::Value::get",
+  "aliases": [
+   "sym:src/value.rs:Value.get"
+  ]
+ },
+ "toml/value-as-integer": {
+  "symbol": "rust:toml::value::Value::as_integer",
+  "aliases": [
+   "sym:src/value.rs:Value.as_integer"
+  ]
+ },
+ "toml/value-as-str": {
+  "symbol": "rust:toml::value::Value::as_str",
+  "aliases": [
+   "sym:src/value.rs:Value.as_str"
+  ]
+ },
+ "toml/value-as-table": {
+  "symbol": "rust:toml::value::Value::as_table",
+  "aliases": [
+   "sym:src/value.rs:Value.as_table"
+  ]
+ },
+ "toml/value-type-str": {
+  "symbol": "rust:toml::value::Value::type_str",
+  "aliases": [
+   "sym:src/value.rs:Value.type_str"
+  ]
+ },
+ "toml/map-insert": {
+  "symbol": "rust:toml::map::Map::insert",
+  "aliases": [
+   "sym:src/map.rs:Map.insert"
+  ]
+ },
+ "csv/reader-from-reader": {
+  "symbol": "rust:csv::reader::Reader::from_reader",
+  "aliases": [
+   "sym:src/reader.rs:Reader.from_reader"
+  ]
+ },
+ "csv/reader-records": {
+  "symbol": "rust:csv::reader::Reader::records",
+  "aliases": [
+   "sym:src/reader.rs:Reader.records"
+  ]
+ },
+ "csv/reader-deserialize": {
+  "symbol": "rust:csv::reader::Reader::deserialize",
+  "aliases": [
+   "sym:src/reader.rs:Reader.deserialize"
+  ]
+ },
+ "csv/reader-headers": {
+  "symbol": "rust:csv::reader::Reader::headers",
+  "aliases": [
+   "sym:src/reader.rs:Reader.headers"
+  ]
+ },
+ "csv/builder-delimiter": {
+  "symbol": "rust:csv::reader::ReaderBuilder::delimiter",
+  "aliases": [
+   "sym:src/reader.rs:ReaderBuilder.delimiter"
+  ]
+ },
+ "csv/builder-has-headers": {
+  "symbol": "rust:csv::reader::ReaderBuilder::has_headers",
+  "aliases": [
+   "sym:src/reader.rs:ReaderBuilder.has_headers"
+  ]
+ },
+ "csv/builder-trim": {
+  "symbol": "rust:csv::reader::ReaderBuilder::trim",
+  "aliases": [
+   "sym:src/reader.rs:ReaderBuilder.trim"
+  ]
+ },
+ "csv/builder-flexible": {
+  "symbol": "rust:csv::reader::ReaderBuilder::flexible",
+  "aliases": [
+   "sym:src/reader.rs:ReaderBuilder.flexible"
+  ]
+ },
+ "csv/string-record-get": {
+  "symbol": "rust:csv::string_record::StringRecord::get",
+  "aliases": [
+   "sym:src/string_record.rs:StringRecord.get"
+  ]
+ },
+ "csv/string-record-len": {
+  "symbol": "rust:csv::string_record::StringRecord::len",
+  "aliases": [
+   "sym:src/string_record.rs:StringRecord.len"
+  ]
+ },
+ "csv/writer-from-writer": {
+  "symbol": "rust:csv::writer::Writer::from_writer",
+  "aliases": [
+   "sym:src/writer.rs:Writer.from_writer"
+  ]
+ },
+ "csv/writer-write-record": {
+  "symbol": "rust:csv::writer::Writer::write_record",
+  "aliases": [
+   "sym:src/writer.rs:Writer.write_record"
+  ]
+ },
+ "csv/writer-serialize": {
+  "symbol": "rust:csv::writer::Writer::serialize",
+  "aliases": [
+   "sym:src/writer.rs:Writer.serialize"
+  ]
+ },
+ "csv/writer-flush": {
+  "symbol": "rust:csv::writer::Writer::flush",
+  "aliases": [
+   "sym:src/writer.rs:Writer.flush"
+  ]
+ },
+ "percent-encoding/utf8-percent-encode": {
+  "symbol": "rust:percent_encoding::utf8_percent_encode",
+  "aliases": [
+   "sym:src/lib.rs:utf8_percent_encode"
+  ]
+ },
+ "percent-encoding/percent-decode-str": {
+  "symbol": "rust:percent_encoding::percent_decode_str",
+  "aliases": [
+   "sym:src/lib.rs:percent_decode_str"
+  ]
+ },
+ "form_urlencoded/parse": {
+  "symbol": "rust:form_urlencoded::parse",
+  "aliases": [
+   "sym:src/lib.rs:parse"
+  ]
+ },
+ "form_urlencoded/serializer-append-pair": {
+  "symbol": "rust:form_urlencoded::Serializer::append_pair",
+  "aliases": [
+   "sym:src/lib.rs:Serializer.append_pair"
+  ]
+ },
+ "form_urlencoded/byte-serialize": {
+  "symbol": "rust:form_urlencoded::byte_serialize",
+  "aliases": [
+   "sym:src/lib.rs:byte_serialize"
+  ]
+ },
+ "semver/version-new": {
+  "symbol": "rust:semver::Version::new",
+  "aliases": [
+   "sym:src/lib.rs:Version.new"
+  ]
+ },
+ "semver/comparator-parse": {
+  "symbol": "rust:semver::Comparator::parse",
+  "aliases": [
+   "sym:src/lib.rs:Comparator.parse"
+  ]
+ },
+ "semver/comparator-matches": {
+  "symbol": "rust:semver::Comparator::matches",
+  "aliases": [
+   "sym:src/lib.rs:Comparator.matches"
+  ]
+ },
+ "semver/prerelease-new": {
+  "symbol": "rust:semver::Prerelease::new",
+  "aliases": [
+   "sym:src/lib.rs:Prerelease.new"
+  ]
+ },
+ "walkdir/new": {
+  "symbol": "rust:walkdir::WalkDir::new",
+  "aliases": [
+   "sym:src/lib.rs:WalkDir.new"
+  ]
+ },
+ "walkdir/max-depth": {
+  "symbol": "rust:walkdir::WalkDir::max_depth",
+  "aliases": [
+   "sym:src/lib.rs:WalkDir.max_depth"
+  ]
+ },
+ "walkdir/min-depth": {
+  "symbol": "rust:walkdir::WalkDir::min_depth",
+  "aliases": [
+   "sym:src/lib.rs:WalkDir.min_depth"
+  ]
+ },
+ "walkdir/sort-by-file-name": {
+  "symbol": "rust:walkdir::WalkDir::sort_by_file_name",
+  "aliases": [
+   "sym:src/lib.rs:WalkDir.sort_by_file_name"
+  ]
+ },
+ "walkdir/filter-entry": {
+  "symbol": "rust:walkdir::IntoIter::filter_entry",
+  "aliases": [
+   "sym:src/lib.rs:IntoIter.filter_entry"
+  ]
+ },
+ "walkdir/entry-depth": {
+  "symbol": "rust:walkdir::dent::DirEntry::depth",
+  "aliases": [
+   "sym:src/dent.rs:DirEntry.depth"
+  ]
+ },
+ "walkdir/entry-file-type": {
+  "symbol": "rust:walkdir::dent::DirEntry::file_type",
+  "aliases": [
+   "sym:src/dent.rs:DirEntry.file_type"
+  ]
+ },
+ "walkdir/entry-path": {
+  "symbol": "rust:walkdir::dent::DirEntry::path",
+  "aliases": [
+   "sym:src/dent.rs:DirEntry.path"
+  ]
+ },
+ "glob/glob": {
+  "symbol": "rust:glob::glob",
+  "aliases": [
+   "sym:src/lib.rs:glob"
+  ]
+ },
+ "glob/pattern-matches": {
+  "symbol": "rust:glob::Pattern::matches",
+  "aliases": [
+   "sym:src/lib.rs:Pattern.matches"
+  ]
+ },
+ "glob/pattern-new": {
+  "symbol": "rust:glob::Pattern::new",
+  "aliases": [
+   "sym:src/lib.rs:Pattern.new"
+  ]
+ },
+ "glob/pattern-escape": {
+  "symbol": "rust:glob::Pattern::escape",
+  "aliases": [
+   "sym:src/lib.rs:Pattern.escape"
+  ]
+ },
+ "tempfile/tempdir": {
+  "symbol": "rust:tempfile::dir::tempdir",
+  "aliases": [
+   "sym:src/dir/mod.rs:tempdir"
+  ]
+ },
+ "tempfile/tempdir-path": {
+  "symbol": "rust:tempfile::dir::TempDir::path",
+  "aliases": [
+   "sym:src/dir/mod.rs:TempDir.path"
+  ]
+ },
+ "tempfile/tempfile": {
+  "symbol": "rust:tempfile::file::tempfile",
+  "aliases": [
+   "sym:src/file/mod.rs:tempfile"
+  ]
+ },
+ "tempfile/named-tempfile-new": {
+  "symbol": "rust:tempfile::file::NamedTempFile::new",
+  "aliases": [
+   "sym:src/file/mod.rs:NamedTempFile.new"
+  ]
+ },
+ "tempfile/named-tempfile-persist": {
+  "symbol": "rust:tempfile::file::NamedTempFile::persist",
+  "aliases": [
+   "sym:src/file/mod.rs:NamedTempFile.persist"
+  ]
+ },
+ "tempfile/builder-prefix": {
+  "symbol": "rust:tempfile::Builder::prefix",
+  "aliases": [
+   "sym:src/lib.rs:Builder.prefix"
+  ]
+ },
+ "memchr/memchr": {
+  "symbol": "rust:memchr::memchr::memchr",
+  "aliases": [
+   "sym:src/memchr.rs:memchr"
+  ]
+ },
+ "memchr/memrchr": {
+  "symbol": "rust:memchr::memchr::memrchr",
+  "aliases": [
+   "sym:src/memchr.rs:memrchr"
+  ]
+ },
+ "memchr/memchr-iter": {
+  "symbol": "rust:memchr::memchr::memchr_iter",
+  "aliases": [
+   "sym:src/memchr.rs:memchr_iter"
+  ]
+ },
+ "memchr/memchr2": {
+  "symbol": "rust:memchr::memchr::memchr2",
+  "aliases": [
+   "sym:src/memchr.rs:memchr2"
+  ]
+ },
+ "memchr/memmem-find": {
+  "symbol": "rust:memchr::memmem::find",
+  "aliases": [
+   "sym:src/memmem/mod.rs:find"
+  ]
+ },
+ "memchr/memmem-find-iter": {
+  "symbol": "rust:memchr::memmem::find_iter",
+  "aliases": [
+   "sym:src/memmem/mod.rs:find_iter"
+  ]
+ },
+ "memchr/memmem-rfind": {
+  "symbol": "rust:memchr::memmem::rfind",
+  "aliases": [
+   "sym:src/memmem/mod.rs:rfind"
+  ]
+ },
+ "either/is-left": {
+  "symbol": "rust:either::Either::is_left",
+  "aliases": [
+   "sym:src/lib.rs:Either.is_left"
+  ]
+ },
+ "either/left": {
+  "symbol": "rust:either::Either::left",
+  "aliases": [
+   "sym:src/lib.rs:Either.left"
+  ]
+ },
+ "either/map-left": {
+  "symbol": "rust:either::Either::map_left",
+  "aliases": [
+   "sym:src/lib.rs:Either.map_left"
+  ]
+ },
+ "either/either": {
+  "symbol": "rust:either::Either::either",
+  "aliases": [
+   "sym:src/lib.rs:Either.either"
+  ]
+ },
+ "either/flip": {
+  "symbol": "rust:either::Either::flip",
+  "aliases": [
+   "sym:src/lib.rs:Either.flip"
+  ]
+ },
+ "either/left-or": {
+  "symbol": "rust:either::Either::left_or",
+  "aliases": [
+   "sym:src/lib.rs:Either.left_or"
+  ]
+ },
+ "either/unwrap-left": {
+  "symbol": "rust:either::Either::unwrap_left",
+  "aliases": [
+   "sym:src/lib.rs:Either.unwrap_left"
+  ]
+ },
+ "either/into-inner": {
+  "symbol": "rust:either::Either::into_inner",
+  "aliases": [
+   "sym:src/lib.rs:Either.into_inner"
+  ]
+ },
+ "either/as-ref": {
+  "symbol": "rust:either::Either::as_ref",
+  "aliases": [
+   "sym:src/lib.rs:Either.as_ref"
+  ]
+ },
+ "either/right": {
+  "symbol": "rust:either::Either::right",
+  "aliases": [
+   "sym:src/lib.rs:Either.right"
+  ]
+ },
+ "nom/tag": {
+  "symbol": "rust:nom::bytes::complete::tag",
+  "aliases": [
+   "sym:src/bytes/complete.rs:tag"
+  ]
+ },
+ "nom/take-while1": {
+  "symbol": "rust:nom::bytes::complete::take_while1",
+  "aliases": [
+   "sym:src/bytes/complete.rs:take_while1"
+  ]
+ },
+ "nom/take": {
+  "symbol": "rust:nom::bytes::complete::take",
+  "aliases": [
+   "sym:src/bytes/complete.rs:take"
+  ]
+ },
+ "nom/take-until": {
+  "symbol": "rust:nom::bytes::complete::take_until",
+  "aliases": [
+   "sym:src/bytes/complete.rs:take_until"
+  ]
+ },
+ "nom/tag-no-case": {
+  "symbol": "rust:nom::bytes::complete::tag_no_case",
+  "aliases": [
+   "sym:src/bytes/complete.rs:tag_no_case"
+  ]
+ },
+ "nom/digit1": {
+  "symbol": "rust:nom::character::complete::digit1",
+  "aliases": [
+   "sym:src/character/complete.rs:digit1"
+  ]
+ },
+ "nom/alpha1": {
+  "symbol": "rust:nom::character::complete::alpha1",
+  "aliases": [
+   "sym:src/character/complete.rs:alpha1"
+  ]
+ },
+ "nom/char": {
+  "symbol": "rust:nom::character::complete::char",
+  "aliases": [
+   "sym:src/character/complete.rs:char"
+  ]
+ },
+ "nom/multispace0": {
+  "symbol": "rust:nom::character::complete::multispace0",
+  "aliases": [
+   "sym:src/character/complete.rs:multispace0"
+  ]
+ },
+ "nom/one-of": {
+  "symbol": "rust:nom::character::complete::one_of",
+  "aliases": [
+   "sym:src/character/complete.rs:one_of"
+  ]
+ },
+ "nom/alphanumeric1": {
+  "symbol": "rust:nom::character::complete::alphanumeric1",
+  "aliases": [
+   "sym:src/character/complete.rs:alphanumeric1"
+  ]
+ },
+ "nom/map-res": {
+  "symbol": "rust:nom::combinator::map_res",
+  "aliases": [
+   "sym:src/combinator/mod.rs:map_res"
+  ]
+ },
+ "nom/map": {
+  "symbol": "rust:nom::combinator::map",
+  "aliases": [
+   "sym:src/combinator/mod.rs:map"
+  ]
+ },
+ "nom/opt": {
+  "symbol": "rust:nom::combinator::opt",
+  "aliases": [
+   "sym:src/combinator/mod.rs:opt"
+  ]
+ },
+ "nom/value": {
+  "symbol": "rust:nom::combinator::value",
+  "aliases": [
+   "sym:src/combinator/mod.rs:value"
+  ]
+ },
+ "nom/recognize": {
+  "symbol": "rust:nom::combinator::recognize",
+  "aliases": [
+   "sym:src/combinator/mod.rs:recognize"
+  ]
+ },
+ "nom/all-consuming": {
+  "symbol": "rust:nom::combinator::all_consuming",
+  "aliases": [
+   "sym:src/combinator/mod.rs:all_consuming"
+  ]
+ },
+ "nom/verify": {
+  "symbol": "rust:nom::combinator::verify",
+  "aliases": [
+   "sym:src/combinator/mod.rs:verify"
+  ]
+ },
+ "nom/delimited": {
+  "symbol": "rust:nom::sequence::delimited",
+  "aliases": [
+   "sym:src/sequence/mod.rs:delimited"
+  ]
+ },
+ "nom/preceded": {
+  "symbol": "rust:nom::sequence::preceded",
+  "aliases": [
+   "sym:src/sequence/mod.rs:preceded"
+  ]
+ },
+ "nom/terminated": {
+  "symbol": "rust:nom::sequence::terminated",
+  "aliases": [
+   "sym:src/sequence/mod.rs:terminated"
+  ]
+ },
+ "nom/separated-pair": {
+  "symbol": "rust:nom::sequence::separated_pair",
+  "aliases": [
+   "sym:src/sequence/mod.rs:separated_pair"
+  ]
+ },
+ "nom/pair": {
+  "symbol": "rust:nom::sequence::pair",
+  "aliases": [
+   "sym:src/sequence/mod.rs:pair"
+  ]
+ },
+ "nom/alt": {
+  "symbol": "rust:nom::branch::alt",
+  "aliases": [
+   "sym:src/branch/mod.rs:alt"
+  ]
+ },
+ "nom/separated-list1": {
+  "symbol": "rust:nom::multi::separated_list1",
+  "aliases": [
+   "sym:src/multi/mod.rs:separated_list1"
+  ]
+ },
+ "nom/many0": {
+  "symbol": "rust:nom::multi::many0",
+  "aliases": [
+   "sym:src/multi/mod.rs:many0"
+  ]
+ },
+ "nom/many1": {
+  "symbol": "rust:nom::multi::many1",
+  "aliases": [
+   "sym:src/multi/mod.rs:many1"
+  ]
+ },
+ "nom/fold-many0": {
+  "symbol": "rust:nom::multi::fold_many0",
+  "aliases": [
+   "sym:src/multi/mod.rs:fold_many0"
+  ]
+ },
+ "nom/count": {
+  "symbol": "rust:nom::multi::count",
+  "aliases": [
+   "sym:src/multi/mod.rs:count"
+  ]
+ },
+ "nom/parser-parse": {
+  "symbol": "rust:nom::internal::Parser::parse",
+  "aliases": [
+   "sym:src/internal.rs:Parser.parse"
+  ]
+ },
+ "digest/digest": {
+  "symbol": "rust:digest::digest::D::digest",
+  "aliases": [
+   "sym:src/digest.rs:D.digest"
+  ]
+ },
+ "digest/new": {
+  "symbol": "rust:digest::digest::D::new",
+  "aliases": [
+   "sym:src/digest.rs:D.new"
+  ]
+ },
+ "digest/update": {
+  "symbol": "rust:digest::digest::D::update",
+  "aliases": [
+   "sym:src/digest.rs:D.update"
+  ]
+ },
+ "digest/finalize": {
+  "symbol": "rust:digest::digest::D::finalize",
+  "aliases": [
+   "sym:src/digest.rs:D.finalize"
+  ]
+ },
+ "crc32fast/hash": {
+  "symbol": "rust:crc32fast::hash",
+  "aliases": [
+   "sym:src/lib.rs:hash"
+  ]
+ },
+ "crc32fast/hasher-update": {
+  "symbol": "rust:crc32fast::Hasher::update",
+  "aliases": [
+   "sym:src/lib.rs:Hasher.update"
+  ]
+ },
+ "base64/encode-string": {
+  "symbol": "rust:base64::engine::Engine::encode_string",
+  "aliases": [
+   "sym:src/engine/mod.rs:Engine.encode_string"
+  ]
+ },
+ "base64/decode-vec": {
+  "symbol": "rust:base64::engine::Engine::decode_vec",
+  "aliases": [
+   "sym:src/engine/mod.rs:Engine.decode_vec"
+  ]
+ },
+ "hex/encode-upper": {
+  "symbol": "rust:hex::encode_upper",
+  "aliases": [
+   "sym:src/lib.rs:encode_upper"
+  ]
+ },
+ "hex/decode-to-slice": {
+  "symbol": "rust:hex::decode_to_slice",
+  "aliases": [
+   "sym:src/lib.rs:decode_to_slice"
+  ]
+ },
+ "ndarray/zeros": {
+  "symbol": "rust:ndarray::impl_constructors::ArrayBase::zeros",
+  "aliases": [
+   "rust:ndarray::impl_constructors::zeros",
+   "sym:src/impl_constructors.rs:ArrayBase.zeros",
+   "sym:src/impl_constructors.rs:zeros"
+  ]
+ },
+ "ndarray/ones": {
+  "symbol": "rust:ndarray::impl_constructors::ArrayBase::ones",
+  "aliases": [
+   "rust:ndarray::impl_constructors::ones",
+   "sym:src/impl_constructors.rs:ArrayBase.ones",
+   "sym:src/impl_constructors.rs:ones"
+  ]
+ },
+ "ndarray/from-elem": {
+  "symbol": "rust:ndarray::impl_constructors::ArrayBase::from_elem",
+  "aliases": [
+   "rust:ndarray::impl_constructors::from_elem",
+   "sym:src/impl_constructors.rs:ArrayBase.from_elem",
+   "sym:src/impl_constructors.rs:from_elem"
+  ]
+ },
+ "ndarray/from-shape-vec": {
+  "symbol": "rust:ndarray::impl_constructors::ArrayBase::from_shape_vec",
+  "aliases": [
+   "rust:ndarray::impl_constructors::from_shape_vec",
+   "sym:src/impl_constructors.rs:ArrayBase.from_shape_vec",
+   "sym:src/impl_constructors.rs:from_shape_vec"
+  ]
+ },
+ "ndarray/from-shape-fn": {
+  "symbol": "rust:ndarray::impl_constructors::ArrayBase::from_shape_fn",
+  "aliases": [
+   "rust:ndarray::impl_constructors::from_shape_fn",
+   "sym:src/impl_constructors.rs:ArrayBase.from_shape_fn",
+   "sym:src/impl_constructors.rs:from_shape_fn"
+  ]
+ },
+ "ndarray/linspace": {
+  "symbol": "rust:ndarray::impl_constructors::ArrayBase::linspace",
+  "aliases": [
+   "rust:ndarray::impl_constructors::linspace",
+   "sym:src/impl_constructors.rs:ArrayBase.linspace",
+   "sym:src/impl_constructors.rs:linspace"
+  ]
+ },
+ "ndarray/range": {
+  "symbol": "rust:ndarray::impl_constructors::ArrayBase::range",
+  "aliases": [
+   "rust:ndarray::impl_constructors::range",
+   "sym:src/impl_constructors.rs:ArrayBase.range",
+   "sym:src/impl_constructors.rs:range"
+  ]
+ },
+ "ndarray/eye": {
+  "symbol": "rust:ndarray::impl_constructors::ArrayBase::eye",
+  "aliases": [
+   "rust:ndarray::impl_constructors::eye",
+   "sym:src/impl_constructors.rs:ArrayBase.eye",
+   "sym:src/impl_constructors.rs:eye"
+  ]
+ },
+ "ndarray/arr1": {
+  "symbol": "rust:ndarray::free_functions::arr1",
+  "aliases": [
+   "sym:src/free_functions.rs:arr1"
+  ]
+ },
+ "ndarray/arr2": {
+  "symbol": "rust:ndarray::free_functions::arr2",
+  "aliases": [
+   "sym:src/free_functions.rs:arr2"
+  ]
+ },
+ "ndarray/shape": {
+  "symbol": "rust:ndarray::alias_asref::ArrayBase::shape",
+  "aliases": [
+   "rust:ndarray::alias_asref::shape",
+   "rust:ndarray::impl_methods::ArrayBase::shape",
+   "rust:ndarray::impl_methods::shape",
+   "sym:src/alias_asref.rs:ArrayBase.shape",
+   "sym:src/alias_asref.rs:shape",
+   "sym:src/impl_methods.rs:ArrayBase.shape",
+   "sym:src/impl_methods.rs:shape"
+  ]
+ },
+ "ndarray/ndim": {
+  "symbol": "rust:ndarray::alias_asref::ArrayBase::ndim",
+  "aliases": [
+   "rust:ndarray::alias_asref::ndim",
+   "rust:ndarray::impl_methods::ArrayBase::ndim",
+   "rust:ndarray::impl_methods::ndim",
+   "sym:src/alias_asref.rs:ArrayBase.ndim",
+   "sym:src/alias_asref.rs:ndim",
+   "sym:src/impl_methods.rs:ArrayBase.ndim",
+   "sym:src/impl_methods.rs:ndim"
+  ]
+ },
+ "ndarray/len": {
+  "symbol": "rust:ndarray::alias_asref::ArrayBase::len",
+  "aliases": [
+   "rust:ndarray::alias_asref::len",
+   "rust:ndarray::impl_methods::ArrayBase::len",
+   "rust:ndarray::impl_methods::len",
+   "sym:src/alias_asref.rs:ArrayBase.len",
+   "sym:src/alias_asref.rs:len",
+   "sym:src/impl_methods.rs:ArrayBase.len",
+   "sym:src/impl_methods.rs:len"
+  ]
+ },
+ "ndarray/dim": {
+  "symbol": "rust:ndarray::alias_asref::ArrayBase::dim",
+  "aliases": [
+   "rust:ndarray::alias_asref::dim",
+   "rust:ndarray::impl_methods::ArrayBase::dim",
+   "rust:ndarray::impl_methods::dim",
+   "sym:src/alias_asref.rs:ArrayBase.dim",
+   "sym:src/alias_asref.rs:dim",
+   "sym:src/impl_methods.rs:ArrayBase.dim",
+   "sym:src/impl_methods.rs:dim"
+  ]
+ },
+ "ndarray/into-shape-with-order": {
+  "symbol": "rust:ndarray::impl_methods::ArrayBase::into_shape_with_order",
+  "aliases": [
+   "rust:ndarray::impl_methods::into_shape_with_order",
+   "sym:src/impl_methods.rs:ArrayBase.into_shape_with_order",
+   "sym:src/impl_methods.rs:into_shape_with_order"
+  ]
+ },
+ "ndarray/t": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::t",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::t",
+   "rust:ndarray::impl_methods::t",
+   "sym:src/impl_methods.rs:ArrayRef.t",
+   "sym:src/impl_methods.rs:ArrayBase.t",
+   "sym:src/impl_methods.rs:t"
+  ]
+ },
+ "ndarray/get": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::get",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::get",
+   "rust:ndarray::impl_methods::get",
+   "sym:src/impl_methods.rs:ArrayRef.get",
+   "sym:src/impl_methods.rs:ArrayBase.get",
+   "sym:src/impl_methods.rs:get"
+  ]
+ },
+ "ndarray/slice": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::slice",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::slice",
+   "rust:ndarray::impl_methods::slice",
+   "sym:src/impl_methods.rs:ArrayRef.slice",
+   "sym:src/impl_methods.rs:ArrayBase.slice",
+   "sym:src/impl_methods.rs:slice"
+  ]
+ },
+ "ndarray/slice-mut": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::slice_mut",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::slice_mut",
+   "rust:ndarray::impl_methods::slice_mut",
+   "sym:src/impl_methods.rs:ArrayRef.slice_mut",
+   "sym:src/impl_methods.rs:ArrayBase.slice_mut",
+   "sym:src/impl_methods.rs:slice_mut"
+  ]
+ },
+ "ndarray/row": {
+  "symbol": "rust:ndarray::impl_2d::ArrayRef::row",
+  "aliases": [
+   "rust:ndarray::impl_2d::row",
+   "rust:ndarray::impl_2d::ArrayBase::row",
+   "sym:src/impl_2d.rs:ArrayRef.row",
+   "sym:src/impl_2d.rs:row",
+   "sym:src/impl_2d.rs:ArrayBase.row"
+  ]
+ },
+ "ndarray/column": {
+  "symbol": "rust:ndarray::impl_2d::ArrayRef::column",
+  "aliases": [
+   "rust:ndarray::impl_2d::ArrayBase::column",
+   "rust:ndarray::impl_2d::column",
+   "sym:src/impl_2d.rs:ArrayRef.column",
+   "sym:src/impl_2d.rs:ArrayBase.column",
+   "sym:src/impl_2d.rs:column"
+  ]
+ },
+ "ndarray/select": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::select",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::select",
+   "rust:ndarray::impl_methods::select",
+   "sym:src/impl_methods.rs:ArrayRef.select",
+   "sym:src/impl_methods.rs:ArrayBase.select",
+   "sym:src/impl_methods.rs:select"
+  ]
+ },
+ "ndarray/diag": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::diag",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::diag",
+   "rust:ndarray::impl_methods::diag",
+   "sym:src/impl_methods.rs:ArrayRef.diag",
+   "sym:src/impl_methods.rs:ArrayBase.diag",
+   "sym:src/impl_methods.rs:diag"
+  ]
+ },
+ "ndarray/mapv": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::mapv",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::mapv",
+   "rust:ndarray::impl_methods::mapv",
+   "sym:src/impl_methods.rs:ArrayRef.mapv",
+   "sym:src/impl_methods.rs:ArrayBase.mapv",
+   "sym:src/impl_methods.rs:mapv"
+  ]
+ },
+ "ndarray/map": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::map",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::map",
+   "rust:ndarray::impl_methods::map",
+   "sym:src/impl_methods.rs:ArrayRef.map",
+   "sym:src/impl_methods.rs:ArrayBase.map",
+   "sym:src/impl_methods.rs:map"
+  ]
+ },
+ "ndarray/mapv-inplace": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::mapv_inplace",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::mapv_inplace",
+   "rust:ndarray::impl_methods::mapv_inplace",
+   "sym:src/impl_methods.rs:ArrayRef.mapv_inplace",
+   "sym:src/impl_methods.rs:ArrayBase.mapv_inplace",
+   "sym:src/impl_methods.rs:mapv_inplace"
+  ]
+ },
+ "ndarray/fill": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::fill",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::fill",
+   "rust:ndarray::impl_methods::fill",
+   "sym:src/impl_methods.rs:ArrayRef.fill",
+   "sym:src/impl_methods.rs:ArrayBase.fill",
+   "sym:src/impl_methods.rs:fill"
+  ]
+ },
+ "ndarray/iter": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::iter",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::iter",
+   "rust:ndarray::impl_methods::iter",
+   "sym:src/impl_methods.rs:ArrayRef.iter",
+   "sym:src/impl_methods.rs:ArrayBase.iter",
+   "sym:src/impl_methods.rs:iter"
+  ]
+ },
+ "ndarray/indexed-iter": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::indexed_iter",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::indexed_iter",
+   "rust:ndarray::impl_methods::indexed_iter",
+   "sym:src/impl_methods.rs:ArrayRef.indexed_iter",
+   "sym:src/impl_methods.rs:ArrayBase.indexed_iter",
+   "sym:src/impl_methods.rs:indexed_iter"
+  ]
+ },
+ "ndarray/sum": {
+  "symbol": "rust:ndarray::numeric::impl_numeric::ArrayRef::sum",
+  "aliases": [
+   "rust:ndarray::numeric::impl_numeric::sum",
+   "rust:ndarray::numeric::impl_numeric::ArrayBase::sum",
+   "sym:src/numeric/impl_numeric.rs:ArrayRef.sum",
+   "sym:src/numeric/impl_numeric.rs:sum",
+   "sym:src/numeric/impl_numeric.rs:ArrayBase.sum"
+  ]
+ },
+ "ndarray/mean": {
+  "symbol": "rust:ndarray::numeric::impl_numeric::ArrayRef::mean",
+  "aliases": [
+   "rust:ndarray::numeric::impl_numeric::mean",
+   "rust:ndarray::numeric::impl_numeric::ArrayBase::mean",
+   "sym:src/numeric/impl_numeric.rs:ArrayRef.mean",
+   "sym:src/numeric/impl_numeric.rs:mean",
+   "sym:src/numeric/impl_numeric.rs:ArrayBase.mean"
+  ]
+ },
+ "ndarray/sum-axis": {
+  "symbol": "rust:ndarray::numeric::impl_numeric::ArrayRef::sum_axis",
+  "aliases": [
+   "rust:ndarray::numeric::impl_numeric::sum_axis",
+   "rust:ndarray::numeric::impl_numeric::ArrayBase::sum_axis",
+   "sym:src/numeric/impl_numeric.rs:ArrayRef.sum_axis",
+   "sym:src/numeric/impl_numeric.rs:sum_axis",
+   "sym:src/numeric/impl_numeric.rs:ArrayBase.sum_axis"
+  ]
+ },
+ "ndarray/mean-axis": {
+  "symbol": "rust:ndarray::numeric::impl_numeric::ArrayRef::mean_axis",
+  "aliases": [
+   "rust:ndarray::numeric::impl_numeric::mean_axis",
+   "rust:ndarray::numeric::impl_numeric::ArrayBase::mean_axis",
+   "sym:src/numeric/impl_numeric.rs:ArrayRef.mean_axis",
+   "sym:src/numeric/impl_numeric.rs:mean_axis",
+   "sym:src/numeric/impl_numeric.rs:ArrayBase.mean_axis"
+  ]
+ },
+ "ndarray/fold": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::fold",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::fold",
+   "rust:ndarray::impl_methods::fold",
+   "sym:src/impl_methods.rs:ArrayRef.fold",
+   "sym:src/impl_methods.rs:ArrayBase.fold",
+   "sym:src/impl_methods.rs:fold"
+  ]
+ },
+ "ndarray/product": {
+  "symbol": "rust:ndarray::numeric::impl_numeric::ArrayRef::product",
+  "aliases": [
+   "rust:ndarray::numeric::impl_numeric::product",
+   "rust:ndarray::numeric::impl_numeric::ArrayBase::product",
+   "sym:src/numeric/impl_numeric.rs:ArrayRef.product",
+   "sym:src/numeric/impl_numeric.rs:product",
+   "sym:src/numeric/impl_numeric.rs:ArrayBase.product"
+  ]
+ },
+ "ndarray/std": {
+  "symbol": "rust:ndarray::numeric::impl_numeric::ArrayRef::std",
+  "aliases": [
+   "rust:ndarray::numeric::impl_numeric::std",
+   "rust:ndarray::numeric::impl_numeric::ArrayBase::std",
+   "sym:src/numeric/impl_numeric.rs:ArrayRef.std",
+   "sym:src/numeric/impl_numeric.rs:std",
+   "sym:src/numeric/impl_numeric.rs:ArrayBase.std"
+  ]
+ },
+ "ndarray/axis-iter": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::axis_iter",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::axis_iter",
+   "rust:ndarray::impl_methods::axis_iter",
+   "sym:src/impl_methods.rs:ArrayRef.axis_iter",
+   "sym:src/impl_methods.rs:ArrayBase.axis_iter",
+   "sym:src/impl_methods.rs:axis_iter"
+  ]
+ },
+ "ndarray/rows": {
+  "symbol": "rust:ndarray::impl_methods::ArrayRef::rows",
+  "aliases": [
+   "rust:ndarray::impl_methods::ArrayBase::rows",
+   "rust:ndarray::impl_methods::rows",
+   "sym:src/impl_methods.rs:ArrayRef.rows",
+   "sym:src/impl_methods.rs:ArrayBase.rows",
+   "sym:src/impl_methods.rs:rows"
+  ]
+ },
+ "ndarray/dot": {
+  "symbol": "rust:ndarray::linalg::impl_linalg::ArrayRef::dot",
+  "aliases": [
+   "rust:ndarray::linalg::impl_linalg::dot",
+   "rust:ndarray::linalg::impl_linalg::ArrayBase::dot",
+   "sym:src/linalg/impl_linalg.rs:ArrayRef.dot",
+   "sym:src/linalg/impl_linalg.rs:dot",
+   "sym:src/linalg/impl_linalg.rs:ArrayBase.dot"
+  ]
+ },
+ "ndarray/concatenate": {
+  "symbol": "rust:ndarray::stacking::concatenate",
+  "aliases": [
+   "sym:src/stacking.rs:concatenate"
+  ]
+ },
+ "ndarray/stack": {
+  "symbol": "rust:ndarray::stacking::stack",
+  "aliases": [
+   "sym:src/stacking.rs:stack"
+  ]
+ },
+ "ndarray/to-vec": {
+  "symbol": "rust:ndarray::impl_1d::ArrayRef::to_vec",
+  "aliases": [
+   "rust:ndarray::impl_1d::to_vec",
+   "rust:ndarray::impl_1d::ArrayBase::to_vec",
+   "sym:src/impl_1d.rs:ArrayRef.to_vec",
+   "sym:src/impl_1d.rs:to_vec",
+   "sym:src/impl_1d.rs:ArrayBase.to_vec"
+  ]
+ },
+ "ndarray/insert-axis": {
+  "symbol": "rust:ndarray::impl_methods::ArrayBase::insert_axis",
+  "aliases": [
+   "rust:ndarray::impl_methods::insert_axis",
+   "sym:src/impl_methods.rs:ArrayBase.insert_axis",
+   "sym:src/impl_methods.rs:insert_axis"
+  ]
+ },
+ "rust_decimal/new": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::new",
+  "aliases": [
+   "rust:rust_decimal::decimal::new",
+   "sym:src/decimal.rs:Decimal.new",
+   "sym:src/decimal.rs:new"
+  ]
+ },
+ "rust_decimal/exact-sum": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::from_str_exact",
+  "aliases": [
+   "rust:rust_decimal::decimal::from_str_exact",
+   "sym:src/decimal.rs:Decimal.from_str_exact",
+   "sym:src/decimal.rs:from_str_exact"
+  ]
+ },
+ "rust_decimal/round-dp": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::round_dp",
+  "aliases": [
+   "rust:rust_decimal::decimal::round_dp",
+   "sym:src/decimal.rs:Decimal.round_dp",
+   "sym:src/decimal.rs:round_dp"
+  ]
+ },
+ "rust_decimal/round-dp-with-strategy": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::round_dp_with_strategy",
+  "aliases": [
+   "rust:rust_decimal::decimal::round_dp_with_strategy",
+   "sym:src/decimal.rs:Decimal.round_dp_with_strategy",
+   "sym:src/decimal.rs:round_dp_with_strategy"
+  ]
+ },
+ "rust_decimal/scale": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::scale",
+  "aliases": [
+   "rust:rust_decimal::decimal::scale",
+   "sym:src/decimal.rs:Decimal.scale",
+   "sym:src/decimal.rs:scale"
+  ]
+ },
+ "rust_decimal/normalize": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::normalize",
+  "aliases": [
+   "rust:rust_decimal::decimal::normalize",
+   "sym:src/decimal.rs:Decimal.normalize",
+   "sym:src/decimal.rs:normalize"
+  ]
+ },
+ "rust_decimal/trunc": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::trunc",
+  "aliases": [
+   "rust:rust_decimal::decimal::trunc",
+   "sym:src/decimal.rs:Decimal.trunc",
+   "sym:src/decimal.rs:trunc"
+  ]
+ },
+ "rust_decimal/to-f64": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::to_f64",
+  "aliases": [
+   "sym:src/decimal.rs:Decimal.to_f64"
+  ]
+ },
+ "rust_decimal/from-f64": {
+  "symbol": "rust:rust_decimal::decimal::Decimal::from_f64",
+  "aliases": [
+   "sym:src/decimal.rs:Decimal.from_f64"
+  ]
+ },
+ "rust_decimal/checked-div": {
+  "symbol": "rust:rust_decimal::arithmetic_impls::Decimal::checked_div",
+  "aliases": [
+   "sym:src/arithmetic_impls.rs:Decimal.checked_div"
+  ]
+ },
+ "rust_decimal/sqrt": {
+  "symbol": "rust:rust_decimal::maths::Decimal::sqrt",
+  "aliases": [
+   "sym:src/maths.rs:Decimal.sqrt"
+  ]
+ },
+ "time/date-from-calendar-date": {
+  "symbol": "rust:time::date::Date::from_calendar_date",
+  "aliases": [
+   "sym:src/date.rs:Date.from_calendar_date"
+  ]
+ },
+ "time/date-weekday": {
+  "symbol": "rust:time::date::Date::weekday",
+  "aliases": [
+   "sym:src/date.rs:Date.weekday"
+  ]
+ },
+ "time/date-next-day": {
+  "symbol": "rust:time::date::Date::next_day",
+  "aliases": [
+   "sym:src/date.rs:Date.next_day"
+  ]
+ },
+ "time/date-next-occurrence": {
+  "symbol": "rust:time::date::Date::next_occurrence",
+  "aliases": [
+   "sym:src/date.rs:Date.next_occurrence"
+  ]
+ },
+ "time/date-with-hms": {
+  "symbol": "rust:time::date::Date::with_hms",
+  "aliases": [
+   "rust:time::date::with_hms",
+   "sym:src/date.rs:Date.with_hms",
+   "sym:src/date.rs:with_hms"
+  ]
+ },
+ "time/time-from-hms": {
+  "symbol": "rust:time::time::Time::from_hms",
+  "aliases": [
+   "sym:src/time.rs:Time.from_hms"
+  ]
+ },
+ "time/odt-now-utc": {
+  "symbol": "rust:time::offset_date_time::OffsetDateTime::now_utc",
+  "aliases": [
+   "sym:src/offset_date_time.rs:OffsetDateTime.now_utc"
+  ]
+ },
+ "time/odt-from-unix-timestamp": {
+  "symbol": "rust:time::offset_date_time::OffsetDateTime::from_unix_timestamp",
+  "aliases": [
+   "sym:src/offset_date_time.rs:OffsetDateTime.from_unix_timestamp"
+  ]
+ },
+ "time/odt-unix-timestamp": {
+  "symbol": "rust:time::offset_date_time::OffsetDateTime::unix_timestamp",
+  "aliases": [
+   "sym:src/offset_date_time.rs:OffsetDateTime.unix_timestamp"
+  ]
+ },
+ "time/odt-to-offset": {
+  "symbol": "rust:time::offset_date_time::OffsetDateTime::to_offset",
+  "aliases": [
+   "sym:src/offset_date_time.rs:OffsetDateTime.to_offset"
+  ]
+ },
+ "time/primitive-assume-utc": {
+  "symbol": "rust:time::plain_date_time::PlainDateTime::assume_utc",
+  "aliases": [
+   "rust:time::primitive_date_time::PrimitiveDateTime::assume_utc",
+   "sym:src/plain_date_time.rs:PlainDateTime.assume_utc",
+   "sym:src/primitive_date_time.rs:PrimitiveDateTime.assume_utc"
+  ]
+ },
+ "time/duration-seconds": {
+  "symbol": "rust:time::signed_duration::SignedDuration::seconds",
+  "aliases": [
+   "rust:time::duration::Duration::seconds",
+   "sym:src/signed_duration.rs:SignedDuration.seconds",
+   "sym:src/duration.rs:Duration.seconds"
+  ]
+ },
+ "time/duration-whole-hours": {
+  "symbol": "rust:time::signed_duration::SignedDuration::whole_hours",
+  "aliases": [
+   "rust:time::duration::Duration::whole_hours",
+   "sym:src/signed_duration.rs:SignedDuration.whole_hours",
+   "sym:src/duration.rs:Duration.whole_hours"
+  ]
+ },
+ "time/weekday-next": {
+  "symbol": "rust:time::weekday::Weekday::next",
+  "aliases": [
+   "sym:src/weekday.rs:Weekday.next"
+  ]
+ },
+ "time/month-length": {
+  "symbol": "rust:time::month::Month::length",
+  "aliases": [
+   "sym:src/month.rs:Month.length"
+  ]
+ },
+ "time/date-format": {
+  "symbol": "rust:time::date::Date::format",
+  "aliases": [
+   "rust:time::date::format",
+   "sym:src/date.rs:Date.format",
+   "sym:src/date.rs:format"
+  ]
+ },
+ "humantime/parse-duration": {
+  "symbol": "rust:humantime::duration::parse_duration",
+  "aliases": [
+   "sym:src/duration.rs:parse_duration"
+  ]
+ },
+ "humantime/format-duration": {
+  "symbol": "rust:humantime::duration::format_duration",
+  "aliases": [
+   "sym:src/duration.rs:format_duration"
+  ]
+ },
+ "humantime/format-rfc3339": {
+  "symbol": "rust:humantime::date::format_rfc3339",
+  "aliases": [
+   "sym:src/date.rs:format_rfc3339"
+  ]
+ },
+ "itoa/buffer-format": {
+  "symbol": "rust:itoa::Buffer::format",
+  "aliases": [
+   "sym:src/lib.rs:Buffer.format"
+  ]
+ },
+ "unicode-width/str-width": {
+  "symbol": "rust:unicode_width::str::width",
+  "aliases": [
+   "sym:src/lib.rs:str.width"
+  ]
+ },
+ "unicode-normalization/nfc": {
+  "symbol": "rust:unicode_normalization::UnicodeNormalization::nfc",
+  "aliases": [
+   "sym:src/lib.rs:UnicodeNormalization.nfc"
+  ]
+ },
+ "unicode-normalization/nfd": {
+  "symbol": "rust:unicode_normalization::UnicodeNormalization::nfd",
+  "aliases": [
+   "sym:src/lib.rs:UnicodeNormalization.nfd"
+  ]
+ },
+ "petgraph/graph-add-node": {
+  "symbol": "rust:petgraph::graph_impl::Graph::add_node",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.add_node"
+  ]
+ },
+ "petgraph/graph-add-edge": {
+  "symbol": "rust:petgraph::graph_impl::Graph::add_edge",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.add_edge"
+  ]
+ },
+ "petgraph/graph-node-count": {
+  "symbol": "rust:petgraph::graph_impl::Graph::node_count",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.node_count"
+  ]
+ },
+ "petgraph/graph-neighbors": {
+  "symbol": "rust:petgraph::graph_impl::Graph::neighbors",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.neighbors"
+  ]
+ },
+ "petgraph/graph-find-edge": {
+  "symbol": "rust:petgraph::graph_impl::Graph::find_edge",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.find_edge"
+  ]
+ },
+ "petgraph/graph-node-weight": {
+  "symbol": "rust:petgraph::graph_impl::Graph::node_weight",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.node_weight"
+  ]
+ },
+ "petgraph/graph-from-edges": {
+  "symbol": "rust:petgraph::graph_impl::Graph::from_edges",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.from_edges"
+  ]
+ },
+ "petgraph/graph-update-edge": {
+  "symbol": "rust:petgraph::graph_impl::Graph::update_edge",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.update_edge"
+  ]
+ },
+ "petgraph/graph-remove-node": {
+  "symbol": "rust:petgraph::graph_impl::Graph::remove_node",
+  "aliases": [
+   "sym:src/graph_impl/mod.rs:Graph.remove_node"
+  ]
+ },
+ "petgraph/has-path-connecting": {
+  "symbol": "rust:petgraph::algo::has_path_connecting",
+  "aliases": [
+   "sym:src/algo/mod.rs:has_path_connecting"
+  ]
+ },
+ "petgraph/bellman-ford": {
+  "symbol": "rust:petgraph::algo::bellman_ford::bellman_ford",
+  "aliases": [
+   "sym:src/algo/bellman_ford.rs:bellman_ford"
+  ]
+ },
+ "petgraph/kosaraju-scc": {
+  "symbol": "rust:petgraph::algo::scc::kosaraju_scc::kosaraju_scc",
+  "aliases": [
+   "rust:petgraph::algo::kosaraju_scc",
+   "sym:src/algo/scc/kosaraju_scc.rs:kosaraju_scc",
+   "sym:src/algo/mod.rs:kosaraju_scc"
+  ]
+ },
+ "petgraph/tarjan-scc": {
+  "symbol": "rust:petgraph::algo::scc::tarjan_scc::tarjan_scc",
+  "aliases": [
+   "rust:petgraph::algo::tarjan_scc",
+   "sym:src/algo/scc/tarjan_scc.rs:tarjan_scc",
+   "sym:src/algo/mod.rs:tarjan_scc"
+  ]
+ },
+ "petgraph/graphmap-add-edge": {
+  "symbol": "rust:petgraph::graphmap::GraphMap::add_edge",
+  "aliases": [
+   "sym:src/graphmap.rs:GraphMap.add_edge"
+  ]
+ },
+ "lru/new": {
+  "symbol": "rust:lru::LruCache::new",
+  "aliases": [
+   "sym:src/lib.rs:LruCache.new"
+  ]
+ },
+ "lru/put": {
+  "symbol": "rust:lru::LruCache::put",
+  "aliases": [
+   "sym:src/lib.rs:LruCache.put"
+  ]
+ },
+ "lru/get": {
+  "symbol": "rust:lru::LruCache::get",
+  "aliases": [
+   "sym:src/lib.rs:LruCache.get"
+  ]
+ },
+ "lru/peek": {
+  "symbol": "rust:lru::LruCache::peek",
+  "aliases": [
+   "sym:src/lib.rs:LruCache.peek"
+  ]
+ },
+ "lru/pop-lru": {
+  "symbol": "rust:lru::LruCache::pop_lru",
+  "aliases": [
+   "sym:src/lib.rs:LruCache.pop_lru"
+  ]
+ },
+ "lru/push": {
+  "symbol": "rust:lru::LruCache::push",
+  "aliases": [
+   "sym:src/lib.rs:LruCache.push"
+  ]
+ },
+ "lru/get-or-insert": {
+  "symbol": "rust:lru::LruCache::get_or_insert",
+  "aliases": [
+   "sym:src/lib.rs:LruCache.get_or_insert"
+  ]
+ },
+ "lru/resize": {
+  "symbol": "rust:lru::LruCache::resize",
+  "aliases": [
+   "sym:src/lib.rs:LruCache.resize"
+  ]
+ },
+ "arrayvec/new": {
+  "symbol": "rust:arrayvec::arrayvec::ArrayVec::new",
+  "aliases": [
+   "sym:src/arrayvec.rs:ArrayVec.new"
+  ]
+ },
+ "arrayvec/try-push": {
+  "symbol": "rust:arrayvec::arrayvec::ArrayVec::try_push",
+  "aliases": [
+   "sym:src/arrayvec.rs:ArrayVec.try_push"
+  ]
+ },
+ "arrayvec/is-full": {
+  "symbol": "rust:arrayvec::arrayvec::ArrayVec::is_full",
+  "aliases": [
+   "sym:src/arrayvec.rs:ArrayVec.is_full"
+  ]
+ },
+ "arrayvec/into-inner": {
+  "symbol": "rust:arrayvec::arrayvec::ArrayVec::into_inner",
+  "aliases": [
+   "sym:src/arrayvec.rs:ArrayVec.into_inner"
+  ]
+ },
+ "arrayvec/arraystring-push-str": {
+  "symbol": "rust:arrayvec::array_string::ArrayString::push_str",
+  "aliases": [
+   "sym:src/array_string.rs:ArrayString.push_str"
+  ]
+ },
+ "arrayvec/arraystring-try-push-str": {
+  "symbol": "rust:arrayvec::array_string::ArrayString::try_push_str",
+  "aliases": [
+   "sym:src/array_string.rs:ArrayString.try_push_str"
+  ]
+ },
+ "similar/from-lines": {
+  "symbol": "rust:similar::text::TextDiff::from_lines",
+  "aliases": [
+   "sym:src/text/mod.rs:TextDiff.from_lines"
+  ]
+ },
+ "similar/iter-all-changes": {
+  "symbol": "rust:similar::text::TextDiff::iter_all_changes",
+  "aliases": [
+   "sym:src/text/mod.rs:TextDiff.iter_all_changes"
+  ]
+ },
+ "similar/ratio": {
+  "symbol": "rust:similar::text::TextDiff::ratio",
+  "aliases": [
+   "sym:src/text/mod.rs:TextDiff.ratio"
+  ]
+ },
+ "similar/unified-diff": {
+  "symbol": "rust:similar::text::TextDiff::unified_diff",
+  "aliases": [
+   "sym:src/text/mod.rs:TextDiff.unified_diff"
+  ]
+ },
+ "shlex/split": {
+  "symbol": "rust:shlex::split",
+  "aliases": [
+   "sym:src/lib.rs:split"
+  ]
+ },
+ "shlex/try-quote": {
+  "symbol": "rust:shlex::try_quote",
+  "aliases": [
+   "sym:src/lib.rs:try_quote"
+  ]
+ },
+ "log/set-max-level": {
+  "symbol": "rust:log::set_max_level",
+  "aliases": [
+   "sym:src/lib.rs:set_max_level"
+  ]
+ },
+ "log/max-level": {
+  "symbol": "rust:log::max_level",
+  "aliases": [
+   "sym:src/lib.rs:max_level"
+  ]
+ },
+ "textwrap/refill": {
+  "symbol": "rust:textwrap::refill::refill",
+  "aliases": [
+   "rust:textwrap::refill",
+   "sym:src/refill.rs:refill",
+   "sym:src/lib.rs:refill"
+  ]
+ },
+ "textwrap/fill-inplace": {
+  "symbol": "rust:textwrap::fill::fill_inplace",
+  "aliases": [
+   "rust:textwrap::fill_inplace",
+   "sym:src/fill.rs:fill_inplace",
+   "sym:src/lib.rs:fill_inplace"
+  ]
+ },
+ "heck/to-lower-camel-case": {
+  "symbol": "rust:heck::lower_camel::str::to_lower_camel_case",
+  "aliases": [
+   "sym:src/lower_camel.rs:str.to_lower_camel_case"
+  ]
+ },
+ "heck/to-train-case": {
+  "symbol": "rust:heck::train::str::to_train_case",
+  "aliases": [
+   "sym:src/train.rs:str.to_train_case"
+  ]
+ },
+ "strsim/jaro": {
+  "symbol": "rust:strsim::jaro",
+  "aliases": [
+   "sym:src/lib.rs:jaro"
+  ]
+ },
+ "strsim/osa-distance": {
+  "symbol": "rust:strsim::osa_distance",
+  "aliases": [
+   "sym:src/lib.rs:osa_distance"
+  ]
+ },
+ "unicode-segmentation/grapheme-indices": {
+  "symbol": "rust:unicode_segmentation::str::grapheme_indices",
+  "aliases": [
+   "sym:src/lib.rs:str.grapheme_indices"
+  ]
+ },
+ "unicode-segmentation/unicode-sentences": {
+  "symbol": "rust:unicode_segmentation::str::unicode_sentences",
+  "aliases": [
+   "sym:src/lib.rs:str.unicode_sentences"
+  ]
+ },
+ "tokio/tcp-listener-bind": {
+  "symbol": "rust:tokio::net::tcp::listener::TcpListener::bind",
+  "aliases": [
+   "sym:src/net/tcp/listener.rs:TcpListener.bind"
+  ]
+ },
+ "tokio/tcp-listener-accept": {
+  "symbol": "rust:tokio::net::tcp::listener::TcpListener::accept",
+  "aliases": [
+   "sym:src/net/tcp/listener.rs:TcpListener.accept"
+  ]
+ },
+ "tokio/tcp-stream-connect": {
+  "symbol": "rust:tokio::net::tcp::stream::TcpStream::connect",
+  "aliases": [
+   "sym:src/net/tcp/stream.rs:TcpStream.connect"
+  ]
+ },
+ "tokio/tcp-listener-local-addr": {
+  "symbol": "rust:tokio::net::tcp::listener::TcpListener::local_addr",
+  "aliases": [
+   "sym:src/net/tcp/listener.rs:TcpListener.local_addr"
+  ]
+ },
+ "tokio/io-copy": {
+  "symbol": "rust:tokio::io::util::copy::copy",
+  "aliases": [
+   "sym:src/io/util/copy.rs:copy"
+  ]
+ },
+ "tokio/io-duplex": {
+  "symbol": "rust:tokio::io::util::mem::duplex",
+  "aliases": [
+   "sym:src/io/util/mem.rs:duplex"
+  ]
+ },
+ "tokio/instant-elapsed": {
+  "symbol": "rust:tokio::time::instant::Instant::elapsed",
+  "aliases": [
+   "sym:src/time/instant.rs:Instant.elapsed"
+  ]
+ },
+ "bytes/buf-get-i64-le": {
+  "symbol": "rust:bytes::buf::buf_impl::Buf::get_i64_le",
+  "aliases": [
+   "sym:src/buf/buf_impl.rs:Buf.get_i64_le"
+  ]
+ },
+ "bytes/buf-has-remaining": {
+  "symbol": "rust:bytes::buf::buf_impl::Buf::has_remaining",
+  "aliases": [
+   "sym:src/buf/buf_impl.rs:Buf.has_remaining"
+  ]
+ },
+ "bytes/bufmut-put-i32-le": {
+  "symbol": "rust:bytes::buf::buf_mut::BufMut::put_i32_le",
+  "aliases": [
+   "sym:src/buf/buf_mut.rs:BufMut.put_i32_le"
+  ]
+ },
+ "bytes/bufmut-put-u32": {
+  "symbol": "rust:bytes::buf::buf_mut::BufMut::put_u32",
+  "aliases": [
+   "sym:src/buf/buf_mut.rs:BufMut.put_u32"
+  ]
+ },
+ "chrono/delta-weeks": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::weeks",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.weeks"
+  ]
+ },
+ "chrono/delta-num-weeks": {
+  "symbol": "rust:chrono::time_delta::TimeDelta::num_weeks",
+  "aliases": [
+   "sym:src/time_delta.rs:TimeDelta.num_weeks"
+  ]
+ },
+ "chrono/date-from-num-days-from-ce-opt": {
+  "symbol": "rust:chrono::naive::date::NaiveDate::from_num_days_from_ce_opt",
+  "aliases": [
+   "sym:src/naive/date/mod.rs:NaiveDate.from_num_days_from_ce_opt"
+  ]
+ },
+ "chrono/dt-checked-sub-signed": {
+  "symbol": "rust:chrono::datetime::DateTime::checked_sub_signed",
+  "aliases": [
+   "sym:src/datetime/mod.rs:DateTime.checked_sub_signed"
+  ]
+ },
+ "chrono/datetime-checked-sub-signed": {
+  "symbol": "rust:chrono::naive::datetime::NaiveDateTime::checked_sub_signed",
+  "aliases": [
+   "sym:src/naive/datetime/mod.rs:NaiveDateTime.checked_sub_signed"
+  ]
+ },
+ "url/host": {
+  "symbol": "rust:url::Url::host",
+  "aliases": [
+   "sym:src/lib.rs:Url.host"
+  ]
+ },
+ "url/has-host": {
+  "symbol": "rust:url::Url::has_host",
+  "aliases": [
+   "sym:src/lib.rs:Url.has_host"
+  ]
+ },
+ "url/cannot-be-a-base": {
+  "symbol": "rust:url::Url::cannot_be_a_base",
+  "aliases": [
+   "sym:src/lib.rs:Url.cannot_be_a_base"
+  ]
+ },
+ "uuid/try-parse": {
+  "symbol": "rust:uuid::parser::Uuid::try_parse",
+  "aliases": [
+   "sym:src/parser.rs:Uuid.try_parse"
+  ]
+ },
+ "uuid/max": {
+  "symbol": "rust:uuid::builder::Uuid::max",
+  "aliases": [
+   "sym:src/builder.rs:Uuid.max"
+  ]
+ },
+ "uuid/braced": {
+  "symbol": "rust:uuid::fmt::Uuid::braced",
+  "aliases": [
+   "sym:src/fmt.rs:Uuid.braced"
+  ]
+ },
+ "serde_json/map-values-mut": {
+  "symbol": "rust:serde_json::map::Map::values_mut",
+  "aliases": [
+   "sym:src/map.rs:Map.values_mut"
+  ]
+ },
+ "serde_json/map-get-key-value": {
+  "symbol": "rust:serde_json::map::Map::get_key_value",
+  "aliases": [
+   "sym:src/map.rs:Map.get_key_value"
+  ]
+ },
+ "regex/bytes-captures": {
+  "symbol": "rust:regex::regex::bytes::Regex::captures",
+  "aliases": [
+   "rust:regex::regex::bytes::captures",
+   "sym:src/regex/bytes.rs:Regex.captures",
+   "sym:src/regex/bytes.rs:captures"
+  ]
+ },
+ "regex/bytes-replace-all": {
+  "symbol": "rust:regex::regex::bytes::Regex::replace_all",
+  "aliases": [
+   "rust:regex::regex::bytes::replace_all",
+   "sym:src/regex/bytes.rs:Regex.replace_all",
+   "sym:src/regex/bytes.rs:replace_all"
+  ]
+ },
+ "itertools/min-set-by": {
+  "symbol": "rust:itertools::Itertools::min_set_by",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.min_set_by"
+  ]
+ },
+ "itertools/position-min-by-key": {
+  "symbol": "rust:itertools::Itertools::position_min_by_key",
+  "aliases": [
+   "sym:src/lib.rs:Itertools.position_min_by_key"
+  ]
+ },
+ "rayon/max": {
+  "symbol": "rust:rayon::iter::ParallelIterator::max",
+  "aliases": [
+   "sym:src/iter/mod.rs:ParallelIterator.max"
+  ]
+ }
+}

@@ -62,7 +62,8 @@ function scanFile(root, rel) {
   while ((m = re.exec(code))) {
     const t = m[0];
     if (t === '{') {
-      if (pending) { stack.push(pending); pending = null; } else stack.push({ kind: 'block' });
+      // `cfg_rt! { ... }` (a macro call with braces): rust-analyzer's outline does not show what is inside it
+      if (pending) { stack.push(pending); pending = null; } else stack.push(/[A-Za-z_]\w*\s*!\s*$/.test(code.slice(Math.max(0, m.index - 60), m.index)) ? { kind: 'mcall', vs: [], ij: [] } : { kind: 'block' });
       continue;
     }
     if (t === '}') { stack.pop(); pending = null; continue; }
@@ -72,7 +73,10 @@ function scanFile(root, rel) {
     if (kw === 'fn') {
       const nm = /^([A-Za-z_]\w*)/.exec(rest); if (!nm) continue;
       const inMacro = stack.findIndex((s) => s.kind === 'macro');
-      const named = stack.filter((s) => s.kind !== 'block');
+      const named = stack.filter((s) => s.kind !== 'block' && s.kind !== 'mcall');
+      // inside a macro call VS Code sees only the containers outside the call (vsOuter); src/rust_libs uses it
+      const mc = stack.findIndex((s) => s.kind === 'mcall');
+      const vsOuter = mc >= 0 ? [...stack.slice(0, mc).filter((s) => s.kind !== 'block').flatMap((s) => s.vs), nm[1]] : null;
       let vs, ij;
       if (inMacro >= 0) {
         // rust-analyzer's outline shows the containers down to the macro (`mod impls > ord_impl`), then Ponder adds the method
@@ -83,7 +87,7 @@ function scanFile(root, rel) {
         if (named.some((s) => s.kind === 'fn')) continue;          // nested helper fn
         vs = named.flatMap((s) => s.vs); ij = named.flatMap((s) => s.ij);
       }
-      found.push({ fn: nm[1], file: rel, vs: [...vs, nm[1]], ij: [...ij, nm[1]], macro: inMacro >= 0, line: raw.slice(0, m.index).split('\n').length });
+      found.push({ fn: nm[1], file: rel, vs: [...vs, nm[1]], ij: [...ij, nm[1]], macro: inMacro >= 0, vsOuter, line: raw.slice(0, m.index).split('\n').length });
       pending = { kind: 'fn', vs: [], ij: [] };
       continue;
     }

@@ -113,10 +113,38 @@ function rustStd() {
   for (const c of cases) record('rust std', c.file, c.anim, JSON.stringify(c.claim).slice(1, -1), out[c.key], c.expect);
 }
 
+// The Rust library animations (src/rust_libs/*.cjs): one program, one line per case. cases.json maps each case to its
+// line in main.rs, for rust/lib-ra-check.cjs (rust-analyzer's view of where each animated call lands).
+function rustLibs() {
+  const { addRustLibs } = require('../src/rust_libs/index.cjs');
+  const only = process.env.RUST_LIBS_ONLY ? process.env.RUST_LIBS_ONLY.split(',') : null;
+  const cases = addRustLibs({}, only);
+  const dir = path.join(CACHE, 'rust-libs-truth');
+  fs.mkdirSync(path.join(dir, 'src'), { recursive: true });
+  const toml = fs.readFileSync(path.join(__dirname, 'rust-libs', 'Cargo.toml'), 'utf8');
+  if (!fs.existsSync(path.join(dir, 'Cargo.toml')) || fs.readFileSync(path.join(dir, 'Cargo.toml'), 'utf8') !== toml) fs.writeFileSync(path.join(dir, 'Cargo.toml'), toml);
+  const prelude = fs.readFileSync(path.join(__dirname, 'rust-libs', 'prelude.rs'), 'utf8') + '\nfn main() {\n    let mut out: Vec<(&str, String)> = Vec::new();\n';
+  const first = prelude.split('\n').length;
+  const body = cases.map((c) => `    out.push((${JSON.stringify(c.key)}, (|| -> String { ${c.rs} })()));`);
+  const main = prelude + body.join('\n') + '\n    for (k, v) in out { print!("{}\\u{1f}{}\\u{1e}", k, v); }\n}\n';
+  fs.writeFileSync(path.join(dir, 'cases.json'), JSON.stringify(cases.map((c, i) => ({ id: c.key, line: first + i, fn: c.fn, at: c.at, probe: c.probe })), (k, v) => (v instanceof RegExp ? String(v) : v), 1));
+  const mainPath = path.join(dir, 'src', 'main.rs');
+  if (!fs.existsSync(mainPath) || fs.readFileSync(mainPath, 'utf8') !== main) fs.writeFileSync(mainPath, main);
+  const r = cp.spawnSync('cargo', ['run', '--quiet', '--manifest-path', path.join(dir, 'Cargo.toml')], {
+    encoding: 'utf8', maxBuffer: 1 << 26, env: { ...process.env, CARGO_TARGET_DIR: path.join(CACHE, 'cargo-target-libs'), CARGO_BUILD_JOBS: process.env.CARGO_BUILD_JOBS || '2' },
+  });
+  if (r.status !== 0) {
+    const errs = (r.stderr || '').split('\n').filter((l) => /^error|-->|panicked/.test(l)).slice(0, 40).join('\n      ');
+    throw new Error(`cargo run failed (${mainPath}):\n      ${errs || (r.stderr || '').slice(-1500)}`);
+  }
+  const out = Object.fromEntries(r.stdout.split('\u001e').filter((x) => x.includes('\u001f')).map((x) => x.split('\u001f')));
+  for (const c of cases) record('rust libs', c.file, c.anim, JSON.stringify(c.claim).slice(1, -1), out[c.key], c.expect);
+}
+
 const have = (cmd, ...a) => { try { cp.execFileSync(cmd, a, { stdio: 'ignore' }); return true; } catch { return false; } };
 
 (async () => {
-  const all = [['lodash', lodash], ['date-fns', dateFns], ['more-itertools', moreItertools], ['rust crates', rustCrates], ['rust std', rustStd]];
+  const all = [['lodash', lodash], ['date-fns', dateFns], ['more-itertools', moreItertools], ['rust crates', rustCrates], ['rust std', rustStd], ['rust libs', rustLibs]];
   const steps = process.env.TRUTH_ONLY ? all.filter(([n]) => process.env.TRUTH_ONLY.split(',').includes(n)) : all;
   const notRun = [];
   for (const [name, fn] of steps) {

@@ -8,6 +8,7 @@ const pk = require('./src/packages.cjs');
 const np = require('./src/numpy.cjs');           // adds the NumPy animations to pk.out and truth-checks them
 require('./src/rust/index.cjs').addRust(pk.out); // the Rust crates (truth-checked by truth/run.cjs, which compiles their examples)
 require('./src/rust_std/index.cjs').addRustStd(pk.out); // the Rust standard library, v1/std/rust/<module>.json (Ponder 0.3)
+require('./src/rust_libs/index.cjs').addRustLibs(pk.out); // popular Rust libraries (Ponder 0.3), added to v1/crates/*.json
 const { writeIndex } = require('./src/write.cjs');
 
 for (const [file, doc] of Object.entries(pk.out)) pk.check(file, doc);   // stage bounds, overlaps, slide counts, aliases
